@@ -1,0 +1,8 @@
+<li class="episode-card">
+  <a class="episode-card-link" href="{{ include.episode.url | relative_url }}">
+    <span class="case-meta">Episode {{ include.episode.number }} · <time datetime="{{ include.episode.publish_date | date: '%Y-%m-%d' }}">{{ include.episode.publish_date | date: '%-d %b %Y' }}</time></span>
+    <span class="episode-card-title">{{ include.episode.title }}</span>
+  </a>
+  {% include verdict-stamp.html verdict=include.episode.verdict %}
+  <p>{{ include.episode.description }}</p>
+</li>

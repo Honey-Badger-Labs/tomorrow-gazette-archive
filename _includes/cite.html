@@ -1,0 +1,2 @@
+{%- assign cite_ids = include.ids | join: ',' | split: ',' -%}
+<span class="cite">[{% for id in cite_ids %}<a href="#source-{{ id | strip }}" aria-label="Source {{ id | strip }}">{{ id | strip }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}]</span>
