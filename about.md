@@ -1,5 +1,6 @@
 ---
 title: About
+description: "How Tomorrow Gazette works: real sourced predictions, AI-made characters, and fiction that is always labelled."
 permalink: /about/
 ---
 
