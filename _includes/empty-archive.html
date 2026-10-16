@@ -1,0 +1,5 @@
+<div class="empty-state">
+  {% include dot.html %}
+  <p><strong>The archive is open; the shelves are still empty.</strong> Episodes appear here after they air, each with its prediction, its sources and its verdict. Meanwhile, the show is on
+  {% for channel in site.channels %}<a href="{{ channel.url }}">{{ channel.name }}</a>{% unless forloop.last %} and {% endunless %}{% endfor %}.</p>
+</div>

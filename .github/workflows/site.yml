@@ -1,4 +1,5 @@
-# Builds the site and checks its links on every PR (A-T3, A-T4); deploys to
+# Checks episode pages, builds the site and checks its links on every PR
+# (A-T8, A-T3, A-T4); deploys to
 # GitHub Pages when main changes. The weekly run catches source links that die
 # after their episode page was merged.
 name: Site
@@ -27,6 +28,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+
+      # Runs before the build so a draft or an unsourced claim never reaches
+      # the published site (A-T8).
+      - name: Test the episode check
+        run: ruby test/check_episodes_test.rb
+
+      - name: Check episode pages
+        run: ruby tools/check_episodes.rb
 
       # The same build GitHub Pages runs, with the github-pages gem's pinned
       # versions, so a local `bundle exec jekyll build` matches it (AD1).

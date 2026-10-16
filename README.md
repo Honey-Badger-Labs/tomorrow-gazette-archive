@@ -22,15 +22,16 @@ Needs Ruby 3 and Bundler. [lychee](https://github.com/lycheeverse/lychee#install
 ```bash
 bundle install
 bundle exec jekyll serve          # http://localhost:4000/tomorrow-gazette-archive/
-bundle exec jekyll build && tools/check-links.sh
+tools/check.sh                    # everything CI checks: episode check + tests, build, links
 ```
 
 | Path | |
 |---|---|
-| `_episodes/` | One Markdown file per episode; its data lives in front matter (fields: A-T6) |
-| `_layouts/`, `assets/css/` | Page layout and styles |
+| `_episodes/` | One Markdown file per **published** episode; its data lives in front matter ([fields](docs/episode-schema.md)) |
+| `_layouts/`, `_includes/`, `assets/css/` | Page layouts, shared pieces (verdict stamp, DOT, citations) and styles ([style guide](docs/style-guide.md)) |
+| `tools/check_episodes.rb` | Fails the build if an episode is a draft, lacks a field, or makes a claim without a source |
 | `index.md`, `episodes/`, `about.md`, `404.html` | The site's pages |
-| `.github/workflows/site.yml` | Build and link check on every PR and every Monday; deploy to Pages from `main` |
+| `.github/workflows/site.yml` | Episode check, build and link check on every PR and every Monday; deploy to Pages from `main` |
 | `docs/decisions.md` | Why the site is built the way it is (AD1: Jekyll) |
 
 ## How work happens here

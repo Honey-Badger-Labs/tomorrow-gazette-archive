@@ -25,6 +25,16 @@ defaults:
       path: ""
     values:
       layout: default
+  - scope:
+      path: ""
+      type: episodes
+    values:
+      layout: episode
+
+# Page titles, descriptions, canonical URLs and link previews.
+# jekyll-seo-tag is on the GitHub Pages plugin allow-list (AD1).
+plugins:
+  - jekyll-seo-tag
 
 # Repo housekeeping is public on GitHub but isn't part of the website.
 exclude:
@@ -38,3 +48,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor/
+  - test/
+  - tools/

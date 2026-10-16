@@ -1,0 +1,67 @@
+---
+layout: default
+---
+{%- assign sources = page.sources -%}
+<article class="case-file">
+  <header class="case-header">
+    <p class="case-meta">Episode {{ page.number }} · <time datetime="{{ page.publish_date | date: '%Y-%m-%d' }}">{{ page.publish_date | date: '%-d %B %Y' }}</time></p>
+    <h1>{{ page.title }}</h1>
+    {% include verdict-stamp.html verdict=page.verdict %}
+    <p class="case-summary">{{ page.description }}</p>
+  </header>
+
+  <section aria-labelledby="prediction-heading">
+    <h2 id="prediction-heading">The prediction</h2>
+    <figure class="prediction">
+      <blockquote><p>“{{ page.prediction.quote }}”</p></blockquote>
+      <figcaption>{{ page.prediction.who }}, {{ page.prediction.where }}, {{ page.prediction.when }} {% include cite.html ids=page.prediction.source %}</figcaption>
+    </figure>
+  </section>
+
+  {% if page.since %}
+  <section aria-labelledby="since-heading">
+    <h2 id="since-heading">What happened since</h2>
+    <ul class="facts">
+      {% for item in page.since %}
+      <li>{{ item.fact }} {% include cite.html ids=item.sources %}</li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  {% if page.open_questions %}
+  <section aria-labelledby="questions-heading">
+    <h2 id="questions-heading">Still unconfirmed</h2>
+    <ul class="facts">
+      {% for question in page.open_questions %}<li>{{ question }}</li>{% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <section aria-labelledby="verdict-heading" class="verdict-section">
+    <h2 id="verdict-heading">The verdict</h2>
+    {% include verdict-stamp.html verdict=page.verdict %}
+    <p>{{ page.verdict_reason }}</p>
+  </section>
+
+  <section aria-labelledby="watch-heading">
+    <h2 id="watch-heading">Watch the episode</h2>
+    <p class="watch-links">
+      {% if page.video.youtube %}<a href="{{ page.video.youtube }}">YouTube</a>{% endif %}
+      {% if page.video.tiktok %}<a href="{{ page.video.tiktok }}">TikTok</a>{% endif %}
+    </p>
+  </section>
+
+  <section aria-labelledby="sources-heading" class="sources">
+    <h2 id="sources-heading">Sources</h2>
+    <ol>
+      {% for source in sources %}
+      <li id="source-{{ source.id }}"><span class="source-id">{{ source.id }}</span> <a href="{{ source.url }}">{{ source.title }}</a>. Accessed {{ source.accessed | date: '%-d %B %Y' }}.</li>
+      {% endfor %}
+    </ol>
+  </section>
+
+  <aside class="fiction-note" aria-label="Fiction and AI note">
+    <p><strong>Fiction label.</strong> Vera Tomorrow and DOT are AI-generated characters, and their newsroom is made up. The prediction, the facts and the sources on this page are real.{% if page.fiction_note %} {{ page.fiction_note }}{% endif %}</p>
+  </aside>
+</article>

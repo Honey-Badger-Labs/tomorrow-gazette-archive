@@ -1,0 +1,2 @@
+{%- assign stamp_class = include.verdict | downcase | replace: ' ', '-' -%}
+<p class="verdict-stamp verdict-{{ stamp_class }}"><span class="visually-hidden">Verdict: </span>{{ include.verdict }}</p>
