@@ -1,0 +1,19 @@
+# Link checker settings for tools/check-links.sh (A-T4).
+#
+# 403 and 429 are accepted because several reliable sources (museums, news
+# archives) block automated requests. A 403 still means "the server is there";
+# a moved or deleted page returns 404/410 and fails the check. Re-check 403
+# sources by hand before publishing an episode page.
+
+accept = ["200..=299", "403", "429"]
+max_retries = 3
+timeout = 30
+user_agent = "Mozilla/5.0 (compatible; TomorrowGazetteArchiveLinkCheck/1.0)"
+
+exclude = [
+  # Channel profile pages answer automated requests with a consent or login
+  # wall rather than the page, so the result says nothing about the link.
+  # They are the show's own handles and change only by decision.
+  "^https://www\\.youtube\\.com/@",
+  "^https://www\\.tiktok\\.com/@",
+]

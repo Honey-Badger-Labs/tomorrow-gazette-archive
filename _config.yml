@@ -1,0 +1,40 @@
+title: Tomorrow Gazette Archive
+description: Every Tomorrow Gazette episode, its sources and its verdict, in one place.
+url: https://honey-badger-labs.github.io
+baseurl: /tomorrow-gazette-archive
+lang: en-GB
+
+# No theme: layouts and CSS live in this repo (A-T5 styles them).
+theme: null
+
+# Public channel links. The show's own handles; no private links here.
+channels:
+  - name: YouTube
+    url: https://www.youtube.com/@TomorrowGazetteAI
+  - name: TikTok
+    url: https://www.tiktok.com/@tomorrow.gazette.ai
+
+# One Markdown file per episode in _episodes/ (AD1). Fields: A-T6.
+collections:
+  episodes:
+    output: true
+    permalink: /episodes/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Repo housekeeping is public on GitHub but isn't part of the website.
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - ENGINEERING.md
+  - README.md
+  - collab/
+  - docs/
+  - lychee.toml
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

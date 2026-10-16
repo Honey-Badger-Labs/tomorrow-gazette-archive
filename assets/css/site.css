@@ -1,0 +1,47 @@
+/* Placeholder styles so the skeleton is readable and accessible.
+   The real look comes from the style guide (A-T5): replace freely. */
+:root {
+  --ink: #1d1b18;
+  --paper: #fbf8f1;
+  --accent: #8a2f1c;
+  --rule: #d8d2c4;
+  --measure: 42rem;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 1.0625rem/1.6 Georgia, "Times New Roman", serif;
+}
+
+a { color: var(--accent); }
+
+.skip-link { position: absolute; left: -999px; }
+.skip-link:focus { left: 1rem; top: 1rem; background: var(--paper); padding: .5rem; }
+
+.site-header, main, .site-footer {
+  max-width: var(--measure);
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.5rem;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--ink);
+}
+
+.site-title { color: var(--ink); font-weight: bold; text-decoration: none; font-size: 1.25rem; }
+.site-header nav { display: flex; gap: 1rem; }
+
+.site-footer { border-top: 1px solid var(--rule); font-size: .9rem; }
+
+.episode-list { list-style: none; padding: 0; }
+.episode-list li { padding: .75rem 0; border-bottom: 1px solid var(--rule); }
+.episode-list .verdict { font-weight: bold; }
