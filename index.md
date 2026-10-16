@@ -6,7 +6,7 @@ description: Real predictions from the past, checked against what actually happe
 <section class="hero">
   <p class="kicker">Archive edition</p>
   <h1>The future, according to the past.</h1>
-  <p class="lede">People have been predicting the future for as long as there have been newspapers. Tomorrow Gazette finds the real predictions, checks what actually happened, and stamps a verdict on each one. This archive keeps every episode with its sources, so you can check our working.</p>
+  <p class="lede">People have always predicted the future. We check how they did. Tomorrow Gazette finds the real predictions, checks what actually happened, and stamps a verdict on each one. This archive keeps every episode with its sources, so you can check our working.</p>
 </section>
 
 <section aria-labelledby="verdicts-heading" class="verdict-key">
