@@ -5,8 +5,7 @@ status: published
 publish_date: 2026-10-15
 description: In 1940, Henry Ford predicted a combination airplane and motor car. Today, a certified roadable aircraft exists, while eVTOL aircraft are advancing without becoming road cars or an everyday public service.
 video:
-  youtube: TODO-YOUTUBE
-  tiktok: TODO-TIKTOK
+  youtube: https://www.youtube.com/shorts/84r9C1DHN6M
 prediction:
   quote: "Mark my word: A combination airplane and motor car is coming."
   who: Henry Ford
@@ -14,14 +13,14 @@ prediction:
   where: Forbes Magazine
   source: S1
 since:
-  - fact: Klein Vision's AirCar received a certificate of airworthiness in January 2022. It is a roadable aircraft, the closest match to Ford's combination airplane and motor car.
+  - fact: Klein Vision's AirCar received a certificate of airworthiness in January 2022. It is a roadable aircraft.
     sources: [S2]
   - fact: EHang announced operator certificates for its EH216-S eVTOL on 28 March 2025. The EH216-S is an electric vertical take-off and landing aircraft, not a road car.
     sources: [S3]
   - fact: As of 30 September 2026, EHang ticket sales were still awaiting approval, so this does not establish an everyday public passenger service.
     sources: [S4]
 verdict: PARTLY RIGHT
-verdict_reason: A certified roadable aircraft now exists, making Ford's prediction partly right. But eVTOLs are aircraft rather than road cars, and an everyday public service is not yet established by the cited evidence.
+verdict_reason: A certified roadable aircraft, the closest match to Ford's combination airplane and motor car, now exists, making Ford's prediction partly right. But eVTOLs are aircraft rather than road cars, and an everyday public service is not yet established by the cited evidence.
 sources:
   - id: S1
     title: "Henry Ford quotations — The Henry Ford"
@@ -39,6 +38,4 @@ sources:
     title: "EHang exports sandbox model to Vietnam amid China delay — Aviation Week"
     url: https://aviationweek.com/aerospace/advanced-air-mobility/ehang-exports-sandbox-model-vietnam-amid-china-delay
     accessed: 2026-10-16
-open_questions:
-  - "When will the published YouTube Shorts and TikTok URLs be available to replace the instructed placeholders?"
 ---
