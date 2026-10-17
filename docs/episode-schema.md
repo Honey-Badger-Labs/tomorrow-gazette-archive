@@ -11,7 +11,7 @@ One file per **published** episode in `_episodes/`, named `e<number>-<slug>.md`,
 | `status` | yes | Always `published`. Anything else fails the check |
 | `publish_date` | yes | The date it aired, `YYYY-MM-DD`. Can't be in the future |
 | `description` | yes | One or two sentences: the summary shown in the episode list, search results and link previews |
-| `video` | yes | `youtube:` and/or `tiktok:`, the published URLs (https) |
+| `video` | yes | `youtube:` and/or `tiktok:`, the published URLs (https). A `TODO-` placeholder here, or in any other field, fails the check |
 | `prediction` | yes | `quote` (word for word), `who`, `when`, `where`, and `source` (an id from `sources`) |
 | `since` | no | What has happened since: a list of `fact` + `sources` (a list of ids). Every fact needs at least one source |
 | `verdict` | yes | Exactly one of `NAILED IT`, `PARTLY RIGHT`, `NOT YET`, `COMPLETELY BONKERS` |

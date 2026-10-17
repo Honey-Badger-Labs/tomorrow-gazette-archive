@@ -14,6 +14,7 @@ require "yaml"
 VERDICTS = ["NAILED IT", "PARTLY RIGHT", "NOT YET", "COMPLETELY BONKERS"].freeze
 REQUIRED = %w[number title status publish_date description video prediction verdict verdict_reason sources].freeze
 VIDEO_HOSTS = %w[www.youtube.com youtube.com youtu.be www.tiktok.com].freeze
+PLACEHOLDER = "TODO-"
 
 def front_matter(path)
   text = File.read(path)
@@ -75,11 +76,23 @@ def citation_problems(data, source_ids)
   problems
 end
 
+# Drafts mark unknown values (a video link before upload) with TODO-.
+# Look everywhere, nested values included, so none reaches the site.
+def placeholder_problems(value, path = nil)
+  case value
+  when Hash then value.flat_map { |key, item| placeholder_problems(item, path ? "#{path}.#{key}" : key.to_s) }
+  when Array then value.each_with_index.flat_map { |item, i| placeholder_problems(item, "#{path}[#{i}]") }
+  when String
+    value.include?(PLACEHOLDER) ? ["#{path}: still has a #{PLACEHOLDER} placeholder; replace it before publishing"] : []
+  else []
+  end
+end
+
 def episode_problems(data, today)
   missing = REQUIRED.reject { |key| data.key?(key) && !data[key].to_s.strip.empty? }
   return missing.map { |key| "missing #{key}" } unless missing.empty?
 
-  problems = []
+  problems = placeholder_problems(data)
   problems << "status must be \"published\"; drafts don't belong in this public repo" unless data["status"] == "published"
   problems << "number must be a whole number" unless data["number"].is_a?(Integer)
   problems << "verdict must be one of: #{VERDICTS.join(', ')}" unless VERDICTS.include?(data["verdict"])
