@@ -72,6 +72,18 @@ class CheckEpisodesTest < Minitest::Test
     assert(problems.any? { |p| p.start_with?("video:") })
   end
 
+  # A placeholder inside a real-looking URL passed the https/host check, so
+  # an episode could have gone live with no real video behind it.
+  def test_todo_placeholder_in_a_video_url_is_refused
+    problems = problems_for(FIXTURE.sub("shorts/TESTFIXTURE", "shorts/TODO-e1"))
+    assert_includes problems, "video.youtube: still has a TODO- placeholder; replace it before publishing"
+  end
+
+  def test_todo_placeholder_anywhere_is_refused
+    problems = problems_for(FIXTURE.sub("url: https://example.org/survey", "url: https://example.org/TODO-survey"))
+    assert_includes problems, "sources[1].url: still has a TODO- placeholder; replace it before publishing"
+  end
+
   def test_duplicate_episode_numbers_are_refused
     problems = problems_for(FIXTURE, extra: { "e1-copy.md" => FIXTURE })
     assert(problems.any? { |p| p.include?("also used by another file") })
