@@ -87,6 +87,7 @@ h2 {
 }
 .site-nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 2rem;
   padding: .5rem 0;
@@ -184,6 +185,8 @@ main:has(.cast), main:has(.episode-list) { max-width: var(--wide); }
 .prediction blockquote { margin: 0; font-size: 1.3rem; font-style: italic; }
 .prediction figcaption { margin-top: .5rem; }
 .cite { font-size: .85em; white-space: nowrap; }
+/* Bigger tap target on phones without changing the line height. */
+.cite a { display: inline-block; padding: .35em .3em; margin: -.35em -.1em; }
 .facts li { margin-bottom: .5rem; }
 .sources ol { list-style: none; padding: 0; }
 .sources li { padding: .4rem 0; border-bottom: 1px solid #d6c9a8; overflow-wrap: anywhere; }
