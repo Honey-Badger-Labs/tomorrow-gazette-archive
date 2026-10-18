@@ -14,6 +14,7 @@ Task IDs use the prefix `A-T` (Archive Task). Keep tasks small: a few hours each
 | A-T6 | **Episode page template.** Front-matter fields: number, title, publish date, video link, summary, verdict, sources (title + URL + accessed date), fiction note. Layout that shows sources and verdict clearly. | ChatGPT | A-T1 | Review (built by Claude; Quill has no repo access, see PR) |
 | A-T7 | **E1 page.** First real episode page using A-T6, from published info only, every claim sourced. Jakes supplies or confirms the facts. | ChatGPT | A-T6 | Review |
 | A-T8 | **Front-matter check.** CI fails if an episode page is missing a required field or has a claim without a source. | Claude | A-T3, A-T6 | Review |
+| A-T9 | **Studio look.** The site should feel like being in the studio: the show's masthead, fonts and stamp style, real Vera/DOT/studio stills (hero two-shot, episode stills on cards and pages, avatars beside the prediction and DOT's verdict, Meet the studio). Optimised images (WebP + JPEG, under 200 KB each, lazy-loaded), AA contrast, light only. | Grok Bot | A-T5, A-T6 | Review |
 
 ## Phase 2: Prediction Exchange (parked)
 

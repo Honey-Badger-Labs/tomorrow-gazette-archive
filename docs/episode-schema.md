@@ -18,6 +18,7 @@ One file per **published** episode in `_episodes/`, named `e<number>-<slug>.md`,
 | `verdict_reason` | yes | One or two sentences: why this verdict |
 | `sources` | yes | A list of `id` (e.g. `S1`), `title`, `url` (https) and `accessed` (`YYYY-MM-DD`). Ids are unique on the page |
 | `open_questions` | no | A list of points we couldn't confirm, written as questions |
+| `still` | no | The episode's key still: `image:`, a name from `_data/images.yml`. Shown on the episode card and at the top of the page. Without it, the site uses the episode's entry in `_data/episode_stills.yml`, if any. Only our own AI-made stills; never photos of real people or brands |
 | `fiction_note` | no | Extra fiction labelling for this episode. The standard AI and fiction note is always shown |
 
 Source ids are per page, so `S1` on one episode has nothing to do with `S1` on another. Use the ids from the episode's claims table in the production repo so the two can be compared.

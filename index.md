@@ -1,16 +1,26 @@
 ---
 title: The future, according to the past
 description: Real predictions from the past, checked against what actually happened. Every Tomorrow Gazette episode with its sources and its verdict.
+wide: true
 ---
 
-<section class="hero">
-  <p class="kicker">Archive edition</p>
-  <h1>The future, according to the past.</h1>
-  <p class="lede">People have always predicted the future. We check how they did. Tomorrow Gazette finds the real predictions, checks what actually happened, and stamps a verdict on each one. This archive keeps every episode with its sources, so you can check our working.</p>
+<section class="hero" aria-labelledby="hero-heading">
+  <figure class="studio-window">
+    {% include picture.html name="studio-twoshot" eager=true sizes="(min-width: 66rem) 64rem, 100vw" %}
+    <span class="on-air" aria-hidden="true">On air</span>
+    <figcaption>Vera Tomorrow and DOT at the news desk. Both are AI-generated characters.</figcaption>
+  </figure>
+  <div class="hero-copy">
+    <p class="kicker">Tonight's edition</p>
+    <h1 id="hero-heading">The future, according to the past.</h1>
+    <p class="lede">People have always predicted the future. We check how they did. Tomorrow Gazette finds the real predictions, checks what actually happened, and stamps a verdict on each one. This archive keeps every episode with its sources, so you can check our working.</p>
+    <p class="hero-actions"><a class="button" href="{{ '/episodes/' | relative_url }}">Browse the episodes</a> <a class="button button-quiet" href="#studio">Meet the studio</a></p>
+  </div>
 </section>
 
 <section aria-labelledby="verdicts-heading" class="verdict-key">
   <h2 id="verdicts-heading">Four verdicts</h2>
+  <p class="section-intro">DOT stamps one of these on every prediction.</p>
   <ul>
     <li>{% include verdict-stamp.html verdict="NAILED IT" %}<p>It happened, more or less as promised.</p></li>
     <li>{% include verdict-stamp.html verdict="PARTLY RIGHT" %}<p>Some of it came true. The rest is still in the post.</p></li>
@@ -23,7 +33,7 @@ description: Real predictions from the past, checked against what actually happe
   <h2 id="latest-heading">Latest episodes</h2>
   {% assign latest = site.episodes | sort: "number" | reverse %}
   {% if latest.size > 0 %}
-  <ul class="episode-list">
+  <ul class="episode-list episode-list-lead">
     {% for episode in latest limit: 6 %}{% include episode-card.html episode=episode %}{% endfor %}
   </ul>
   <p><a href="{{ '/episodes/' | relative_url }}">All episodes</a></p>
@@ -32,22 +42,4 @@ description: Real predictions from the past, checked against what actually happe
   {% endif %}
 </section>
 
-<section aria-labelledby="cast-heading" class="cast">
-  <h2 id="cast-heading">Your guides</h2>
-  <div class="cast-grid">
-    <div class="cast-card">
-      <h3>Vera Tomorrow</h3>
-      <p class="cast-role">Chief Correspondent</p>
-      <p>A newsreader from the golden age of newsreels who is certain the future will be magnificent. She reads each prediction exactly as it was written.</p>
-    </div>
-    <div class="cast-card cast-card-dot">
-      {% include dot.html %}
-      <div>
-        <h3>DOT</h3>
-        <p class="cast-role">Digital Observation &amp; Truth-engine</p>
-        <p>A floating chrome fact-checker. DOT was built to establish the truth, and reality keeps making that complicated.</p>
-      </div>
-    </div>
-  </div>
-  <p class="fiction-tag">Fiction label: Vera and DOT are AI-generated characters. The predictions they report are real.</p>
-</section>
+{% include studio.html %}

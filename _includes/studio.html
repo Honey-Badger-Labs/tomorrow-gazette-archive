@@ -1,0 +1,29 @@
+{%- comment -%}
+"Meet the studio": Vera, DOT and the set. Used on the home page (compact)
+and the About page (full=true, bigger portraits). Heading level via level.
+{%- endcomment -%}
+{%- assign h = include.level | default: 2 -%}
+<section aria-labelledby="studio-heading" class="studio" id="studio">
+  <h{{ h }} id="studio-heading">Meet the studio</h{{ h }}>
+  <div class="studio-grid">
+    <article class="studio-card">
+      <div class="porthole">{% if include.full %}{% include picture.html name="vera-portrait" sizes="(min-width: 64rem) 18rem, (min-width: 40rem) 30vw, 60vw" %}{% else %}{% include picture.html name="vera-avatar" sizes="10rem" %}{% endif %}</div>
+      <h3>Vera Tomorrow</h3>
+      <p class="cast-role">Chief Correspondent</p>
+      <p>A newsreader from the golden age of newsreels who is certain the future will be magnificent. She reads each prediction exactly as it was written.</p>
+    </article>
+    <article class="studio-card">
+      <div class="porthole">{% if include.full %}{% include picture.html name="dot-portrait" sizes="(min-width: 64rem) 18rem, (min-width: 40rem) 30vw, 60vw" %}{% else %}{% include picture.html name="dot-avatar" sizes="10rem" %}{% endif %}</div>
+      <h3>DOT</h3>
+      <p class="cast-role">Digital Observation &amp; Truth-engine</p>
+      <p>A floating chrome fact-checker. DOT was built to establish the truth, and reality keeps making that complicated. DOT stamps every verdict.</p>
+    </article>
+    <article class="studio-card studio-card-set">
+      <div class="set-window">{% include picture.html name="studio-set" sizes="(min-width: 64rem) 20rem, (min-width: 40rem) 30vw, 100vw" %}</div>
+      <h3>The newsroom</h3>
+      <p class="cast-role">The set</p>
+      <p>A curved news desk, a porthole onto a city that never got built, and an ON AIR sign that is never switched off.</p>
+    </article>
+  </div>
+  <p class="fiction-tag"><strong>Fiction label.</strong> Vera, DOT and the newsroom are AI-generated, and so are these pictures. The predictions they report are real and sourced.</p>
+</section>

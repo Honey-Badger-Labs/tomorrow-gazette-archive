@@ -1,0 +1,16 @@
+{%- comment -%}
+A responsive picture from _data/images.yml: WebP first, JPEG fallback,
+several widths, lazy-loaded unless eager=true (use eager only above the fold).
+  name   image name in _data/images.yml (required)
+  alt    alt text; defaults to the image's alt. Pass alt="" when decorative
+  sizes  the sizes attribute; defaults to 100vw
+  class  class for the <img>
+{%- endcomment -%}
+{%- assign img = site.data.images[include.name] -%}
+{%- assign base = '/assets/img/' | append: include.name | relative_url -%}
+{%- if include.alt == nil -%}{%- assign alt = img.alt -%}{%- else -%}{%- assign alt = include.alt -%}{%- endif -%}
+{%- assign sizes = include.sizes | default: '100vw' -%}
+<picture>
+  <source type="image/webp" sizes="{{ sizes }}" srcset="{% for w in img.widths %}{{ base }}-{{ w }}.webp {{ w }}w{% unless forloop.last %}, {% endunless %}{% endfor %}">
+  <img{% if include.class %} class="{{ include.class }}"{% endif %} src="{{ base }}-{{ img.widths | last }}.jpg" sizes="{{ sizes }}" srcset="{% for w in img.widths %}{{ base }}-{{ w }}.jpg {{ w }}w{% unless forloop.last %}, {% endunless %}{% endfor %}" width="{{ img.width }}" height="{{ img.height }}" alt="{{ alt | escape }}" {% if include.eager %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async">
+</picture>
