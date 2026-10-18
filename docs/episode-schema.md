@@ -22,3 +22,5 @@ One file per **published** episode in `_episodes/`, named `e<number>-<slug>.md`,
 | `fiction_note` | no | Extra fiction labelling for this episode. The standard AI and fiction note is always shown |
 
 Source ids are per page, so `S1` on one episode has nothing to do with `S1` on another. Use the ids from the episode's claims table in the production repo so the two can be compared.
+
+Each aired episode can also have a claims file with its verdict history: see [claims-schema.md](claims-schema.md).

@@ -61,6 +61,9 @@ layout: default
     </div>
   </section>
 
+  {% assign claims = site.data.claims[page.slug] %}
+  {% if claims %}{% include verdict-history.html claims=claims %}{% endif %}
+
   <section aria-labelledby="watch-heading">
     <h2 id="watch-heading">Watch the episode</h2>
     <p class="watch-links">

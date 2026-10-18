@@ -239,6 +239,33 @@ main.wide, .site-footer { max-width: var(--wide); }
 .site-footer { border-top: 3px double var(--rule); font-size: .9rem; margin-top: 3rem; text-align: center; }
 .tagline { margin: .5rem 0; font-size: .85rem; letter-spacing: .2em; color: var(--brass-ink); }
 
+/* Living archive: the verdict history timeline (A-T10). */
+.status-badge {
+  display: inline-block; margin-right: .35rem; padding: .05rem .5rem; border-radius: 999px;
+  font-family: var(--font-type); font-weight: 700; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--cream-light); background: var(--teal-deep);
+}
+.status-closed { background: var(--navy); }
+.card-status { font-size: .9rem; }
+.history-status { margin-top: 0; }
+.history-claim { font-family: var(--font-body); font-style: italic; font-size: 1.15rem; }
+.timeline { list-style: none; margin: 1.25rem 0; padding: 0 0 0 1.5rem; border-left: 4px double var(--brass); }
+.timeline-entry { position: relative; margin: 0 0 1.5rem; padding: .9rem 1rem; background: var(--cream-light); border: 2px solid var(--navy); border-radius: .4rem; }
+.timeline-entry::before {
+  content: ""; position: absolute; left: calc(-1.5rem - 11px); top: 1.1rem; width: 14px; height: 14px;
+  border-radius: 50%; background: var(--coral); border: 3px solid var(--navy);
+}
+.timeline-entry:first-child::before { box-shadow: 0 0 0 4px rgba(228, 87, 46, .3); }
+.timeline-entry p { margin: 0 0 .4rem; }
+.timeline-entry p:last-child { margin: 0; }
+.timeline-date { font-family: var(--font-type); font-weight: 700; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--teal); }
+.mini-stamp {
+  display: inline-block; padding: .1rem .5rem; font-family: var(--font-stamp); font-size: 1rem; letter-spacing: .06em;
+  color: var(--stamp); background: var(--cream-light); border: 2px solid var(--stamp); border-radius: .25rem; transform: rotate(-2deg);
+}
+.timeline-sources { font-size: .92rem; overflow-wrap: anywhere; }
+.history-help { font-size: .95rem; }
+
 @media (max-width: 40rem) {
   .hero-copy { margin: 1rem 0 0; padding: 1.25rem 1rem 1rem; }
   .on-air { top: .6rem; left: .6rem; font-size: .7rem; }

@@ -1,0 +1,34 @@
+# Living archive (A-T10): E1's prediction stays open and is re-checked every
+# week. Field reference: docs/claims-schema.md. Checked by tools/check_claims.rb.
+episode: 1
+claims:
+  - id: C1
+    claim: "Mark my word: A combination airplane and motor car is coming."
+    who: Henry Ford, Forbes Magazine, 1940
+    status: open
+    verdict: PARTLY RIGHT
+    watch:
+      - Roadable aircraft (car-planes) certified, sold or delivered to the public
+      - Passenger eVTOL services opening to the public, e.g. EHang ticket sales
+      - Flying-car demonstrations by car makers
+    history:
+      - date: 2026-10-15
+        verdict: PARTLY RIGHT
+        change: Episode aired.
+        note: A certified roadable aircraft exists, but passenger eVTOLs are aircraft rather than road cars, and an everyday public service is not yet established.
+        sources:
+          - title: "AirCar receives certificate of airworthiness — The Engineer"
+            url: https://www.theengineer.co.uk/content/news/aircar-receives-certificate-of-airworthiness
+          - title: "EHang exports sandbox model to Vietnam amid China delay — Aviation Week"
+            url: https://aviationweek.com/aerospace/advanced-air-mobility/ehang-exports-sandbox-model-vietnam-amid-china-delay
+      - date: 2026-10-17
+        verdict: PARTLY RIGHT
+        change: "Re-checked after Tesla's Roadster 2 reveal. Verdict unchanged."
+        note: "On 15 October 2026 Tesla showed a Roadster 2 prototype that drove up a curved ramp, then used thrusters to flip and land, with no one on board. The flying \"Rocket\" version is single-seat, invitation-only and not approved for public roads, and production is planned for 2028. Short, controlled hops by a prototype are not yet Ford's car-plane for everyone."
+        sources:
+          - title: "Elon Musk reveals 'world's first flying car' at Tesla event — The Guardian"
+            url: https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex
+          - title: "Watch 3 of Tesla's flipping, flying and 0-60 launching Roadster stunts — Road & Track"
+            url: https://www.roadandtrack.com/news/a74159440/tesla-roadster-flip-float-launch-control-0-60-mph-videos/
+          - title: "Are videos of Tesla's new 'flying' car performing mid-air stunts real? — Snopes"
+            url: https://www.snopes.com/fact-check/tesla-flying-roadster-car-real/
