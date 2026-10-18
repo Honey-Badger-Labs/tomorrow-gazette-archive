@@ -101,4 +101,53 @@ class CheckClaimsTest < Minitest::Test
   def test_placeholder_is_refused
     assert_refused(CLAIMS.sub("https://www.youtube.com/shorts/abc", "TODO-short-link"), "placeholder")
   end
+
+  # A-T11: falsifiers, check results and next actions (Reality Loop rules).
+  def test_claim_without_a_falsifier_is_refused
+    broken = CLAIMS.sub(/    falsifier:\n(      .*\n){2}/, "")
+    assert_refused(broken, "needs a falsifier")
+  end
+
+  def test_falsifier_without_a_wrong_side_is_refused
+    assert_refused(CLAIMS.sub(/      wrong: .*\n/, ""), "falsifier.wrong")
+  end
+
+  def test_inconclusive_is_refused_as_a_verdict
+    broken = CLAIMS.sub("    verdict: NOT YET", "    verdict: INCONCLUSIVE")
+    assert_refused(broken, "inconclusive is a check result, not a verdict")
+  end
+
+  def test_unknown_check_result_is_refused
+    assert_refused(CLAIMS.sub("check: unchanged", "check: maybe"), "check must be one of")
+  end
+
+  def test_first_entry_must_be_the_airing
+    assert_refused(CLAIMS.sub("check: aired", "check: unchanged"), "set `check: aired`")
+  end
+
+  def test_an_inconclusive_check_keeps_the_verdict
+    broken = CLAIMS.sub("check: unchanged", "check: inconclusive")
+                   .sub(/(check: inconclusive)/, '\1')
+    assert_empty problems_for(broken)
+    moved = broken.sub("        verdict: NOT YET\n        check: inconclusive", "        verdict: NAILED IT\n        check: inconclusive")
+                  .sub("    verdict: NOT YET", "    verdict: NAILED IT")
+    assert_refused(moved, "can't move the verdict")
+  end
+
+  def test_changed_check_must_move_the_verdict
+    assert_refused(CLAIMS.sub("check: unchanged", "check: changed"), "use `unchanged`")
+  end
+
+  def test_open_claim_needs_a_next_action
+    assert_refused(CLAIMS.sub(/        next_action: .*\n/, ""), "needs a next_action")
+  end
+
+  def test_closed_claim_needs_no_next_action
+    closed = CLAIMS.sub("status: open", "status: closed").sub(/        next_action: .*\n/, "")
+    assert_empty problems_for(closed)
+  end
+
+  def test_next_action_is_one_line
+    assert_refused(CLAIMS.sub("next_action: Check one test source again.", "next_action: |\n          One.\n          Two."), "one action on one line")
+  end
 end
