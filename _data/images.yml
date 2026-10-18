@@ -1,0 +1,39 @@
+# Every picture on the site: our own AI-made stills of Vera, DOT and the
+# studio set, made by tools/make_images.py. `width`/`height` are the largest
+# file's size, so the browser reserves space before the image loads.
+# Alt text says what the picture shows; decorative uses pass alt="" instead.
+studio-twoshot:
+  widths: [640, 1024, 1600]
+  width: 1600
+  height: 905
+  alt: "Vera Tomorrow, a cartoon newsreader with red 1940s curls and a teal jacket, sits at the Tomorrow Gazette news desk. Beside her floats DOT, a chrome robot with one big teal eye. Behind them, a round porthole window looks out on a city of spires."
+studio-set:
+  widths: [640, 1024]
+  width: 1024
+  height: 579
+  alt: "The empty Tomorrow Gazette studio: a curved wooden news desk with chrome trim, a porthole window onto a city of spires, a clock, brass lamps and an ON AIR sign."
+vera-avatar:
+  widths: [160, 320]
+  width: 320
+  height: 320
+  alt: "Vera Tomorrow, smiling, with red 1940s curls."
+dot-avatar:
+  widths: [160, 320]
+  width: 320
+  height: 320
+  alt: "DOT, a chrome sphere with one teal eye and a glowing coral thruster."
+vera-portrait:
+  widths: [480, 800]
+  width: 800
+  height: 800
+  alt: "Vera Tomorrow at the news desk behind a chrome microphone, in a teal jacket with a lightning-bolt brooch."
+dot-portrait:
+  widths: [480, 800]
+  width: 800
+  height: 800
+  alt: "DOT hovering over the news desk: a chrome sphere with an antenna, one teal eye and a coral thruster glow."
+e1-flying-car:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: a 1940s cream-and-red motor car with aeroplane wings and a tail, flying through a blue sky."

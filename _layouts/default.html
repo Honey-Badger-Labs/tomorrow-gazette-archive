@@ -4,30 +4,35 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#14213D">
   {% seo %}
+  <link rel="preload" href="{{ '/assets/fonts/limelight.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
+    <p class="dateline">Est. in an unpredicted future</p>
     <div class="masthead-rule" aria-hidden="true"></div>
     <a class="masthead" href="{{ '/' | relative_url }}">
-      <span class="masthead-name">Tomorrow Gazette</span>
+      <img class="masthead-logo" src="{{ '/assets/img/masthead-420.png' | relative_url }}" srcset="{{ '/assets/img/masthead-420.png' | relative_url }} 420w, {{ '/assets/img/masthead-840.png' | relative_url }} 840w" sizes="(min-width: 30rem) 26rem, 85vw" width="420" height="124" alt="Tomorrow Gazette">
       <span class="masthead-edition">The Archive</span>
     </a>
     <nav class="site-nav" aria-label="Main">
       <a href="{{ '/episodes/' | relative_url }}"{% if page.url == '/episodes/' %} aria-current="page"{% endif %}>Episodes</a>
+      <a href="{{ '/about/#studio' | relative_url }}">The studio</a>
       <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
     </nav>
     <div class="masthead-rule" aria-hidden="true"></div>
   </header>
 
-  <main id="content">
+  <main id="content"{% if page.wide %} class="wide"{% endif %}>
     {{ content }}
   </main>
 
   <footer class="site-footer">
-    <p><strong>Made with AI.</strong> Vera Tomorrow and DOT are AI-generated characters. The predictions and facts are real and sourced. <a href="{{ '/about/' | relative_url }}">How we work</a></p>
+    <p class="tagline">The future, according to the past.</p>
+    <p><strong>Made with AI.</strong> Vera Tomorrow, DOT, their newsroom and every picture of them are AI-generated. The predictions and facts are real and sourced. <a href="{{ '/about/' | relative_url }}">How we work</a></p>
     <p>Watch on
       {% for channel in site.channels %}<a href="{{ channel.url }}">{{ channel.name }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}
       · <a href="https://github.com/Honey-Badger-Labs/tomorrow-gazette-archive/issues">Report a mistake</a>

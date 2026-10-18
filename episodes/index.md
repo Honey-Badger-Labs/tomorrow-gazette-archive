@@ -2,6 +2,7 @@
 title: Episodes
 description: Every published Tomorrow Gazette episode, with its prediction, sources and verdict.
 permalink: /episodes/
+wide: true
 ---
 
 # Episodes

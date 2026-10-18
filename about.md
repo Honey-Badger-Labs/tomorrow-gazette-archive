@@ -2,7 +2,10 @@
 title: About
 description: "How Tomorrow Gazette works: real sourced predictions, AI-made characters, and fiction that is always labelled."
 permalink: /about/
+wide: true
 ---
+
+<div class="prose" markdown="1">
 
 # About the archive
 
@@ -15,9 +18,15 @@ permalink: /about/
 - **NOT YET**
 - **COMPLETELY BONKERS**
 
+</div>
+
+{% include studio.html full=true %}
+
+<div class="prose" markdown="1">
+
 ## Made with AI
 
-Tomorrow Gazette is made with AI tools, and we say so. **Vera Tomorrow**, the presenter, and **DOT**, her floating fact-checking sidekick, are AI-generated characters. Vera's voice is original and doesn't imitate any real announcer. The predictions and the facts are real, and every one is sourced.
+Tomorrow Gazette is made with AI tools, and we say so. **Vera Tomorrow**, the presenter, and **DOT**, her floating fact-checking sidekick, are AI-generated characters, and so is their newsroom. The pictures of them on this site are AI-made stills from the show. Vera's voice is original and doesn't imitate any real announcer. The predictions and the facts are real, and every one is sourced.
 
 ## Sources
 
@@ -32,3 +41,5 @@ Anything imagined, such as Vera, DOT and the newsroom they work in, is fiction, 
 ## Spotted a mistake?
 
 [Open an issue](https://github.com/Honey-Badger-Labs/tomorrow-gazette-archive/issues) with a link to your source. We correct the page and note what changed.
+
+</div>

@@ -25,6 +25,8 @@ defaults:
       path: ""
     values:
       layout: default
+      # Link previews show the studio two-shot unless a page sets its own.
+      image: /assets/img/studio-twoshot-1600.jpg
   - scope:
       path: ""
       type: episodes

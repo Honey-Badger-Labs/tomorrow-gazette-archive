@@ -1,0 +1,5 @@
+# The key still for each episode, by the episode file's name (its slug).
+# The image must be in _data/images.yml. An episode can instead set `still:`
+# in its own front matter (see docs/episode-schema.md); that wins.
+e1-flying-car:
+  image: e1-flying-car

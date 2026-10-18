@@ -1,8 +1,12 @@
+{%- assign still = include.episode.still | default: site.data.episode_stills[include.episode.slug] -%}
 <li class="episode-card">
-  <a class="episode-card-link" href="{{ include.episode.url | relative_url }}">
+  <div class="episode-card-art">
+    {% if still %}{% include picture.html name=still.image alt="" sizes="(min-width: 48rem) 36rem, 100vw" %}{% else %}<div class="episode-card-blank" aria-hidden="true"></div>{% endif %}
+    {% include verdict-stamp.html verdict=include.episode.verdict %}
+  </div>
+  <div class="episode-card-body">
     <span class="case-meta">Episode {{ include.episode.number }} · <time datetime="{{ include.episode.publish_date | date: '%Y-%m-%d' }}">{{ include.episode.publish_date | date: '%-d %b %Y' }}</time></span>
-    <span class="episode-card-title">{{ include.episode.title }}</span>
-  </a>
-  {% include verdict-stamp.html verdict=include.episode.verdict %}
-  <p>{{ include.episode.description }}</p>
+    <a class="episode-card-link" href="{{ include.episode.url | relative_url }}"><span class="episode-card-title">{{ include.episode.title }}</span></a>
+    <p>{{ include.episode.description }}</p>
+  </div>
 </li>

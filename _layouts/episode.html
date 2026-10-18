@@ -2,16 +2,27 @@
 layout: default
 ---
 {%- assign sources = page.sources -%}
+{%- assign still = page.still | default: site.data.episode_stills[page.slug] -%}
 <article class="case-file">
   <header class="case-header">
+    {% if still %}
+    <figure class="case-still">
+      {% include picture.html name=still.image eager=true sizes="(min-width: 46rem) 44rem, 100vw" %}
+      {% include verdict-stamp.html verdict=page.verdict size="large" %}
+    </figure>
+    {% endif %}
     <p class="case-meta">Episode {{ page.number }} · <time datetime="{{ page.publish_date | date: '%Y-%m-%d' }}">{{ page.publish_date | date: '%-d %B %Y' }}</time></p>
     <h1>{{ page.title }}</h1>
-    {% include verdict-stamp.html verdict=page.verdict %}
+    {% unless still %}{% include verdict-stamp.html verdict=page.verdict %}{% endunless %}
     <p class="case-summary">{{ page.description }}</p>
   </header>
 
   <section aria-labelledby="prediction-heading">
     <h2 id="prediction-heading">The prediction</h2>
+    <div class="speaker">
+      <div class="porthole porthole-small">{% include picture.html name="vera-avatar" alt="" sizes="5rem" %}</div>
+      <p><strong>Vera Tomorrow</strong> reads it exactly as it was written:</p>
+    </div>
     <figure class="prediction">
       <blockquote><p>“{{ page.prediction.quote }}”</p></blockquote>
       <figcaption>{{ page.prediction.who }}, {{ page.prediction.where }}, {{ page.prediction.when }} {% include cite.html ids=page.prediction.source %}</figcaption>
@@ -40,15 +51,21 @@ layout: default
 
   <section aria-labelledby="verdict-heading" class="verdict-section">
     <h2 id="verdict-heading">The verdict</h2>
-    {% include verdict-stamp.html verdict=page.verdict %}
-    <p>{{ page.verdict_reason }}</p>
+    <div class="dot-verdict">
+      <div class="porthole">{% include picture.html name="dot-avatar" alt="" sizes="8rem" %}</div>
+      <div class="dot-verdict-body">
+        <p class="truth-label">DOT, Truth-engine verdict</p>
+        {% include verdict-stamp.html verdict=page.verdict size="large" %}
+        <p>{{ page.verdict_reason }}</p>
+      </div>
+    </div>
   </section>
 
   <section aria-labelledby="watch-heading">
     <h2 id="watch-heading">Watch the episode</h2>
     <p class="watch-links">
-      {% if page.video.youtube %}<a href="{{ page.video.youtube }}">YouTube</a>{% endif %}
-      {% if page.video.tiktok %}<a href="{{ page.video.tiktok }}">TikTok</a>{% endif %}
+      {% if page.video.youtube %}<a class="button" href="{{ page.video.youtube }}">Watch on YouTube</a>{% endif %}
+      {% if page.video.tiktok %}<a class="button" href="{{ page.video.tiktok }}">Watch on TikTok</a>{% endif %}
     </p>
   </section>
 
@@ -62,6 +79,6 @@ layout: default
   </section>
 
   <aside class="fiction-note" aria-label="Fiction and AI note">
-    <p><strong>Fiction label.</strong> Vera Tomorrow and DOT are AI-generated characters, and their newsroom is made up. The prediction, the facts and the sources on this page are real.{% if page.fiction_note %} {{ page.fiction_note }}{% endif %}</p>
+    <p><strong>Fiction label.</strong> Vera Tomorrow and DOT are AI-generated characters, and their newsroom is made up. The pictures on this page are AI-made illustrations, not photographs. The prediction, the facts and the sources on this page are real.{% if page.fiction_note %} {{ page.fiction_note }}{% endif %}</p>
   </aside>
 </article>
