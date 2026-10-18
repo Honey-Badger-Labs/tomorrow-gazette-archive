@@ -7,6 +7,11 @@ claims:
     who: Henry Ford, Forbes Magazine, 1940
     status: open
     verdict: PARTLY RIGHT
+    # What would move the verdict, written before the evidence arrives. Built
+    # only from what the sourced history notes below already say.
+    falsifier:
+      right: "A roadable aircraft (a car-plane), like the certified AirCar, is sold or delivered to members of the public, so anyone can buy Ford's \"combination airplane and motor car\"."
+      wrong: "Car-planes stay prototypes, certificates and invitation-only demos: none reaches public buyers, and flying-car plans such as Tesla's flying Roadster (production planned for 2028) are dropped or never approved for public roads."
     watch:
       - Roadable aircraft (car-planes) certified, sold or delivered to the public
       - Passenger eVTOL services opening to the public, e.g. EHang ticket sales
@@ -14,6 +19,7 @@ claims:
     history:
       - date: 2026-10-15
         verdict: PARTLY RIGHT
+        check: aired
         change: Episode aired.
         note: A certified roadable aircraft exists, but passenger eVTOLs are aircraft rather than road cars, and an everyday public service is not yet established.
         sources:
@@ -23,6 +29,7 @@ claims:
             url: https://aviationweek.com/aerospace/advanced-air-mobility/ehang-exports-sandbox-model-vietnam-amid-china-delay
       - date: 2026-10-17
         verdict: PARTLY RIGHT
+        check: unchanged
         change: "Re-checked after Tesla's Roadster 2 reveal. Verdict unchanged."
         note: "On 15 October 2026 Tesla showed a Roadster 2 prototype that drove up a curved ramp, then used thrusters to flip and land, with no one on board. The flying \"Rocket\" version is single-seat, invitation-only and not approved for public roads, and production is planned for 2028. Short, controlled hops by a prototype are not yet Ford's car-plane for everyone."
         sources:
@@ -32,3 +39,4 @@ claims:
             url: https://www.roadandtrack.com/news/a74159440/tesla-roadster-flip-float-launch-control-0-60-mph-videos/
           - title: "Are videos of Tesla's new 'flying' car performing mid-air stunts real? — Snopes"
             url: https://www.snopes.com/fact-check/tesla-flying-roadster-car-real/
+        next_action: "Check whether a certified car-plane, such as the AirCar, has been sold or delivered to a member of the public."

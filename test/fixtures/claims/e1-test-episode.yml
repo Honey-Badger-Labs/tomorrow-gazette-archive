@@ -5,18 +5,24 @@ claims:
     who: A. Tester, Test Weekly, 1940
     status: open
     verdict: NOT YET
+    falsifier:
+      right: A test observation that would make it right.
+      wrong: A test observation that would make it wrong.
     history:
       - date: 2026-01-01
         verdict: NOT YET
+        check: aired
         change: Episode aired.
         sources:
           - title: Test source
             url: https://example.org/one
       - date: 2026-02-01
         verdict: NOT YET
+        check: unchanged
         change: Re-checked. Verdict unchanged.
         note: A note.
         video: https://www.youtube.com/shorts/abc
+        next_action: Check one test source again.
         sources:
           - title: Test source two
             url: https://example.org/two

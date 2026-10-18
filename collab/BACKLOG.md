@@ -16,6 +16,7 @@ Task IDs use the prefix `A-T` (Archive Task). Keep tasks small: a few hours each
 | A-T8 | **Front-matter check.** CI fails if an episode page is missing a required field or has a claim without a source. | Claude | A-T3, A-T6 | Review |
 | A-T9 | **Studio look.** The site should feel like being in the studio: the show's masthead, fonts and stamp style, real Vera/DOT/studio stills (hero two-shot, episode stills on cards and pages, avatars beside the prediction and DOT's verdict, Meet the studio). Optimised images (WebP + JPEG, under 200 KB each, lazy-loaded), AA contrast, light only. | Grok Bot | A-T5, A-T6 | Review |
 | A-T10 | **Living archive.** Every checked prediction stays open: a claims file per aired episode (`_data/claims/`) with current verdict, sources and a dated verdict history; a Verdict history timeline on episode pages; CI check for claims files. Weekly watch process and routine in the production repo. | Grok Bot | A-T9 | Review |
+| A-T11 | **Claim falsifiers and check results.** Every claim gets a written falsifier (what would make it right / wrong); every history entry records its check result (`aired`, `unchanged`, `changed`, `inconclusive`: a check result, never a verdict); the latest check on an open claim names one `next_action`. CI enforces it; the Verdict history shows it. Rules adapted from the Reality Loop claims ledger. | Grok Bot | A-T10 | Review |
 
 ## Phase 2: Prediction Exchange (parked)
 

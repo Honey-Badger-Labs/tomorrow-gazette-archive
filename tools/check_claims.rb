@@ -7,6 +7,16 @@
 # entry without a date or a source, a made-up verdict, or a claims file for an
 # episode that hasn't aired is a build error.
 #
+# A-T11 adds three rules adapted from the Reality Loop claims ledger:
+# - every claim carries a written falsifier: what would make it RIGHT and what
+#   would make it WRONG ("a claim without a written falsifier is a preference");
+# - every history entry (one check) records its result in `check`: aired,
+#   unchanged, changed or inconclusive. `inconclusive` means the evidence was
+#   too thin to judge, so the verdict stays as it was. It is a check result,
+#   never a verdict: verdicts are only the show's four house verdicts;
+# - the latest check on an open claim names one `next_action` for the next
+#   weekly check.
+#
 # Usage: ruby tools/check_claims.rb [claims-dir] [episodes-dir]
 #        (defaults: _data/claims and _episodes)
 # CI runs it through `ruby tools/check_episodes.rb`, which checks both.
@@ -18,6 +28,8 @@ require "yaml"
 require_relative "check_episodes" unless defined?(VERDICTS)
 
 STATUSES = %w[open closed].freeze
+# The result of one check (one history entry). Not a verdict.
+CHECKS = %w[aired unchanged changed inconclusive].freeze
 
 def load_claims(path)
   YAML.safe_load(File.read(path), permitted_classes: [Date]) || {}
@@ -27,6 +39,47 @@ end
 
 def text?(value)
   value.is_a?(String) && !value.strip.empty?
+end
+
+def one_line?(value)
+  text?(value) && !value.strip.include?("\n")
+end
+
+def falsifier_problems(falsifier, label)
+  unless falsifier.is_a?(Hash)
+    return ["#{label}: needs a falsifier with `right` (what would make it right) and `wrong` (what would make it wrong)"]
+  end
+
+  %w[right wrong].filter_map do |side|
+    "#{label}.falsifier.#{side}: say what observation would make it #{side.upcase}" unless text?(falsifier[side])
+  end
+end
+
+def verdict_problem(value, where)
+  return if VERDICTS.include?(value)
+  if value.to_s.strip.casecmp?("inconclusive")
+    return "#{where}: inconclusive is a check result, not a verdict; set `check: inconclusive` and keep the previous verdict"
+  end
+
+  "#{where}: verdict must be one of: #{VERDICTS.join(', ')}"
+end
+
+# One check's result must agree with how the verdict moved.
+def check_result_problems(entry, index, previous_verdict, where)
+  check = entry["check"]
+  return ["#{where}: check must be one of: #{CHECKS.join(', ')}"] unless CHECKS.include?(check)
+  return(check == "aired" ? [] : ["#{where}: the first entry is the day the episode aired; set `check: aired`"]) if index.zero?
+  return ["#{where}: only the first entry can be `check: aired`"] if check == "aired"
+  return [] unless VERDICTS.include?(entry["verdict"]) && VERDICTS.include?(previous_verdict)
+
+  moved = entry["verdict"] != previous_verdict
+  if check == "changed" && !moved
+    ["#{where}: check is `changed` but the verdict is still #{previous_verdict.inspect}; use `unchanged`"]
+  elsif check != "changed" && moved
+    ["#{where}: a `#{check}` check can't move the verdict (#{previous_verdict.inspect} to #{entry['verdict'].inspect}); use `changed` with sources that settle it"]
+  else
+    []
+  end
 end
 
 def history_problems(history, label, today)
@@ -46,8 +99,13 @@ def history_problems(history, label, today)
       problems << "#{where}: dates must run oldest first (#{date} comes after #{previous})" if previous && date < previous
       previous = date
     end
-    problems << "#{where}: verdict must be one of: #{VERDICTS.join(', ')}" unless VERDICTS.include?(entry["verdict"])
+    problems << verdict_problem(entry["verdict"], where) unless VERDICTS.include?(entry["verdict"])
+    before = i.positive? && history[i - 1].is_a?(Hash) ? history[i - 1]["verdict"] : nil
+    problems.concat(check_result_problems(entry, i, before, where))
     problems << "#{where}: change must say what changed" unless text?(entry["change"])
+    if entry.key?("next_action") && !one_line?(entry["next_action"])
+      problems << "#{where}: next_action must be one action on one line"
+    end
 
     sources = entry["sources"]
     if !sources.is_a?(Array) || sources.empty?
@@ -75,12 +133,17 @@ def claim_problems(claim, label, today)
   problems << "#{label}: missing claim (the prediction, word for word)" unless text?(claim["claim"])
   problems << "#{label}: missing who (who said it, where, when)" unless text?(claim["who"])
   problems << "#{label}: status must be one of: #{STATUSES.join(', ')}" unless STATUSES.include?(claim["status"])
-  problems << "#{label}: verdict must be one of: #{VERDICTS.join(', ')}" unless VERDICTS.include?(claim["verdict"])
+  problems << verdict_problem(claim["verdict"], label) unless VERDICTS.include?(claim["verdict"])
+  problems.concat(falsifier_problems(claim["falsifier"], label))
   problems.concat(history_problems(claim["history"], label, today))
 
   last = claim["history"].is_a?(Array) && claim["history"].last
   if last.is_a?(Hash) && VERDICTS.include?(last["verdict"]) && last["verdict"] != claim["verdict"]
     problems << "#{label}: verdict #{claim['verdict'].inspect} doesn't match the latest history entry (#{last['verdict'].inspect})"
+  end
+  # The weekly check names one action, so the next check starts somewhere.
+  if claim["status"] == "open" && last.is_a?(Hash) && !text?(last["next_action"])
+    problems << "#{label}: the latest history entry of an open claim needs a next_action (one thing the next weekly check does)"
   end
   problems
 end

@@ -265,6 +265,16 @@ main.wide, .site-footer { max-width: var(--wide); }
 }
 .timeline-sources { font-size: .92rem; overflow-wrap: anywhere; }
 .history-help { font-size: .95rem; }
+/* A-T11: falsifier, check result and next check. */
+.falsifier { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; margin: 1rem 0; }
+.falsifier div { padding: .7rem .9rem; background: var(--cream-light); border: 2px dashed var(--navy); border-radius: .4rem; }
+.falsifier dt { font-family: var(--font-type); font-weight: 700; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; color: var(--teal-deep); }
+.falsifier div + div dt { color: var(--coral-ink); }
+.falsifier dd { margin: .3rem 0 0; font-size: .95rem; }
+.next-check { font-size: .95rem; }
+.check-result { display: inline-block; margin-left: .4rem; font-family: var(--font-type); font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; color: var(--navy); }
+.check-inconclusive { padding: .05rem .4rem; border: 1px dashed var(--brass-ink); color: var(--brass-ink); }
+@media (max-width: 40rem) { .falsifier { grid-template-columns: 1fr; } }
 
 @media (max-width: 40rem) {
   .hero-copy { margin: 1rem 0 0; padding: 1.25rem 1rem 1rem; }

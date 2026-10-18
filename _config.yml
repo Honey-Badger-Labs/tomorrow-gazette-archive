@@ -47,6 +47,7 @@ exclude:
   - collab/
   - docs/
   - lychee.toml
+  - ops/
   - Gemfile
   - Gemfile.lock
   - vendor/
