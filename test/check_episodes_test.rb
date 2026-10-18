@@ -6,6 +6,8 @@ require "minitest/autorun"
 require "tmpdir"
 require "fileutils"
 require_relative "../tools/check_episodes"
+# CI runs this file only, so it also runs the claims-check tests (A-T10).
+require_relative "check_claims_test"
 
 class CheckEpisodesTest < Minitest::Test
   FIXTURE = File.read(File.join(__dir__, "fixtures/valid/e1-test-episode.md"))

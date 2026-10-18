@@ -1,0 +1,22 @@
+episode: 1
+claims:
+  - id: C1
+    claim: "A test prediction."
+    who: A. Tester, Test Weekly, 1940
+    status: open
+    verdict: NOT YET
+    history:
+      - date: 2026-01-01
+        verdict: NOT YET
+        change: Episode aired.
+        sources:
+          - title: Test source
+            url: https://example.org/one
+      - date: 2026-02-01
+        verdict: NOT YET
+        change: Re-checked. Verdict unchanged.
+        note: A note.
+        video: https://www.youtube.com/shorts/abc
+        sources:
+          - title: Test source two
+            url: https://example.org/two

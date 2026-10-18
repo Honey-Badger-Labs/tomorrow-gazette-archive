@@ -1,0 +1,30 @@
+{%- comment -%}
+The living archive's verdict history for one episode (A-T10), from
+_data/claims/<episode file name>.yml. Newest entry first.
+{%- endcomment -%}
+{%- assign claims = include.claims.claims -%}
+<section aria-labelledby="history-heading" class="verdict-history">
+  <h2 id="history-heading">Verdict history</h2>
+  {% for claim in claims %}
+  {%- assign last = claim.history | last -%}
+  <p class="history-status">
+    {% if claim.status == "open" %}<span class="status-badge status-open">Still open</span> We check this prediction again every week and log anything that changes the picture.
+    {% else %}<span class="status-badge status-closed">Closed</span> This prediction is settled; we no longer re-check it.{% endif %}
+    Last checked <time datetime="{{ last.date | date: '%Y-%m-%d' }}">{{ last.date | date: '%-d %B %Y' }}</time>.
+  </p>
+  {% if claims.size > 1 %}<h3 class="history-claim">“{{ claim.claim }}”</h3>{% endif %}
+  <ol class="timeline" reversed>
+    {% assign entries = claim.history | reverse %}
+    {% for entry in entries %}
+    <li class="timeline-entry">
+      <p class="timeline-date"><time datetime="{{ entry.date | date: '%Y-%m-%d' }}">{{ entry.date | date: '%-d %B %Y' }}</time></p>
+      {%- assign stamp_class = entry.verdict | downcase | replace: ' ', '-' -%}
+      <p class="timeline-verdict"><span class="mini-stamp verdict-{{ stamp_class }}"><span class="visually-hidden">Verdict: </span>{{ entry.verdict }}</span></p>
+      <p class="timeline-change"><strong>{{ entry.change }}</strong>{% if entry.note %} {{ entry.note }}{% endif %}</p>
+      <p class="timeline-sources">Sources: {% for source in entry.sources %}<a href="{{ source.url }}">{{ source.title }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}{% if entry.video %} · <a href="{{ entry.video }}">Watch the update</a>{% endif %}</p>
+    </li>
+    {% endfor %}
+  </ol>
+  {% endfor %}
+  <p class="history-help">Seen news that changes a verdict? <a href="https://github.com/Honey-Badger-Labs/tomorrow-gazette-archive/issues">Tell us, with a link to your source</a>.</p>
+</section>

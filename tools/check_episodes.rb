@@ -145,6 +145,20 @@ if $PROGRAM_NAME == __FILE__
     puts "OK: every episode in #{dir} has the required fields and sources."
   else
     warn "Fix the fields above. The field reference is docs/episode-schema.md."
-    exit 1
   end
+
+  # The living archive's claims files are checked in the same step (A-T10),
+  # so CI covers them without a workflow change.
+  require_relative "check_claims"
+  claims_dir = "_data/claims"
+  claim_failures = check_claims(claims_dir, dir)
+  claim_failures.each do |path, problems|
+    problems.each { |problem| warn "FAIL: #{path}: #{problem}" }
+  end
+  if claim_failures.empty?
+    puts "OK: every claims file in #{claims_dir} has valid verdicts, dates and sources."
+  else
+    warn "Fix the claims fields above. The field reference is docs/claims-schema.md."
+  end
+  exit 1 unless failures.empty? && claim_failures.empty?
 end

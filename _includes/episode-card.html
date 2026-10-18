@@ -8,5 +8,9 @@
     <span class="case-meta">Episode {{ include.episode.number }} · <time datetime="{{ include.episode.publish_date | date: '%Y-%m-%d' }}">{{ include.episode.publish_date | date: '%-d %b %Y' }}</time></span>
     <a class="episode-card-link" href="{{ include.episode.url | relative_url }}"><span class="episode-card-title">{{ include.episode.title }}</span></a>
     <p>{{ include.episode.description }}</p>
+    {%- assign card_claims = site.data.claims[include.episode.slug] -%}
+    {%- if card_claims -%}{%- assign card_last = card_claims.claims.first.history | last -%}
+    <p class="card-status">{% if card_claims.claims.first.status == "open" %}<span class="status-badge status-open">Still open</span>{% else %}<span class="status-badge status-closed">Closed</span>{% endif %} Last checked <time datetime="{{ card_last.date | date: '%Y-%m-%d' }}">{{ card_last.date | date: '%-d %b %Y' }}</time></p>
+    {%- endif %}
   </div>
 </li>
