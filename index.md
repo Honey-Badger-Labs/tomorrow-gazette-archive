@@ -42,4 +42,10 @@ wide: true
   {% endif %}
 </section>
 
+<section aria-labelledby="podcast-heading">
+  <h2 id="podcast-heading">The Tomorrow Gazette Wireless</h2>
+  <p class="section-intro">Prefer to listen? Vera and DOT read each edition on our podcast, with the same sources and the same verdicts.</p>
+  <p class="hero-actions"><a class="button" href="https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW">Listen on Spotify</a></p>
+</section>
+
 {% include studio.html %}

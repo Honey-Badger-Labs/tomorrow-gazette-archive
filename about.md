@@ -18,6 +18,10 @@ wide: true
 - **NOT YET**
 - **COMPLETELY BONKERS**
 
+## The podcast
+
+*The Tomorrow Gazette Wireless* is the audio edition of the show. [Listen on Spotify](https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW).
+
 </div>
 
 {% include studio.html full=true %}
