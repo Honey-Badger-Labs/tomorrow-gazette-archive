@@ -70,6 +70,20 @@ layout: default
       {% if page.video.youtube %}<a class="button" href="{{ page.video.youtube }}">Watch on YouTube</a>{% endif %}
       {% if page.video.tiktok %}<a class="button" href="{{ page.video.tiktok }}">Watch on TikTok</a>{% endif %}
     </p>
+    {% if page.video.update_youtube or page.video.update_tiktok %}
+    <h3>The update</h3>
+    <p class="watch-links">
+      {% if page.video.update_youtube %}<a class="button button-quiet" href="{{ page.video.update_youtube }}">Update on YouTube</a>{% endif %}
+      {% if page.video.update_tiktok %}<a class="button button-quiet" href="{{ page.video.update_tiktok }}">Update on TikTok</a>{% endif %}
+    </p>
+    {% endif %}
+    {% if page.video.podcast_youtube or page.podcast_spotify %}
+    <h3>The podcast edition</h3>
+    <p class="watch-links">
+      {% if page.video.podcast_youtube %}<a class="button button-quiet" href="{{ page.video.podcast_youtube }}">Podcast on YouTube</a>{% endif %}
+      {% if page.podcast_spotify %}<a class="button button-quiet" href="{{ page.podcast_spotify }}">The Tomorrow Gazette Wireless on Spotify</a>{% endif %}
+    </p>
+    {% endif %}
   </section>
 
   <section aria-labelledby="sources-heading" class="sources">
