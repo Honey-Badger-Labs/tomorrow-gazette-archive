@@ -6,6 +6,11 @@ publish_date: 2026-10-15
 description: In 1940, Henry Ford predicted a combination airplane and motor car. Today, a certified roadable aircraft exists, while eVTOL aircraft are advancing without becoming road cars or an everyday public service.
 video:
   youtube: https://www.youtube.com/shorts/84r9C1DHN6M
+  tiktok: https://www.tiktok.com/@tomorrow.gazette.ai/video/7696926140878834960
+  update_youtube: https://www.youtube.com/shorts/UAgdd3Rzypc
+  update_tiktok: https://www.tiktok.com/@tomorrow.gazette.ai/video/7698411497071906100
+  podcast_youtube: https://www.youtube.com/watch?v=38FmKf9ds2Y
+podcast_spotify: https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW
 prediction:
   quote: "Mark my word: A combination airplane and motor car is coming."
   who: Henry Ford
