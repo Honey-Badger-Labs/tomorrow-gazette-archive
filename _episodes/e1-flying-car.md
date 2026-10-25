@@ -9,8 +9,9 @@ video:
   tiktok: https://www.tiktok.com/@tomorrow.gazette.ai/video/7696926140878834960
   update_youtube: https://www.youtube.com/shorts/UAgdd3Rzypc
   update_tiktok: https://www.tiktok.com/@tomorrow.gazette.ai/video/7698411497071906100
+  teaser_youtube: https://www.youtube.com/shorts/AbtNPMEE_2c
   podcast_youtube: https://www.youtube.com/watch?v=38FmKf9ds2Y
-podcast_spotify: https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW
+podcast_spotify: https://open.spotify.com/episode/6yxL7odEPryPTzYF9VgbmX
 prediction:
   quote: "Mark my word: A combination airplane and motor car is coming."
   who: Henry Ford
