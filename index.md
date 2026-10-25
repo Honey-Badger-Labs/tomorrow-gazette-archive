@@ -14,7 +14,7 @@ wide: true
     <p class="kicker">Tonight's edition</p>
     <h1 id="hero-heading">The future, according to the past.</h1>
     <p class="lede">People have always predicted the future. We check how they did. Tomorrow Gazette finds the real predictions, checks what actually happened, and stamps a verdict on each one. This archive keeps every episode with its sources, so you can check our working.</p>
-    <p class="hero-actions"><a class="button" href="{{ '/episodes/' | relative_url }}">Browse the episodes</a> <a class="button button-quiet" href="#studio">Meet the studio</a></p>
+    <p class="hero-actions"><a class="button" href="{{ '/episodes/' | relative_url }}">Browse the episodes</a> <a class="button button-quiet" href="#studio">Meet the studio</a> <a class="button button-quiet" href="{{ site.join.url }}">Join the {{ site.join.name }}</a></p>
   </div>
 </section>
 

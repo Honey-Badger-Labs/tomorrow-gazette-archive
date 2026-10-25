@@ -14,6 +14,11 @@ channels:
   - name: TikTok
     url: https://www.tiktok.com/@tomorrow.gazette.ai
 
+# Public membership page for the show's supporters' community.
+join:
+  name: Citizens of Tomorrow
+  url: https://paybru.co.za/communities/citizens-of-tomorrow
+
 # One Markdown file per episode in _episodes/ (AD1). Fields: A-T6.
 collections:
   episodes:
