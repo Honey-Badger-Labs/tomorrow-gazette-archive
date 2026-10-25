@@ -71,6 +71,12 @@ layout: default
       {% if page.video.tiktok %}<a class="button" href="{{ page.video.tiktok }}">Watch on TikTok</a>{% endif %}
       {% if page.video.tv_youtube %}<a class="button" href="{{ page.video.tv_youtube }}">Watch the TV cut on YouTube</a>{% endif %}
     </p>
+    {% if page.video.teaser_youtube %}
+    <h3>The teaser</h3>
+    <p class="watch-links">
+      <a class="button button-quiet" href="{{ page.video.teaser_youtube }}">Teaser on YouTube</a>
+    </p>
+    {% endif %}
     {% if page.video.update_youtube or page.video.update_tiktok %}
     <h3>The update</h3>
     <p class="watch-links">
