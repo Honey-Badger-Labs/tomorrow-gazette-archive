@@ -27,6 +27,8 @@ IMAGES = {
     "dot-portrait": ("package/characters/dot/dot_desk_16x9_v1.png", (880, 120, 1780, 1020), [480, 800], "jpg"),
     "e1-flying-car": ("e1/stills/P3.png", (0, 110, 752, 533), [480, 752], "jpg"),
     "e2-robot-housemaid": ("e2/stills/E2S2.png", (0, 4, 2688, 1516), [480, 752], "jpg"),
+    # The portrait Jakes supplied, with the top-right screen label changed to "Tomorrow".
+    "jakes-portrait": ("package/people/jakes_portrait_clean_v1.png", None, [480, 752], "jpg"),
     "masthead": ("package/masthead/tg_masthead_type_notag_transparent.png", (167, 459, 2833, 1245), [420, 840], "png"),
     "sunburst": ("package/masthead/tg_sunburst_brass_transparent.png", None, [900], "png"),
 }

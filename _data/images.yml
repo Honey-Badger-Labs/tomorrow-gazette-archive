@@ -42,3 +42,8 @@ e2-robot-housemaid:
   width: 752
   height: 423
   alt: "Illustration: a boxy grey 1960s robot housemaid at the World's Fair, surrounded by a crowd in period clothes."
+jakes-portrait:
+  widths: [480, 752]
+  width: 752
+  height: 752
+  alt: "Illustrated portrait of Jakes Olivier at a retro-futuristic control desk"
