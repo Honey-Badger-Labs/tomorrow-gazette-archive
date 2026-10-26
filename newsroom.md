@@ -38,6 +38,10 @@ Vera Tomorrow and DOT are on air. Behind them sits the newsroom. This is everyon
 
 - **The Wire Service:** Getting yesterday's predictions into tomorrow's feed
 
+## The human in charge
+
+Everyone above is fictional. The one real person behind the show is [the man behind Tomorrow Gazette]({{ '/man-behind-tomorrow-gazette/' | relative_url }}).
+
 ## Join the newsroom's readers
 
 Support the Gazette as one of the [{{ site.join.name }}]({{ site.join.url }}) on PayBru.

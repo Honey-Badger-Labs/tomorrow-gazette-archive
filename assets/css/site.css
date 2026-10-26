@@ -291,3 +291,9 @@ main.wide, .site-footer { max-width: var(--wide); }
 @media (prefers-reduced-motion: reduce) {
   .episode-card:hover { transform: none; }
 }
+
+/* The Man Behind Tomorrow Gazette */
+.person-portrait { width: min(24rem, 85vw); margin: 1rem auto 1.5rem; border: 6px solid var(--brass); outline: 2px solid var(--navy); border-radius: 50%; overflow: hidden; box-shadow: var(--shadow); aspect-ratio: 1; }
+.person-portrait img { width: 100%; height: 100%; object-fit: cover; }
+.bio-box { margin: 0 0 2rem; padding: 1rem 1.25rem; background: var(--cream-light); border: 2px solid var(--navy); border-left: 6px solid var(--teal); border-radius: .4rem; box-shadow: var(--shadow); }
+.bio-box p:last-child { margin-bottom: 0; }
