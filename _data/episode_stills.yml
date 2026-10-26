@@ -3,3 +3,5 @@
 # in its own front matter (see docs/episode-schema.md); that wins.
 e1-flying-car:
   image: e1-flying-car
+e2-robot-housemaid:
+  image: e2-robot-housemaid

@@ -37,3 +37,8 @@ e1-flying-car:
   width: 752
   height: 423
   alt: "Illustration: a 1940s cream-and-red motor car with aeroplane wings and a tail, flying through a blue sky."
+e2-robot-housemaid:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: a boxy grey 1960s robot housemaid at the World's Fair, surrounded by a crowd in period clothes."
