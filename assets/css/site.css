@@ -297,3 +297,17 @@ main.wide, .site-footer { max-width: var(--wide); }
 .person-portrait img { width: 100%; height: 100%; object-fit: cover; }
 .bio-box { margin: 0 0 2rem; padding: 1rem 1.25rem; background: var(--cream-light); border: 2px solid var(--navy); border-left: 6px solid var(--teal); border-radius: .4rem; box-shadow: var(--shadow); }
 .bio-box p:last-child { margin-bottom: 0; }
+
+/* Specials page */
+.special-list { list-style: none; padding: 0; margin: 0 0 2rem; display: grid; gap: 1.5rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr)); }
+.special-card { background: var(--cream-light); border: 2px solid var(--navy); border-top: 6px solid var(--brass); border-radius: .5rem; padding: 1rem 1.1rem 1.1rem; box-shadow: var(--shadow); overflow-wrap: anywhere; }
+.special-title { margin: .2rem 0 .1rem; font-size: 1.45rem; line-height: 1.2; }
+.special-quote { margin: .75rem 0; padding-left: .8rem; border-left: 3px solid var(--brass); font-style: italic; }
+.special-quote p { margin: 0; }
+.special-quote footer { font-style: normal; font-size: .85rem; color: var(--teal); margin-top: .3rem; }
+.special-links { margin: .5rem 0; }
+.special-sources summary { cursor: pointer; color: var(--teal); }
+.special-sources ol { margin: .5rem 0 0; padding-left: 1.25rem; font-size: .9rem; }
+.special-coming { background: var(--cream-light); border: 2px dashed var(--navy); border-radius: .5rem; padding: 1rem 1.1rem; }
+.special-coming ul { margin: .5rem 0 0; padding-left: 1.25rem; }
+.special-coming h2 { margin-top: 0; }
