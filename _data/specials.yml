@@ -1,0 +1,41 @@
+# Published Tomorrow Gazette specials and bonus episodes that are not
+# numbered episodes. Not rendered yet: kept so the archive has a complete
+# record until a Specials page exists. Times are SAST (UTC+2).
+- id: hw-2026-spirit-phone
+  title: "Edison's Spirit Phone"
+  format: Halloween Short
+  published: 2026-10-31 18:06
+  prediction:
+    quote: "To see if it is possible for personalities which have left this earth to communicate with us."
+    who: Thomas Edison
+    when: 1920
+    where: The American Magazine
+  verdict: COMPLETELY BONKERS
+  links:
+    youtube: https://www.youtube.com/shorts/oN_HBDoxWnQ
+    tiktok: TBD  # posted 31 Oct 2026; link not yet collected
+  sources:
+    - title: "Edison and science fiction — Thomas Edison Papers, Rutgers"
+      url: https://edison.rutgers.edu/digital-exhibits/edison-science-fiction/science-fiction-10
+    - title: "Telecommunications and the occult — National Science and Media Museum"
+      url: https://www.scienceandmediamuseum.org.uk/objects-and-stories/telecommunications-and-occult
+    - title: "Edison's Views on Life and Death — Scientific American, 30 Oct 1920"
+      url: https://www.scientificamerican.com/article/edisons-views-on-life-and-death/
+    - title: "Edison in The Forum, Nov 1926 — Thomas Edison Papers"
+      url: https://www.juncture-digital.org/edisonpapers/edison-sci-fi/5
+- id: hw-2026-white-dwarf
+  title: "Life After Death? The White Dwarf That Ate Its Planet"
+  format: Halloween podcast bonus
+  published: 2026-10-31 18:00
+  question: "Is there life after death? For star systems, maybe: a white dwarf with a second-generation planet candidate."
+  verdict: NOT YET
+  links:
+    youtube: https://www.youtube.com/watch?v=E1QbvioSY3g
+    spotify: https://open.spotify.com/episode/2lbL5h3ITJrJJpdKT1ZfjK
+  sources:
+    - title: "White Dwarf Spotted Devouring the Planet It Birthed — Eos"
+      url: https://eos.org/articles/white-dwarf-spotted-devouring-the-planet-it-birthed
+    - title: "Discovery of a second-generation planet candidate accreting onto a white dwarf — Nature Astronomy"
+      url: https://www.nature.com/articles/s41550-026-02983-7
+    - title: "Suspected Second-generation Planet Solves NASA Hubble Cold Case — NASA Science"
+      url: https://science.nasa.gov/missions/hubble/suspected-second-generation-planet-solves-nasa-hubble-cold-case/
