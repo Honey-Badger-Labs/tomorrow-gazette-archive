@@ -20,7 +20,7 @@ wide: true
 
 ## The podcast
 
-The *Tomorrow Gazette* podcast is the audio edition of the show. [Listen on Spotify](https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW).
+*The Tomorrow Gazette Wireless* is the audio edition of the show. [Listen on Spotify](https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW).
 
 </div>
 
