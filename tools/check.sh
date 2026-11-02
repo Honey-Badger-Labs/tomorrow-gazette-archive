@@ -6,5 +6,6 @@ cd "$(dirname "$0")/.."
 
 ruby test/check_episodes_test.rb
 ruby tools/check_episodes.rb
+ruby tools/check_images.rb
 bundle exec jekyll build
 tools/check-links.sh _site

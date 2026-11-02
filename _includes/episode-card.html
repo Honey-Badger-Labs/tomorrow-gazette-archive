@@ -1,7 +1,7 @@
 {%- assign still = include.episode.still | default: site.data.episode_stills[include.episode.slug] -%}
 <li class="episode-card">
   <div class="episode-card-art">
-    {% if still %}{% include picture.html name=still.image alt="" sizes="(min-width: 48rem) 36rem, 100vw" %}{% else %}<div class="episode-card-blank" aria-hidden="true"></div>{% endif %}
+    {% if still %}{% include picture.html name=still.image alt="" sizes="(min-width: 48rem) 36rem, 100vw" %}{% else %}<div class="episode-card-blank" aria-hidden="true"><img src="{{ '/assets/img/masthead-420.png' | relative_url }}" srcset="{{ '/assets/img/masthead-420.png' | relative_url }} 420w, {{ '/assets/img/masthead-840.png' | relative_url }} 840w" sizes="16rem" width="420" height="124" alt="" loading="lazy"></div>{% endif %}
     {% include verdict-stamp.html verdict=include.episode.verdict %}
   </div>
   <div class="episode-card-body">

@@ -5,3 +5,5 @@ e1-flying-car:
   image: e1-flying-car
 e2-robot-housemaid:
   image: e2-robot-housemaid
+e3-mail-by-missile:
+  image: e3-mail-by-missile

@@ -41,6 +41,10 @@ jobs:
       - name: Check episode pages
         run: ruby tools/check_episodes.rb
 
+      # Every episode, special and podcast entry must have a real image.
+      - name: Check every entry has an image
+        run: ruby tools/check_images.rb
+
       # The same build GitHub Pages runs, with the github-pages gem's pinned
       # versions, so a local `bundle exec jekyll build` matches it (AD1).
       - uses: actions/jekyll-build-pages@v1
