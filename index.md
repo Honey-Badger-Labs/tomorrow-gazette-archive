@@ -36,7 +36,7 @@ wide: true
   <ul class="episode-list episode-list-lead">
     {% for episode in latest limit: 6 %}{% include episode-card.html episode=episode %}{% endfor %}
   </ul>
-  <p><a href="{{ '/episodes/' | relative_url }}">All episodes</a></p>
+  <p><a href="{{ '/episodes/' | relative_url }}">All episodes</a> · <a href="{{ '/specials/' | relative_url }}">Specials and bonus episodes</a></p>
   {% else %}
   {% include empty-archive.html %}
   {% endif %}

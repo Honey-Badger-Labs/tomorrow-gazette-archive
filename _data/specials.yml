@@ -1,6 +1,6 @@
 # Published Tomorrow Gazette specials and bonus episodes that are not
-# numbered episodes. Not rendered yet: kept so the archive has a complete
-# record until a Specials page exists. Times are SAST (UTC+2).
+# numbered episodes. Rendered on /specials/. Only list aired items;
+# links must be real (TBD links are hidden). Times are SAST (UTC+2).
 - id: hw-2026-spirit-phone
   title: "Edison's Spirit Phone"
   format: Halloween Short
