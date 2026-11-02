@@ -12,6 +12,7 @@ wide: true
 <ul class="special-list">
 {% for s in site.data.specials %}
   <li class="special-card" id="{{ s.id }}">
+    <div class="special-card-art">{% if s.image and site.data.images[s.image] %}{% include picture.html name=s.image alt="" sizes="(min-width: 48rem) 36rem, 100vw" %}{% else %}<div class="episode-card-blank" aria-hidden="true"><img src="{{ '/assets/img/masthead-420.png' | relative_url }}" srcset="{{ '/assets/img/masthead-420.png' | relative_url }} 420w, {{ '/assets/img/masthead-840.png' | relative_url }} 840w" sizes="16rem" width="420" height="124" alt="" loading="lazy"></div>{% endif %}</div>
     <div class="special-card-head">
       <span class="case-meta">{{ s.format }} · <time datetime="{{ s.published | date: '%Y-%m-%d' }}">{{ s.published | date: '%-d %b %Y' }}</time></span>
       <h2 class="special-title">{{ s.title }}</h2>

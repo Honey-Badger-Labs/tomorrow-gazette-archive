@@ -37,6 +37,16 @@ e1-flying-car:
   width: 752
   height: 423
   alt: "Illustration: a 1940s cream-and-red motor car with aeroplane wings and a tail, flying through a blue sky."
+e3-mail-by-missile:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: an airmail envelope with rocket fins and a flame trail, flying over a retro-futuristic city under a sunburst sky."
+hw-2026-spirit-phone:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: a 1920s candlestick telephone beside glowing valves, with a green ghostly wisp rising behind it."
 e2-robot-housemaid:
   widths: [480, 752]
   width: 752

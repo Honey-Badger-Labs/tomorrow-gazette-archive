@@ -1,9 +1,11 @@
 # Published Tomorrow Gazette specials and bonus episodes that are not
 # numbered episodes. Rendered on /specials/. Only list aired items;
-# links must be real (TBD links are hidden). Times are SAST (UTC+2).
+# links must be real (TBD links are hidden). Every item needs `image:`, a
+# name in _data/images.yml (tools/check_images.rb fails the build otherwise). Times are SAST (UTC+2).
 - id: hw-2026-spirit-phone
   title: "Edison's Spirit Phone"
   format: Halloween Short
+  image: hw-2026-spirit-phone
   published: 2026-10-31 18:06
   prediction:
     quote: "To see if it is possible for personalities which have left this earth to communicate with us."
@@ -26,6 +28,7 @@
 - id: hw-2026-white-dwarf
   title: "Life After Death? The White Dwarf That Ate Its Planet"
   format: Halloween podcast bonus
+  image: studio-twoshot  # no bonus-specific still without the old "Wireless" title yet
   published: 2026-10-31 18:00
   question: "Is there life after death? For star systems, maybe: a white dwarf with a second-generation planet candidate."
   verdict: NOT YET
