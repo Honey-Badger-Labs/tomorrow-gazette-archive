@@ -67,5 +67,5 @@ sources:
     accessed: 2026-10-29
 open_questions:
   - What is the TikTok link for the E3 Short (posted 29 October 2026)?
-  - Is there a Spotify episode link yet for the Wireless P03 edition (30 October 2026)?
+  - Is there a Spotify episode link yet for the podcast P03 edition (30 October 2026)?
 ---
