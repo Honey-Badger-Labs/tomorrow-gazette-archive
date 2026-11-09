@@ -57,3 +57,13 @@ jakes-portrait:
   width: 752
   height: 752
   alt: "Illustrated portrait of Jakes Olivier at a retro-futuristic control desk"
+e4-pan-am-moon:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: a cream 'First Moon Flights' Club membership card, member number 1043, beside a crescent Moon, with the words Pan Am 1968, Tickets to the Moon and a red NOT YET stamp."
+special-italys-champions:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: a white modern Formula One car racing past a chequered-flag wall under floodlights."

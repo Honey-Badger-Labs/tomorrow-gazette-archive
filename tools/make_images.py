@@ -28,6 +28,8 @@ IMAGES = {
     "e1-flying-car": ("e1/stills/P3.png", (0, 110, 752, 533), [480, 752], "jpg"),
     "e2-robot-housemaid": ("e2/stills/E2S2.png", (0, 4, 2688, 1516), [480, 752], "jpg"),
     "e3-mail-by-missile": ("e3/stills/E3S1.png", (0, 4, 2688, 1516), [480, 752], "jpg"),
+    "e4-pan-am-moon": ("e4/short/thumbnail_published_tickets_moon.jpg", None, [480, 752], "jpg"),
+    "special-italys-champions": ("specials/italy-f1/stills/S8.png", (0, 880, 1152, 1528), [480, 752], "jpg"),
     "hw-2026-spirit-phone": ("specials/halloween-2026/stills/H3.png", (0, 240, 752, 663), [480, 752], "jpg"),
     # The portrait Jakes supplied, with the top-right screen label changed to "Tomorrow".
     "jakes-portrait": ("package/people/jakes_portrait_clean_v1.png", None, [480, 752], "jpg"),
