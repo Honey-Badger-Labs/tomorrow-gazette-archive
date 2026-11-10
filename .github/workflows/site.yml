@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: false
 
 env:
-  LYCHEE_VERSION: "0.18.1"
+  LYCHEE_VERSION: "0.24.2"
 
 jobs:
   build:
@@ -29,7 +29,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ruby/setup-ruby@v1
+      - uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1 (v1.338.0)
         with:
           ruby-version: "3.3"
 
@@ -54,8 +54,15 @@ jobs:
 
       - name: Install lychee
         run: |
-          curl -sSfL "https://github.com/lycheeverse/lychee/releases/download/lychee-v${LYCHEE_VERSION}/lychee-x86_64-unknown-linux-gnu.tar.gz" \
-            | tar xz -C "$RUNNER_TEMP"
+          set -euo pipefail
+          # Official checksum sidecar from the same GitHub release (never a self-computed hash).
+          # v0.18.1 published no .sha256 files, so this workflow uses v0.24.2 which does.
+          base="https://github.com/lycheeverse/lychee/releases/download/lychee-v${LYCHEE_VERSION}"
+          asset="lychee-x86_64-unknown-linux-gnu.tar.gz"
+          curl -sSfL "${base}/${asset}" -o "${RUNNER_TEMP}/${asset}"
+          curl -sSfL "${base}/${asset}.sha256" -o "${RUNNER_TEMP}/${asset}.sha256"
+          (cd "$RUNNER_TEMP" && sha256sum -c "${asset}.sha256")
+          tar xz -C "$RUNNER_TEMP" -f "${RUNNER_TEMP}/${asset}"
           echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
 
       - name: Check links

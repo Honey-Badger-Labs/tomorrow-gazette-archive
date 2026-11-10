@@ -3,3 +3,8 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+
+# Secrets and keys
+.env*
+*.pem
+*.key
