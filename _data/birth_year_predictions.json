@@ -1,0 +1,1438 @@
+[
+ {
+  "id": "verne-1889-spoken-news",
+  "year": 1889,
+  "when": "February 1889",
+  "topic": "broadcast",
+  "headline": "YOUR NEWSPAPER WILL TALK TO YOU",
+  "deck": "A story set in 2889 imagines the daily paper read aloud to 85 million subscribers, and recorded for later.",
+  "quote": "Instead of being printed, the Earth Chronicle is every morning spoken to subscribers, who, in interesting conversations with reporters, statesmen, and scientists, learn the news of the day.",
+  "quote_kind": "verbatim",
+  "quote_note": "From a short story. Published under Jules Verne's name; Project Gutenberg notes it is now thought to be chiefly the work of his son, Michel Verne.",
+  "who": "Jules Verne (and Michel Verne)",
+  "where": "\"In the Year 2889\", The Forum",
+  "quote_sources": [
+   {
+    "title": "In the Year 2889 — Project Gutenberg",
+    "url": "https://www.gutenberg.org/files/19362/19362-h/19362-h.htm",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Spoken news on demand is ordinary now. Pew Research found roughly half of US adults had listened to a podcast in the past year (2023).",
+  "happened_sources": [
+   {
+    "title": "Podcasts as a source of news and information — Pew Research Center, 18 Apr 2023",
+    "url": "https://www.pewresearch.org/journalism/2023/04/18/podcasts-as-a-source-of-news-and-information/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Set in 2889, but spoken, recorded news arrived about 870 years early.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "wells-1901-submarine",
+  "year": 1901,
+  "when": "1901",
+  "topic": "sea",
+  "headline": "SUBMARINES WILL ONLY SUFFOCATE THEIR CREWS",
+  "deck": "The great forecaster of the age cannot picture the submarine doing anything useful.",
+  "quote": "I must confess that my imagination, in spite even of spurring, refuses to see any sort of submarine doing anything but suffocate its crew and founder at sea.",
+  "quote_kind": "verbatim",
+  "who": "H. G. Wells",
+  "where": "Anticipations (book, 1901)",
+  "quote_sources": [
+   {
+    "title": "Anticipations, by H. G. Wells — Project Gutenberg eBook #19229",
+    "url": "https://www.gutenberg.org/ebooks/19229",
+    "kind": "primary"
+   }
+  ],
+  "happened": "In 1958 the nuclear submarine USS Nautilus crossed under the North Pole, fully submerged, and her crew came home to a Presidential Unit Citation.",
+  "happened_sources": [
+   {
+    "title": "Nautilus (SSN-571) — Naval History and Heritage Command",
+    "url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/uss-nautilus.html"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Submarines became some of the most capable ships ever built.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "nyt-1903-flying-machines",
+  "year": 1903,
+  "when": "9 October 1903",
+  "topic": "flight",
+  "headline": "FLYING MACHINE MAY TAKE TEN MILLION YEARS",
+  "deck": "A newspaper editorial says a machine that really flies is a very long way off.",
+  "quote": "...it might be assumed that the flying machine which will really fly might be evolved by the combined and continuous efforts of mathematicians and mechanics in from one million to ten million years...",
+  "quote_kind": "verbatim",
+  "who": "The New York Times (unsigned editorial)",
+  "where": "\"Flying Machines Which Do Not Fly\"",
+  "quote_sources": [
+   {
+    "title": "The New York Times, 9 Oct 1903, \"Flying Machines Which Do Not Fly\" — Wikisource transcription",
+    "url": "https://en.wikisource.org/wiki/The_New_York_Times/1903/10/9/Flying_Machines_Which_Do_Not_Fly",
+    "kind": "primary"
+   },
+   {
+    "title": "Snopes fact check",
+    "url": "https://www.snopes.com/fact-check/wright-brothers-first-flight/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Sixty-nine days later, on 17 December 1903, the Wright brothers flew the first powered, controlled aeroplane.",
+  "happened_sources": [
+   {
+    "title": "1903 Wright Flyer — Smithsonian National Air and Space Museum",
+    "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Out by about ten million years, minus 69 days.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "edison-1920-spirit-phone",
+  "year": 1920,
+  "when": "1920",
+  "topic": "phone",
+  "headline": "EDISON SEEKS A TELEPHONE TO THE DEAD",
+  "deck": "The great inventor says he is working on an apparatus to reach those who have died.",
+  "quote": "To see if it is possible for personalities which have left this earth to communicate with us.",
+  "quote_kind": "verbatim",
+  "who": "Thomas Edison",
+  "where": "The American Magazine",
+  "quote_sources": [
+   {
+    "title": "Edison and science fiction — Thomas Edison Papers, Rutgers",
+    "url": "https://edison.rutgers.edu/digital-exhibits/edison-science-fiction/science-fiction-10",
+    "kind": "secondary"
+   },
+   {
+    "title": "Edison's Views on Life and Death — Scientific American, 30 Oct 1920",
+    "url": "https://www.scientificamerican.com/article/edisons-views-on-life-and-death/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Edison's archive at Rutgers says no verifiable evidence of such a device has ever been found.",
+  "happened_sources": [
+   {
+    "title": "Edison and science fiction — Thomas Edison Papers, Rutgers",
+    "url": "https://edison.rutgers.edu/digital-exhibits/edison-science-fiction/science-fiction-10"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "aired",
+  "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/specials/#hw-2026-spirit-phone",
+  "episode_label": "Edison's Spirit Phone (Halloween Short, 31 Oct 2026)",
+  "reason": "As ruled on air in the Halloween Short.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "nyt-1920-goddard",
+  "year": 1920,
+  "when": "13 January 1920",
+  "topic": "rocket",
+  "headline": "ROCKETS CANNOT WORK IN A VACUUM, PAPER SCOFFS",
+  "deck": "An editorial mocks Professor Goddard's plan to reach space and says he lacks high-school science.",
+  "quote": "Of course, he only seems to lack the knowledge ladled out daily in high schools.",
+  "quote_kind": "verbatim",
+  "quote_note": "The editorial argued a rocket needs \"something better than a vacuum against which to react\". It is a claim more than a forecast, but it was a claim about what rockets would never do.",
+  "who": "The New York Times (unsigned editorial)",
+  "where": "Editorial on Robert H. Goddard",
+  "quote_sources": [
+   {
+    "title": "FAQs about Robert H. Goddard — Clark University Archives (archived copy)",
+    "url": "https://web.archive.org/web/20091103060910/http://www.clarku.edu/research/archives/goddard/faqs.cfm",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "On 17 July 1969, three days before the Moon walk, the Times printed: \"it is now definitely established that a rocket can function in a vacuum as well as in an atmosphere. The Times regrets the error.\"",
+  "happened_sources": [
+   {
+    "title": "FAQs about Robert H. Goddard — Clark University Archives (archived copy)",
+    "url": "https://web.archive.org/web/20091103060910/http://www.clarku.edu/research/archives/goddard/faqs.cfm"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The paper corrected itself, 49 years later.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "tesla-1926-pocket-phone",
+  "year": 1926,
+  "when": "30 January 1926",
+  "topic": "phone",
+  "headline": "A TELEPHONE YOU CAN CARRY IN YOUR VEST POCKET",
+  "deck": "Tesla says wireless will let us see and hear each other across thousands of miles.",
+  "quote": "...through television and telephony we shall see and hear one another as perfectly as though we were face to face, despite intervening distances of thousands of miles... A man will be able to carry one in his vest pocket.",
+  "quote_kind": "verbatim",
+  "quote_note": "Shortened with \"...\"; the full passage is in the sources.",
+  "who": "Nikola Tesla, interviewed by John B. Kennedy",
+  "where": "\"When Woman Is Boss\", Collier's",
+  "quote_sources": [
+   {
+    "title": "Snopes: Nikola Tesla predicted cellphones in 1926? (rated correctly attributed)",
+    "url": "https://www.snopes.com/fact-check/tesla-predicted-cell-phones/",
+    "kind": "secondary"
+   },
+   {
+    "title": "\"When Woman is Boss\" transcript — Twenty-First Century Books (archived copy)",
+    "url": "https://web.archive.org/web/20250107095323/http://www.tfcbooks.com/tesla/1926-01-30.htm",
+    "kind": "transcript"
+   }
+  ],
+  "happened": "Four out of five people aged 10 and over now own a mobile phone, says the UN telecoms agency (2024).",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Mobile phone ownership — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-mobile-phone-ownership/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "A pocket device for seeing and hearing anyone, anywhere: that is a video call on a phone.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "fisher-1929-plateau",
+  "year": 1929,
+  "when": "15 October 1929",
+  "topic": "money",
+  "headline": "STOCKS HAVE REACHED A PERMANENT HIGH, SAYS YALE MAN",
+  "deck": "The nation's best-known economist tells a dinner audience the boom is here to stay.",
+  "quote": "Stock prices have reached what looks like a permanently high plateau.",
+  "quote_kind": "reported",
+  "quote_note": "As reported by The New York Times, 16 Oct 1929, p. 8.",
+  "who": "Irving Fisher, Yale economist",
+  "where": "Speech to the Purchasing Agents Association, New York",
+  "quote_sources": [
+   {
+    "title": "Stock Market Crash of 1929 — Federal Reserve History",
+    "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Within two weeks came Black Monday and Black Tuesday. By mid-1932 the Dow was 89% below its peak, and it did not get back there until November 1954.",
+  "happened_sources": [
+   {
+    "title": "Stock Market Crash of 1929 — Federal Reserve History",
+    "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The plateau lasted about nine days.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "rutherford-1933-moonshine",
+  "year": 1933,
+  "when": "11 September 1933",
+  "topic": "atom",
+  "headline": "ATOM POWER IS \"MOONSHINE\", SAYS RUTHERFORD",
+  "deck": "The father of nuclear physics tells scientists not to expect energy from splitting atoms.",
+  "quote": "Anyone who expects a source of power from the transformation of these atoms is talking moonshine.",
+  "quote_kind": "reported",
+  "quote_note": "Reported in the press after his British Association speech. Newspapers printed slightly different wordings; Quote Investigator lists them.",
+  "who": "Ernest Rutherford",
+  "where": "British Association for the Advancement of Science, Leicester",
+  "quote_sources": [
+   {
+    "title": "Quote Investigator: \"Talking moonshine\"",
+    "url": "https://quoteinvestigator.com/2018/11/26/moonshine/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Nine years later, on 2 December 1942, the first controlled, self-sustaining nuclear chain reaction ran under a Chicago football stadium.",
+  "happened_sources": [
+   {
+    "title": "10 intriguing facts about the world's first nuclear chain reaction — US Department of Energy",
+    "url": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The moonshine was flowing within a decade.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "ford-1940-flying-car",
+  "year": 1940,
+  "when": "March 1940",
+  "topic": "flight",
+  "headline": "FORD: THE FLYING CAR IS COMING",
+  "deck": "The motor king says a combination airplane and motor car is on its way.",
+  "quote": "Mark my word: A combination airplane and motor car is coming.",
+  "quote_kind": "verbatim",
+  "who": "Henry Ford",
+  "where": "Forbes Magazine",
+  "quote_sources": [
+   {
+    "title": "Henry Ford quotations — The Henry Ford",
+    "url": "https://www.thehenryford.org/collections/explore/popular-research-topics/henry-ford-quotations",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Klein Vision's AirCar received a certificate of airworthiness in January 2022. It is a roadable aircraft.",
+  "happened_sources": [
+   {
+    "title": "AirCar receives certificate of airworthiness — The Engineer",
+    "url": "https://www.theengineer.co.uk/content/news/aircar-receives-certificate-of-airworthiness"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "aired",
+  "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e1-flying-car/",
+  "episode_label": "Episode 1: The Flying Car",
+  "reason": "As ruled on air in Episode 1.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "clarke-1945-satellites",
+  "year": 1945,
+  "when": "October 1945",
+  "topic": "satellite",
+  "headline": "RADIO STATIONS IN SPACE COULD COVER THE WHOLE WORLD",
+  "deck": "A young engineer works out that a station 42,000 km out would hang still in the sky.",
+  "quote": "A true broadcast service, giving constant field strength at all times over the whole globe would be invaluable, not to say indispensable, in a world society.",
+  "quote_kind": "verbatim",
+  "quote_note": "The article shows that a body in an orbit with a radius of 42,000 km takes exactly 24 hours to go round, and so stays above the same spot.",
+  "who": "Arthur C. Clarke",
+  "where": "\"Extra-Terrestrial Relays\", Wireless World",
+  "quote_sources": [
+   {
+    "title": "Extra-Terrestrial Relays (Wireless World, Oct 1945) — transcription, pages 305–308",
+    "url": "https://lakdiva.org.lk/clarke/1945ww/1945ww_oct_305-308.html",
+    "kind": "transcript"
+   },
+   {
+    "title": "Extra-Terrestrial Relays — facsimile PDF (Universidad de los Andes space-law archive)",
+    "url": "https://spacelaw.uniandes.edu.co/images/d_arthur_clarke.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "In 1964 the geostationary satellite Syncom 3 carried TV pictures of the Tokyo Olympics to the United States. Geostationary satellites still carry the bulk of space-based communications.",
+  "happened_sources": [
+   {
+    "title": "Communications Satellite, Syncom — Smithsonian National Air and Space Museum",
+    "url": "https://airandspace.si.edu/collection-objects/communications-satellite-syncom/nasm_A19791439000"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "The orbit he described is still used for satellite TV and weather satellites.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "popmech-1949-computers",
+  "year": 1949,
+  "when": "March 1949",
+  "topic": "computer",
+  "headline": "COMPUTERS MAY ONE DAY WEIGH ONLY 1½ TONS",
+  "deck": "A science magazine imagines the giant electronic brains slimming down.",
+  "quote": "Where a calculator like the ENIAC today is equipped with 18,000 vacuum tubes and weighs 30 tons, computers in the future may have only 1,000 vacuum tubes and perhaps weigh only 1 1/2 tons.",
+  "quote_kind": "verbatim",
+  "who": "Popular Mechanics",
+  "where": "\"Brains That Click\"",
+  "quote_sources": [
+   {
+    "title": "\"A Virtual Space Odyssey; This Time, the Future Is Closer Than You Think\" — The New York Times, 31 Dec 2000",
+    "url": "https://www.nytimes.com/2000/12/31/weekinreview/place-virtual-space-odyssey-this-time-future-closer-than-you-think.html",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Laptops and desktop PCs, each vastly more powerful than ENIAC, were everywhere by 2000, as the Times noted. Today a phone in your pocket outruns it.",
+  "happened_sources": [
+   {
+    "title": "The New York Times, 31 Dec 2000",
+    "url": "https://www.nytimes.com/2000/12/31/weekinreview/place-virtual-space-odyssey-this-time-future-closer-than-you-think.html"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Right that computers would shrink; wrong by roughly a factor of a thousand on how much.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "turing-1950-imitation-game",
+  "year": 1950,
+  "when": "October 1950",
+  "topic": "ai",
+  "headline": "MACHINES WILL PASS FOR HUMAN WITHIN 50 YEARS",
+  "deck": "A Manchester mathematician proposes a test: can a judge tell a computer from a person?",
+  "quote": "I believe that in about fifty years' time it will be possible, to programme computers... to make them play the imitation game so well that an average interrogator will not have more than 70 per cent chance of making the right identification after five minutes of questioning.",
+  "quote_kind": "verbatim",
+  "quote_note": "Shortened with \"...\" (it gives a storage size).",
+  "who": "Alan Turing",
+  "where": "\"Computing Machinery and Intelligence\", Mind",
+  "quote_sources": [
+   {
+    "title": "Computing Machinery and Intelligence (Mind, 1950) — PDF, UMBC course archive",
+    "url": "https://courses.cs.umbc.edu/471/papers/turing.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "In a 2025 study with five-minute chats, people picked the AI model GPT-4.5 as the human 73% of the time.",
+  "happened_sources": [
+   {
+    "title": "Jones & Bergen, \"Large Language Models Pass the Turing Test\" — arXiv 2503.23674 (2025)",
+    "url": "https://arxiv.org/abs/2503.23674"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "It happened, about 25 years after his \"fifty years\".",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "vonbraun-1952-space-station",
+  "year": 1952,
+  "when": "March 1952",
+  "topic": "space",
+  "headline": "A SPACE STATION IS \"INEVITABLE AS THE RISING OF THE SUN\"",
+  "deck": "Wernher von Braun shows the nation a wheel-shaped station orbiting the Earth.",
+  "quote": "...as \"inevitable as the rising of the sun.\"",
+  "quote_kind": "reported",
+  "quote_note": "Paraphrase plus a short quoted phrase: von Braun predicted that the development of a space station orbiting Earth was as \"inevitable as the rising of the sun\" (New York Times TierneyLab, 2008).",
+  "who": "Wernher von Braun",
+  "where": "\"Man Will Conquer Space Soon!\", Collier's",
+  "quote_sources": [
+   {
+    "title": "Von Braun's Spaceship — The New York Times (TierneyLab), 14 Oct 2008",
+    "url": "https://archive.nytimes.com/tierneylab.blogs.nytimes.com/2008/10/14/von-brauns-spaceship/",
+    "kind": "secondary"
+   },
+   {
+    "title": "Von Braun, \"Crossing the Last Frontier,\" Collier's, 22 Mar 1952 — University of Oregon digital exhibit",
+    "url": "https://expo.uoregon.edu/spotlight/tomorrows-scientists/catalog/27-437",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "People have lived on the International Space Station continuously since 2 November 2000.",
+  "happened_sources": [
+   {
+    "title": "International Space Station — NASA",
+    "url": "https://www.nasa.gov/reference/international-space-station/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "The station came; it is more of a laboratory than his wheel.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "woolley-1956-bilge",
+  "year": 1956,
+  "when": "1956",
+  "topic": "space",
+  "headline": "SPACE TRAVEL IS \"UTTER BILGE\", SAYS ASTRONOMER ROYAL",
+  "deck": "Britain's top astronomer dismisses the whole idea of going into space.",
+  "quote": "...as late as 1956, Britain's Astronomer Royal called the prospect of space travel \"utter bilge.\"",
+  "quote_kind": "reported",
+  "quote_note": "Paraphrase with a two-word quote, as reported by Time magazine in 1966. Time does not name him; the Astronomer Royal in 1956 was Sir Richard Woolley.",
+  "who": "Britain's Astronomer Royal",
+  "where": "As reported in Time, 25 Feb 1966",
+  "quote_sources": [
+   {
+    "title": "\"The Futurists: Looking Toward A.D. 2000\" — Time, 25 Feb 1966",
+    "url": "https://time.com/archive/6628965/essay-the-futurists-looking-toward-a-d-2000/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "The next year, on 4 October 1957, the Soviet Union launched Sputnik 1, the first artificial satellite.",
+  "happened_sources": [
+   {
+    "title": "Sputnik and the Dawn of the Space Age — NASA History (archived copy)",
+    "url": "https://web.archive.org/web/2023/https://history.nasa.gov/sputnik/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Space travel began about a year later.",
+  "note": "Time quote checked in the fetched Time archive page (WebFetch) on 11 Nov 2026.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "navy-1958-perceptron",
+  "year": 1958,
+  "when": "8 July 1958",
+  "topic": "ai",
+  "headline": "NAVY SHOWS EMBRYO OF A THINKING MACHINE",
+  "deck": "A psychologist's computer learns by doing. The Navy expects great things.",
+  "quote": "The Navy revealed the embryo of an electronic computer today that it expects will be able to walk, talk, see, write, reproduce itself and be conscious of its existence.",
+  "quote_kind": "verbatim",
+  "quote_note": "The New York Times report (UPI) on Frank Rosenblatt's Perceptron.",
+  "who": "US Navy, as reported by The New York Times (UPI)",
+  "where": "\"New Navy Device Learns by Doing\"",
+  "quote_sources": [
+   {
+    "title": "\"New Navy Device Learns by Doing\" — The New York Times archive, 8 Jul 1958",
+    "url": "https://www.nytimes.com/1958/07/08/archives/new-navy-device-learns-by-doing-psychologist-shows-embryo-of.html",
+    "kind": "primary"
+   },
+   {
+    "title": "Professor's perceptron paved the way for AI – 60 years too soon — Cornell Chronicle",
+    "url": "https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Cornell says Rosenblatt's perceptron paved the way for today's AI, about 60 years too soon. Machines now talk, see and write. Conscious? No evidence yet.",
+  "happened_sources": [
+   {
+    "title": "Cornell Chronicle, 25 Sep 2019",
+    "url": "https://news.cornell.edu/stories/2019/09/professors-perceptron-paved-way-ai-60-years-too-soon"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Talk, see, write: yes. Reproduce itself and be conscious: not that anyone can show.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "summerfield-1959-missile-mail",
+  "year": 1959,
+  "when": "8 June 1959",
+  "topic": "rocket",
+  "headline": "MAIL BY GUIDED MISSILE, SAYS POSTMASTER",
+  "deck": "A Navy missile carries 3,000 letters. The Postmaster General sees the future of the post.",
+  "quote": "Before man reaches the moon, mail will be delivered within hours from New York to California, to Britain, to India or Australia by guided missiles.",
+  "quote_kind": "verbatim",
+  "who": "Arthur E. Summerfield, US Postmaster General",
+  "where": "Remarks on the 1959 Regulus missile-mail flight, as quoted by the Smithsonian National Postal Museum",
+  "quote_sources": [
+   {
+    "title": "Cruise Missile Mail — Smithsonian National Postal Museum",
+    "url": "https://postalmuseum.si.edu/exhibition/oddly-interesting-things-that-carried-the-mail/cruise-missile-mail",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "The Smithsonian calls it the only time a missile was used to carry mail in the United States.",
+  "happened_sources": [
+   {
+    "title": "Cruise Missile Mail — Smithsonian National Postal Museum",
+    "url": "https://postalmuseum.si.edu/exhibition/oddly-interesting-things-that-carried-the-mail/cruise-missile-mail"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "aired",
+  "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e3-mail-by-missile/",
+  "episode_label": "Episode 3: Mail by Missile",
+  "reason": "As ruled on air in Episode 3.",
+  "note": "Aired episode: quote and source as published in the archive (Smithsonian page blocks automated fetches).",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "kennedy-1961-moon",
+  "year": 1961,
+  "when": "25 May 1961",
+  "topic": "moon",
+  "headline": "A MAN ON THE MOON BEFORE THIS DECADE IS OUT",
+  "deck": "The President asks Congress for the Moon, and a safe trip home.",
+  "quote": "I believe that this nation should commit itself to achieving the goal, before this decade is out, of landing a man on the moon and returning him safely to the earth.",
+  "quote_kind": "verbatim",
+  "quote_note": "A goal and a promise rather than a forecast.",
+  "who": "President John F. Kennedy",
+  "where": "Address to a joint session of Congress",
+  "quote_sources": [
+   {
+    "title": "Address to Joint Session of Congress, May 25, 1961 — JFK Library",
+    "url": "https://www.jfklibrary.org/learn/about-jfk/historic-speeches/address-to-joint-session-of-congress-may-25-1961",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Neil Armstrong stepped onto the Moon on 20 July 1969, and Apollo 11 came home safely.",
+  "happened_sources": [
+   {
+    "title": "Apollo 11 mission overview — NASA",
+    "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Done with five months of the decade to spare.",
+  "note": "JFK Library quote checked via WebFetch on 11 Nov 2026.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "asimov-1964-robots",
+  "year": 1964,
+  "when": "16 August 1964",
+  "topic": "robot",
+  "headline": "ROBOTS NEITHER COMMON NOR GOOD IN 2014",
+  "deck": "Visiting the World's Fair, a science writer looks fifty years ahead.",
+  "quote": "Robots will neither be common nor very good in 2014, but they will be in existence.",
+  "quote_kind": "verbatim",
+  "who": "Isaac Asimov",
+  "where": "The New York Times",
+  "quote_sources": [
+   {
+    "title": "Visit to the World's Fair of 2014 — The New York Times",
+    "url": "https://archive.nytimes.com/www.nytimes.com/books/97/03/23/lifetimes/asi-v-fair.html",
+    "kind": "primary"
+   }
+  ],
+  "happened": "iRobot says it has sold more than 50 million robots since the first Roomba in 2002.",
+  "happened_sources": [
+   {
+    "title": "iRobot fourth-quarter and full-year 2024 results",
+    "url": "https://media.irobot.com/2025-03-12-iRobot-Reports-Fourth-Quarter-and-Full-Year-2024-Financial-Results"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "aired",
+  "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e2-robot-housemaid/",
+  "episode_label": "Episode 2: The Robot Housemaid",
+  "reason": "As ruled on air in Episode 2.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "panam-1964-moon-flight",
+  "year": 1964,
+  "when": "1964",
+  "topic": "moon",
+  "headline": "PAN AM: FIRST MOON FLIGHT EXPECTED IN 2000",
+  "deck": "A journalist books a ticket to the Moon. The airline accepts.",
+  "quote": "the first flight was expected to depart in 2000",
+  "quote_kind": "reported",
+  "quote_note": "Pan Am's reported reply to a 1964 request for a Moon flight.",
+  "who": "Pan Am",
+  "where": "Smithsonian National Air and Space Museum, \"Were You a Member of the First Moon Flights Club?\"",
+  "quote_sources": [
+   {
+    "title": "Were You a Member of the \"First Moon Flights\" Club? — Smithsonian NASM",
+    "url": "https://airandspace.si.edu/stories/editorial/were-you-member-%E2%80%9Cfirst-moon-flights%E2%80%9D-club",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "NASA's Artemis II crew flew around the Moon in April 2026, on a government mission. Still no tourist tickets.",
+  "happened_sources": [
+   {
+    "title": "NASA welcomes record-setting Artemis II Moonfarers back to Earth — NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "aired",
+  "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e4-pan-am-moon/",
+  "episode_label": "Episode 4: Pan Am to the Moon",
+  "reason": "As ruled on air in Episode 4.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "moore-1965-home-computers",
+  "year": 1965,
+  "when": "19 April 1965",
+  "topic": "chip",
+  "headline": "CHIPS WILL BRING HOME COMPUTERS AND PORTABLE PHONES",
+  "deck": "A chip engineer predicts components per chip will keep doubling, and lists the wonders to come.",
+  "quote": "Integrated circuits will lead to such wonders as home computers—or at least terminals connected to a central computer—automatic controls for automobiles, and personal portable communications equipment.",
+  "quote_kind": "verbatim",
+  "who": "Gordon E. Moore, Fairchild Semiconductor",
+  "where": "\"Cramming more components onto integrated circuits\", Electronics",
+  "quote_sources": [
+   {
+    "title": "Cramming more components onto integrated circuits (Electronics, 1965) — PDF, Georgia Tech",
+    "url": "https://hasler.ece.gatech.edu/Published_papers/Technology_overview/gordon_moore_1965_article.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "His doubling rule became \"Moore's Law\", which the Computer History Museum calls one of the driving principles of the chip industry.",
+  "happened_sources": [
+   {
+    "title": "1965: \"Moore's Law\" predicts the future of integrated circuits — Computer History Museum",
+    "url": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Home computers, car electronics and mobile phones, all in one sentence.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "rand-1966-moon-base-mars",
+  "year": 1966,
+  "when": "25 February 1966",
+  "topic": "mars",
+  "headline": "MOON BASE AND MEN ON MARS BEFORE 2000",
+  "deck": "Eighty-two scientists asked by the RAND Corporation agree on a busy century in space.",
+  "quote": "In Rand's Delphi study, 82 scientists agreed that a permanent lunar base will have been established long before A.D. 2000 and that men will have flown past Venus and landed on Mars.",
+  "quote_kind": "verbatim",
+  "quote_note": "Time's summary of the RAND study.",
+  "who": "82 scientists in a RAND Corporation study, as reported by Time",
+  "where": "\"The Futurists: Looking Toward A.D. 2000\", Time",
+  "quote_sources": [
+   {
+    "title": "\"The Futurists: Looking Toward A.D. 2000\" — Time, 25 Feb 1966",
+    "url": "https://time.com/archive/6628965/essay-the-futurists-looking-toward-a-d-2000/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "No Moon base and no one on Mars yet. NASA says it is working to send astronauts to Mars \"as early as the 2030s\".",
+  "happened_sources": [
+   {
+    "title": "Humans to Mars — NASA",
+    "url": "https://www.nasa.gov/humans-in-space/humans-to-mars/"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Both are still on the to-do list.",
+  "note": "Time quote checked in the fetched Time archive page (WebFetch) on 11 Nov 2026.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "time-1966-remote-shopping",
+  "year": 1966,
+  "when": "25 February 1966",
+  "topic": "shop",
+  "headline": "SHOPPING FROM HOME WILL FLOP, SAY SKEPTICS",
+  "deck": "The futurists picture shopping by video phone. Others are sure nobody will want it.",
+  "quote": "...remote shopping, while entirely feasible, will flop—because women like to get out of the house, like to handle the merchandise, like to be able to change their minds.",
+  "quote_kind": "verbatim",
+  "quote_note": "Time's summary of what the skeptics among the futurists said, not a named person's words.",
+  "who": "Skeptics among the futurists, as summed up by Time",
+  "where": "\"The Futurists: Looking Toward A.D. 2000\", Time",
+  "quote_sources": [
+   {
+    "title": "\"The Futurists: Looking Toward A.D. 2000\" — Time, 25 Feb 1966",
+    "url": "https://time.com/archive/6628965/essay-the-futurists-looking-toward-a-d-2000/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "E-commerce was 16.4% of all US retail sales in the second quarter of 2026, according to the US Census Bureau.",
+  "happened_sources": [
+   {
+    "title": "Quarterly retail e-commerce sales — US Census Bureau",
+    "url": "https://www.census.gov/retail/ecommerce.html"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Remote shopping did not flop. (The reasoning has not aged well either.)",
+  "note": "Time quote checked in the fetched Time archive page (WebFetch) on 11 Nov 2026.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "ehrlich-1968-famine",
+  "year": 1968,
+  "when": "1968",
+  "topic": "food",
+  "headline": "HUNDREDS OF MILLIONS WILL STARVE IN THE 1970s",
+  "deck": "A best-selling biologist says the battle to feed humanity is already lost.",
+  "quote": "The battle to feed all of humanity is over... In the 1970s... hundreds of millions of people are going to starve to death.",
+  "quote_kind": "verbatim",
+  "quote_note": "Two passages joined, as quoted by Smithsonian Magazine.",
+  "who": "Paul R. Ehrlich",
+  "where": "The Population Bomb (book)",
+  "quote_sources": [
+   {
+    "title": "The Book That Incited a Worldwide Fear of Overpopulation — Smithsonian Magazine",
+    "url": "https://www.smithsonianmag.com/innovation/the-book-incited-worldwide-fear-overpopulation-180967499/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Famines still kill, but Our World in Data shows famine deaths fell sharply over the second half of the 20th century, calling it one of the great accomplishments of our era.",
+  "happened_sources": [
+   {
+    "title": "Famines — Our World in Data",
+    "url": "https://ourworldindata.org/famines"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The mass starvation he forecast for the 1970s did not happen on anything like that scale.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "stg-1969-mars",
+  "year": 1969,
+  "when": "September 1969",
+  "topic": "mars",
+  "headline": "MAN ON MARS WITHIN 15 YEARS, SAYS SPACE PANEL",
+  "deck": "Weeks after Apollo 11, the White House space panel says NASA can do it.",
+  "quote": "We conclude that NASA has the demonstrated organizational competence and technology base, by virtue of the Apollo success and other achievements, to carry out a successful program to land man on Mars within 15 years.",
+  "quote_kind": "verbatim",
+  "who": "The Space Task Group (chaired by Vice-President Spiro Agnew)",
+  "where": "\"The Post-Apollo Space Program: Directions for the Future\"",
+  "quote_sources": [
+   {
+    "title": "Space Task Group Report, 1969 — NASA History",
+    "url": "https://www.nasa.gov/wp-content/uploads/static/history/taskgrp.html",
+    "kind": "primary"
+   },
+   {
+    "title": "\"Manned Mars Landing\", von Braun briefing, Aug 1969 — NASA Technical Reports Server",
+    "url": "https://ntrs.nasa.gov/citations/20240011937",
+    "kind": "primary"
+   }
+  ],
+  "happened": "No one has landed on Mars. NASA now aims for \"as early as the 2030s\".",
+  "happened_sources": [
+   {
+    "title": "Humans to Mars — NASA",
+    "url": "https://www.nasa.gov/humans-in-space/humans-to-mars/"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "The 15 years ran out in 1984. Mars is still waiting.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "clarke-1974-home-computer",
+  "year": 1974,
+  "when": "29 May 1974",
+  "topic": "computer",
+  "headline": "EVERY HOME WILL HAVE A COMPUTER CONSOLE BY 2001",
+  "deck": "Standing among room-sized machines, a writer describes your child's future.",
+  "quote": "...he will have, in his own house, not a computer as big as this, but at least a console through which he can talk to his friendly local computer and get all the information he needs for his everyday life like his bank statements, his theater reservations...",
+  "quote_kind": "verbatim",
+  "quote_note": "Transcribed from the ABC TV broadcast; shortened with \"...\".",
+  "who": "Arthur C. Clarke",
+  "where": "ABC (Australia) TV, Perspective: \"C for Computer\"",
+  "quote_sources": [
+   {
+    "title": "Arthur C Clarke's computer prediction in 1974 — ABC News (video)",
+    "url": "https://www.abc.net.au/news/2025-01-13/arthur-c-clarke-s-computer-prediction-in-1974/104808822",
+    "kind": "primary"
+   },
+   {
+    "title": "Tech Time Warp: Arthur C. Clarke predicts the internet, 1974 — WIRED",
+    "url": "https://www.wired.com/2013/03/tech-time-warp-arthur-c-clarke/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "5.5 billion people, 68% of the world, were online in 2024, says the ITU.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Online banking and booking from home, described 20 years before the web went mainstream.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "toffler-1980-electronic-cottage",
+  "year": 1980,
+  "when": "1980",
+  "topic": "home",
+  "headline": "MILLIONS WILL WORK FROM HOME",
+  "deck": "A futurist predicts the \"electronic cottage\", where jobs move back into the house.",
+  "quote": "...the new production system could shift literally millions of jobs out of the factories and offices into which the Second Wave swept them and right back where they came from originally: the home.",
+  "quote_kind": "verbatim",
+  "who": "Alvin Toffler",
+  "where": "The Third Wave (book)",
+  "quote_sources": [
+   {
+    "title": "The Third Wave — full text, Internet Archive",
+    "url": "https://archive.org/stream/TheThirdWave-Toffler/The-Third-Wave_-_Toffler_djvu.txt",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The number of Americans mainly working from home tripled from 2019 to 2021, to 27.6 million people (17.9% of workers), says the US Census Bureau.",
+  "happened_sources": [
+   {
+    "title": "The Number of People Primarily Working From Home Tripled Between 2019 and 2021 — US Census Bureau, 15 Sep 2022",
+    "url": "https://www.census.gov/newsroom/press-releases/2022/people-working-from-home.html"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Literally millions, though it took a pandemic to make it happen at scale.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "asimov-1983-robots-home",
+  "year": 1983,
+  "when": "31 December 1983",
+  "topic": "robot",
+  "headline": "ROBOTS WILL MOVE INTO THE HOME BY 2019",
+  "deck": "Asked to picture 2019, a science writer sees computers and robots everywhere.",
+  "quote": "An essential side product, the mobile computerized object, or robot, is already flooding into industry and will, in the course of the next generation, penetrate the home.",
+  "quote_kind": "verbatim",
+  "who": "Isaac Asimov",
+  "where": "Toronto Star",
+  "quote_sources": [
+   {
+    "title": "35 years ago, Isaac Asimov was asked by the Star to predict the world of 2019 — Toronto Star (archived copy)",
+    "url": "https://www.thestar.com/news/world/2018/12/27/35-years-ago-isaac-asimov-was-asked-by-the-star-to-predict-the-world-of-2019-here-is-what-he-wrote.html",
+    "kind": "primary"
+   }
+  ],
+  "happened": "iRobot says it has sold more than 50 million robots since 2002, almost all floor cleaners. General-purpose home robots are still at the pre-order stage.",
+  "happened_sources": [
+   {
+    "title": "iRobot fourth-quarter and full-year 2024 results",
+    "url": "https://media.irobot.com/2025-03-12-iRobot-Reports-Fourth-Quarter-and-Full-Year-2024-Financial-Results"
+   },
+   {
+    "title": "NEO home robot — 1X",
+    "url": "https://www.1x.tech/discover/neo-home-robot"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Robots did get into the home, but mostly to vacuum it.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "jobs-1985-network",
+  "year": 1985,
+  "when": "February 1985",
+  "topic": "computer",
+  "headline": "HOME COMPUTERS WILL BE FOR GETTING ONLINE",
+  "deck": "The 29-year-old co-founder of Apple says the network, not the spreadsheet, will sell the home computer.",
+  "quote": "The most compelling reason for most people to buy a computer for the home will be to link it into a nationwide communications network.",
+  "quote_kind": "verbatim",
+  "who": "Steve Jobs",
+  "where": "Playboy interview",
+  "quote_sources": [
+   {
+    "title": "Playboy Interview: Steven Jobs (1985) — allaboutstevejobs.com transcript",
+    "url": "https://allaboutstevejobs.com/verbatim/interviews/playboy_1985",
+    "kind": "transcript"
+   },
+   {
+    "title": "In 1985, Steve Jobs predicted the internet would inspire everyone to buy computers — The Verge",
+    "url": "https://www.theverge.com/2014/12/15/7396569/Steve-jobs-internet-interview",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "5.5 billion people were online in 2024 (ITU). Getting online is now the main reason most people own a computer or phone at all.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "It went worldwide, not just nationwide.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "apple-1987-knowledge-navigator",
+  "year": 1987,
+  "when": "1987",
+  "topic": "ai",
+  "headline": "A TALKING ASSISTANT IN A FOLDING COMPUTER",
+  "deck": "Apple films a professor of the future chatting with a digital helper. The calendar on screen says September 2011.",
+  "quote": "A concept film showing a professor talking to a digital personal assistant that understands ordinary speech, finds articles and places video calls, on a folding tablet-style computer.",
+  "quote_kind": "paraphrase",
+  "quote_note": "Paraphrase: this is a video, not a quotation. NBC News notes the film is set in September 2011.",
+  "who": "Apple (under CEO John Sculley)",
+  "where": "\"Knowledge Navigator\" concept video",
+  "quote_sources": [
+   {
+    "title": "Knowledge Navigator (1987) — Internet Archive",
+    "url": "https://archive.org/details/knowledge-navigator",
+    "kind": "primary"
+   },
+   {
+    "title": "25 years before Siri, Apple had 'Knowledge Navigator' — NBC News, 5 Oct 2011",
+    "url": "https://www.nbcnews.com/tech/tech-news/25-years-siri-apple-had-knowledge-navigator-flna120157",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "On 4 October 2011, weeks after the film's imagined date, Apple introduced Siri on the iPhone 4S.",
+  "happened_sources": [
+   {
+    "title": "Apple Launches iPhone 4S, iOS 5 & iCloud — Apple Newsroom, 4 Oct 2011",
+    "url": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "They even got the month about right.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "latimes-1988-robot-housekeeper",
+  "year": 1988,
+  "when": "3 April 1988",
+  "topic": "robot",
+  "headline": "BY 2013, A ROBOT WILL COOK, CLEAN AND DO THE WASHING",
+  "deck": "A magazine asks 30 experts to imagine one day in the life of a Los Angeles family in 2013.",
+  "quote": "The imagined 2013 family has a housekeeper robot that not only cleans but cooks and washes clothes, and the experts expect inexpensive household robots on sale in the late 1990s.",
+  "quote_kind": "paraphrase",
+  "quote_note": "Paraphrase of the 1988 article, as described by the Los Angeles Times in 2013.",
+  "who": "Nicole Yorkin and the experts she interviewed",
+  "where": "\"L.A. 2013\", Los Angeles Times Magazine",
+  "quote_sources": [
+   {
+    "title": "No robots in our homes, but many predictions about 2013 come true — Los Angeles Times, 14 Mar 2013",
+    "url": "https://www.latimes.com/la-me-future-city-20130314-story.html",
+    "kind": "secondary"
+   },
+   {
+    "title": "L.A. 2013 — Los Angeles Times archive, 3 Apr 1988",
+    "url": "https://www.latimes.com/archives/la-xpm-1988-04-03-tm-631-story.html",
+    "kind": "primary"
+   }
+  ],
+  "happened": "In 2013 a USC class marked the predictions and found the household robots \"the most off base\". The closest thing: robot vacuums.",
+  "happened_sources": [
+   {
+    "title": "Los Angeles Times, 14 Mar 2013",
+    "url": "https://www.latimes.com/la-me-future-city-20130314-story.html"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Your washing is still waiting.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "kurzweil-1990-chess",
+  "year": 1990,
+  "when": "February 1993",
+  "topic": "chess",
+  "headline": "A COMPUTER WILL BE CHESS CHAMPION BEFORE THE 1990S ARE OUT",
+  "deck": "An inventor's 1990 book calls the human chess champion an endangered species.",
+  "quote": "I also predicted that the world chess champion would be a computer by the end of the decade... the human chess champion should be regarded as a decidedly endangered species.",
+  "quote_kind": "verbatim",
+  "quote_note": "Kurzweil restating, in his Library Journal column of February 1993, the prediction he made in his 1990 book The Age of Intelligent Machines.",
+  "who": "Ray Kurzweil",
+  "where": "looking back on his 1990 book in Library Journal",
+  "quote_sources": [
+   {
+    "title": "The virtual book revisited — Ray Kurzweil (Library Journal, Feb 1993), writingsbyraykurzweil.com",
+    "url": "https://www.writingsbyraykurzweil.com/the-virtual-book-revisited-2",
+    "kind": "primary (author's own site)"
+   }
+  ],
+  "happened": "In May 1997 IBM's Deep Blue beat world champion Garry Kasparov, the first computer to beat a reigning champion in a match under tournament rules.",
+  "happened_sources": [
+   {
+    "title": "Deep Blue — IBM Heritage",
+    "url": "https://www.ibm.com/history/deep-blue"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Deep Blue did it in 1997, with time to spare.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "weiser-1991-tabs-pads",
+  "year": 1991,
+  "when": "September 1991",
+  "topic": "computer",
+  "headline": "COMPUTERS WILL VANISH INTO EVERYDAY LIFE",
+  "deck": "A Xerox scientist describes tabs, pads and boards: computers the size of notes, pages and walls.",
+  "quote": "Hundreds of computers in a room could seem intimidating at first, just as hundreds of volts coursing through wires in the walls did at one time. But like the wires in the walls, these hundreds of computers will come to be invisible to common awareness.",
+  "quote_kind": "verbatim",
+  "quote_note": "From the author's final manuscript of the article.",
+  "who": "Mark Weiser, Xerox PARC",
+  "where": "\"The Computer for the 21st Century\", Scientific American",
+  "quote_sources": [
+   {
+    "title": "The Computer for the 21st Century — manuscript PDF, UC Irvine",
+    "url": "https://www.ics.uci.edu/~corps/phaseii/Weiser-Computer21stCentury-SciAm.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Apple's iPad, a foot-scale 'pad', launched in January 2010. Phones, watches and smart speakers followed him into every room, though not hundreds per room.",
+  "happened_sources": [
+   {
+    "title": "Apple Launches iPad — Apple Newsroom, 27 Jan 2010",
+    "url": "https://www.apple.com/newsroom/2010/01/27Apple-Launches-iPad/"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "The pads arrived. The hundreds per room did not.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "att-1993-you-will",
+  "year": 1993,
+  "when": "1993",
+  "topic": "phone",
+  "headline": "HAVE YOU EVER WATCHED A MOVIE THE MOMENT YOU WANTED? YOU WILL.",
+  "deck": "A phone company's TV adverts promise a future of on-demand films, video calls and maps in the car.",
+  "quote": "Have you ever watched the movie you wanted to, the moment you wanted to? You will.",
+  "quote_kind": "verbatim",
+  "quote_note": "One of 12 predictions in the \"You Will\" adverts, narrated by Tom Selleck.",
+  "who": "AT&T",
+  "where": "\"You Will\" TV advertising campaign",
+  "quote_sources": [
+   {
+    "title": "How Tom Selleck predicted the future of tech — Fortune, 12 Aug 2011",
+    "url": "https://fortune.com/2011/08/12/how-tom-selleck-predicted-the-future-of-tech/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Fortune counted 12 predictions in the campaign in 2011 and said every one had come true, including GPS, video calls and tablets.",
+  "happened_sources": [
+   {
+    "title": "Fortune, 12 Aug 2011",
+    "url": "https://fortune.com/2011/08/12/how-tom-selleck-predicted-the-future-of-tech/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "All of it came true, though mostly from other companies.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "metcalfe-1995-collapse",
+  "year": 1995,
+  "when": "4 December 1995",
+  "topic": "internet",
+  "headline": "THE INTERNET WILL COLLAPSE IN 1996",
+  "deck": "The inventor of Ethernet predicts a catastrophe, and promises to eat his words if wrong.",
+  "quote": "But I predict the Internet, which only just recently got this section here in InfoWorld, will soon go spectacularly supernova and in 1996 catastrophically collapse.",
+  "quote_kind": "verbatim",
+  "who": "Robert Metcalfe",
+  "where": "InfoWorld column",
+  "quote_sources": [
+   {
+    "title": "Predicting the Internet's catastrophic collapse and ghost sites galore in 1996 — InfoWorld (archived copy)",
+    "url": "https://web.archive.org/web/19990913041024/www.infoworld.com/cgi-bin/displayNew.pl?/metcalfe/bm120495.htm",
+    "kind": "primary"
+   },
+   {
+    "title": "Quote Investigator: \"Spectacularly supernova\"",
+    "url": "https://quoteinvestigator.com/2020/03/09/collapse/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "It did not collapse. In April 1997 Metcalfe put his column in a blender and ate it with a spoon on stage.",
+  "happened_sources": [
+   {
+    "title": "Quote Investigator",
+    "url": "https://quoteinvestigator.com/2020/03/09/collapse/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "He literally ate his words.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "stoll-1995-nirvana",
+  "year": 1995,
+  "when": "26 February 1995",
+  "topic": "internet",
+  "headline": "\"BALONEY\": THE WEB WON'T REPLACE YOUR NEWSPAPER",
+  "deck": "An astronomer and early net user says the online hype is overblown.",
+  "quote": "The truth is no online database will replace your daily newspaper, no CD-ROM can take the place of a competent teacher and no computer network will change the way government works.",
+  "quote_kind": "verbatim",
+  "who": "Clifford Stoll",
+  "where": "\"Why the Web Won't Be Nirvana\", Newsweek",
+  "quote_sources": [
+   {
+    "title": "Why the Web Won't Be Nirvana — Newsweek, 26 Feb 1995",
+    "url": "https://www.newsweek.com/clifford-stoll-why-web-wont-be-nirvana-185306",
+    "kind": "primary"
+   }
+  ],
+  "happened": "88% of US adults now get news at least sometimes from a smartphone, computer or tablet, Pew Research reports, by far the most common way.",
+  "happened_sources": [
+   {
+    "title": "News Platform Fact Sheet — Pew Research Center",
+    "url": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "You may be reading this front page on a screen.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "dell-1997-apple",
+  "year": 1997,
+  "when": "6 October 1997",
+  "topic": "computer",
+  "headline": "\"SHUT IT DOWN\": DELL'S ADVICE FOR APPLE",
+  "deck": "Asked what he would do with struggling Apple, a rival computer boss has a short answer.",
+  "quote": "What would I do? I'd shut it down and give the money back to the shareholders.",
+  "quote_kind": "verbatim",
+  "quote_note": "A judgement on Apple's prospects rather than a dated forecast.",
+  "who": "Michael Dell",
+  "where": "Technology conference, as reported by CNN",
+  "quote_sources": [
+   {
+    "title": "14 years later, Dell founder backtracks on Apple attack — CNN, 18 Oct 2011",
+    "url": "https://edition.cnn.com/2011/10/18/tech/web/michael-dell-apple/index.html",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Apple went from near-bankruptcy to the most valuable company by market value, as CNN reported in 2011.",
+  "happened_sources": [
+   {
+    "title": "CNN, 18 Oct 2011",
+    "url": "https://edition.cnn.com/2011/10/18/tech/web/michael-dell-apple/index.html"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The shareholders did rather well by not getting their money back.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "krugman-1998-fax",
+  "year": 1998,
+  "when": "10 June 1998",
+  "topic": "internet",
+  "headline": "INTERNET NO BIGGER THAN THE FAX MACHINE BY 2005",
+  "deck": "A leading economist warns that the online boom is overrated.",
+  "quote": "By 2005 or so, it will become clear that the Internet's impact on the economy has been no greater than the fax machine's.",
+  "quote_kind": "verbatim",
+  "quote_note": "Krugman later said the piece was meant to be fun and provocative. Snopes rates the quote \"True\".",
+  "who": "Paul Krugman",
+  "where": "\"Why most economists' predictions are wrong\", Red Herring",
+  "quote_sources": [
+   {
+    "title": "Did Paul Krugman say the Internet's effect would be 'no greater than the fax machine's'? — Snopes (True)",
+    "url": "https://www.snopes.com/fact-check/paul-krugman-internets-effect-economy/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "5.5 billion people were online by 2024, and Snopes calls the internet's economic effect \"nothing short of transformative\".",
+  "happened_sources": [
+   {
+    "title": "Snopes, 7 Jun 2018",
+    "url": "https://www.snopes.com/fact-check/paul-krugman-internets-effect-economy/"
+   },
+   {
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Fax machines did not get 5.5 billion users.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "kamen-2001-segway",
+  "year": 2001,
+  "when": "December 2001",
+  "topic": "wheel",
+  "headline": "THE SEGWAY WILL DO TO THE CAR WHAT THE CAR DID TO THE HORSE",
+  "deck": "After a year of hype, an inventor unveils his secret machine.",
+  "quote": "[The Segway] \"will be to the car what the car was to the horse and buggy.\"",
+  "quote_kind": "verbatim",
+  "who": "Dean Kamen",
+  "where": "Time magazine, \"Reinventing the Wheel\"",
+  "quote_sources": [
+   {
+    "title": "Reinventing The Wheel — Time, 10 Dec 2001",
+    "url": "https://time.com/archive/6665389/reinventing-the-wheel-2/",
+    "kind": "primary"
+   },
+   {
+    "title": "Meet 'It' — CBS News, Dec 2001",
+    "url": "https://www.cbsnews.com/news/meet-it/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Production of the original Segway PT ended on 15 July 2020. Cars are still here.",
+  "happened_sources": [
+   {
+    "title": "US production of PT to end — Segway New Zealand (official distributor)",
+    "url": "https://www.segway.co.nz/blogs/blog/us-production-of-pt-ending"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Mall security loved it. The car did not notice.",
+  "note": "Time article also read in full via WebFetch on 11 Nov 2026.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "jobs-2003-subscriptions",
+  "year": 2003,
+  "when": "December 2003",
+  "topic": "music",
+  "headline": "MUSIC SUBSCRIPTIONS ARE \"BANKRUPT\", SAYS JOBS",
+  "deck": "The man selling songs for 99 cents is sure nobody wants to rent music.",
+  "quote": "The subscription model of buying music is bankrupt. I think you could make available the Second Coming in a subscription model, and it might not be successful.",
+  "quote_kind": "verbatim",
+  "who": "Steve Jobs",
+  "where": "The Rolling Stone Interview",
+  "quote_sources": [
+   {
+    "title": "The Rolling Stone Interview: Steve Jobs — Rolling Stone, 25 Dec 2003",
+    "url": "https://www.rollingstone.com/music/music-news/the-rolling-stone-interview-steve-jobs-233293/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "752 million people paid for music streaming subscriptions in 2024, says the record industry body IFPI.",
+  "happened_sources": [
+   {
+    "title": "IFPI Global Music Report 2025 press release",
+    "url": "https://www.ifpi.org/ifpi-amidst-highly-competitive-market-global-recorded-music-revenues-grew-4-8-in-2024/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "752 million paying subscribers would like a word.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "gates-2004-spam",
+  "year": 2004,
+  "when": "24 January 2004",
+  "topic": "mail",
+  "headline": "SPAM WILL BE GONE IN TWO YEARS, GATES PROMISES",
+  "deck": "The world's richest man tells Davos that junk e-mail is nearly beaten.",
+  "quote": "Microsoft is pursuing all three approaches, and spam will soon be a thing of the past.",
+  "quote_kind": "verbatim",
+  "quote_note": "The BBC reported his promise as spam gone \"in two years' time\".",
+  "who": "Bill Gates",
+  "where": "World Economic Forum, Davos, as reported by BBC News",
+  "quote_sources": [
+   {
+    "title": "Gates forecasts victory over spam — BBC News, 24 Jan 2004",
+    "url": "http://news.bbc.co.uk/2/hi/technology/3426367.stm",
+    "kind": "primary"
+   }
+  ],
+  "happened": "In 2024, 47.27% of all emails sent worldwide were spam, according to Kaspersky.",
+  "happened_sources": [
+   {
+    "title": "Spam and phishing in 2024 — Kaspersky Securelist",
+    "url": "https://securelist.com/spam-and-phishing-report-2024/115536/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Check your junk folder.",
+  "note": "BBC quote checked via WebFetch on 11 Nov 2026.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "ballmer-2007-iphone",
+  "year": 2007,
+  "when": "April 2007",
+  "topic": "phone",
+  "headline": "\"NO CHANCE\" FOR THE iPHONE, SAYS MICROSOFT CHIEF",
+  "deck": "Two months before it goes on sale, a rival boss writes off Apple's phone.",
+  "quote": "There's no chance that the iPhone is going to get any significant market share. No chance.",
+  "quote_kind": "verbatim",
+  "who": "Steve Ballmer",
+  "where": "USA Today interview",
+  "quote_sources": [
+   {
+    "title": "Ballmer interview — USA Today, 29 Apr 2007",
+    "url": "https://usatoday30.usatoday.com/money/companies/management/2007-04-29-ballmer-ceo-forum-usat_N.htm",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Apple said in July 2016 that it had sold more than 1 billion iPhones.",
+  "happened_sources": [
+   {
+    "title": "1 Billion iPhones Sold: A Look Back — InformationWeek, 28 Jul 2016",
+    "url": "https://www.informationweek.com/it-leadership/1-billion-iphones-sold-a-look-back"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "A billion is a significant share.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "keyes-2008-netflix",
+  "year": 2008,
+  "when": "December 2008",
+  "topic": "film",
+  "headline": "NETFLIX NOT EVEN ON THE RADAR, SAYS BLOCKBUSTER BOSS",
+  "deck": "The head of the video-rental giant names his real rivals.",
+  "quote": "Neither RedBox nor Netflix are even on the radar screen in terms of competition.",
+  "quote_kind": "verbatim",
+  "quote_note": "A judgement about competitors rather than a dated forecast.",
+  "who": "Jim Keyes, CEO of Blockbuster",
+  "where": "Interview with The Motley Fool",
+  "quote_sources": [
+   {
+    "title": "Blockbuster CEO Has Answers — The Motley Fool, 10 Dec 2008",
+    "url": "https://www.fool.com/investing/general/2008/12/10/blockbuster-ceo-has-answers.aspx",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Less than two years later, Blockbuster filed for Chapter 11 bankruptcy protection (September 2010).",
+  "happened_sources": [
+   {
+    "title": "Blockbuster Inc., affiliates file Chapter 11 — Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/bankruptcy-law/blockbuster-inc-affiliates-file-chapter-11-with-pre-arranged-recapitalization-plan"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The radar needed new batteries.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "pew-2008-mobile",
+  "year": 2008,
+  "when": "14 December 2008",
+  "topic": "phone",
+  "headline": "YOUR PHONE WILL BE YOUR MAIN WAY ONLINE BY 2020",
+  "deck": "More than a thousand internet experts are asked to picture 2020.",
+  "quote": "The mobile phone is the primary connection tool for most people in the world.",
+  "quote_kind": "verbatim",
+  "quote_note": "A scenario for 2020 put to experts; most of them agreed with it.",
+  "who": "Pew Research Center and Elon University survey of experts",
+  "where": "\"The Future of the Internet III\"",
+  "quote_sources": [
+   {
+    "title": "Scenario 1: The evolution of mobile internet communications — Pew Research Center, 14 Dec 2008",
+    "url": "https://www.pewresearch.org/internet/2008/12/14/scenario-1-the-evolution-of-mobile-internet-communications/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The ITU says mobile phones are now the most common gateway to the internet.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Mobile phone ownership — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-mobile-phone-ownership/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Right on time.",
+  "opened": "2026-11-11"
+ },
+ {
+  "id": "gates-2010-lectures",
+  "year": 2010,
+  "when": "6 August 2010",
+  "topic": "school",
+  "headline": "THE BEST LECTURES IN THE WORLD, FREE ONLINE IN FIVE YEARS",
+  "deck": "A software billionaire says the web will beat any single university.",
+  "quote": "Five years from now on the web for free you'll be able to find the best lectures in the world. It will be better than any single university.",
+  "quote_kind": "verbatim",
+  "who": "Bill Gates",
+  "where": "Techonomy conference, Lake Tahoe, as reported by TechCrunch",
+  "quote_sources": [
+   {
+    "title": "Bill Gates: In Five Years The Best Education Will Come From The Web — TechCrunch, 6 Aug 2010",
+    "url": "https://techcrunch.com/2010/08/06/bill-gates-education/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "In 2012 Harvard and MIT launched edX to offer online versions of their courses. The lectures came; \"better than any single university\" is still argued over.",
+  "happened_sources": [
+   {
+    "title": "MIT and Harvard announce edX — MIT News, 2 May 2012",
+    "url": "https://news.mit.edu/2012/mit-harvard-edx-announcement-050212"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Free world-class lectures: yes. Replacing the university: not yet.",
+  "opened": "2026-11-11"
+ }
+]
