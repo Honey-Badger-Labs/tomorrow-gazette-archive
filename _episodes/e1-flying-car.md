@@ -25,6 +25,11 @@ since:
     sources: [S3]
   - fact: As of 30 September 2026, EHang ticket sales were still awaiting approval, so this does not establish an everyday public passenger service.
     sources: [S4]
+# Its stop on the Journey Through Tomorrow page (docs/episode-schema.md).
+journey:
+  motif: flyingcar
+  label: Flying car
+  since: 1
 verdict: PARTLY RIGHT
 verdict_reason: A certified roadable aircraft, the closest match to Ford's combination airplane and motor car, now exists, making Ford's prediction partly right. But eVTOLs are aircraft rather than road cars, and an everyday public service is not yet established by the cited evidence.
 sources:

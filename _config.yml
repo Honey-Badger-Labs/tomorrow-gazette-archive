@@ -19,6 +19,12 @@ join:
   name: Citizens of Tomorrow
   url: https://paybru.co.za/communities/citizens-of-tomorrow
 
+# When a numbered episode goes out (SAST, UTC+2). The Journey Through
+# Tomorrow page only lists an episode once its publish_date at this time has
+# passed at build time, and a special once its `published` time has passed.
+air_time: "18:00"
+air_offset: "+0200"
+
 # One Markdown file per episode in _episodes/ (AD1). Fields: A-T6.
 collections:
   episodes:

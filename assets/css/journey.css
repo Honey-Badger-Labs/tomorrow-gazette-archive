@@ -1,0 +1,86 @@
+/* Journey Through Tomorrow (/journey/): the archive's one dark page.
+   Builds on site.css (palette, fonts, verdict stamps). Night colours are
+   defined there too. Why it's dark: docs/style-guide.md. */
+
+.journey-page { margin: 0; min-height: 100vh; color: var(--cream); background: radial-gradient(ellipse at 50% 30%, #101a33 0, var(--night) 70%) fixed, var(--night); }
+.journey-page a { color: var(--teal-night); }
+.journey-page a:hover { color: var(--cream-light); }
+.journey-page :focus-visible { outline-color: var(--coral); }
+.journey-page h2::before { content: none; }
+.journey-page h1, .journey-page h2 { color: var(--cream); }
+
+#journey-scene { display: none; }
+.journey-topbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: .3rem 1.5rem; padding: .8rem 1.2rem; }
+.journey-topbar p, .journey-home { margin: 0; font: 700 .68rem/1.4 var(--font-type); letter-spacing: .14em; text-transform: uppercase; }
+.journey-home { color: var(--brass) !important; text-decoration: none; }
+.journey-home:hover { color: var(--cream-light) !important; }
+.journey-ai { color: rgba(243, 233, 210, .7); letter-spacing: .06em !important; text-transform: none !important; }
+
+/* List mode: no JavaScript, no WebGL, or the reader asked for the list. */
+.journey-main { max-width: var(--measure); margin: 0 auto; padding: 1rem; }
+.journey-intro .kicker { color: var(--brass); margin: 0; }
+.journey-intro h1 { margin: .2rem 0 .5rem; font-size: clamp(1.8rem, 5vw, 2.6rem); }
+.journey-list { list-style: none; margin: 1.5rem 0 3rem; padding: 0; display: flex; flex-direction: column; gap: 1.25rem; }
+.journey-stop { padding: 1rem 1.1rem; border-left: 2px solid var(--brass); background: rgba(20, 33, 61, .55); }
+.stop-year { margin: 0; font: 400 clamp(1.6rem, 3.6vw, 2.4rem)/1 var(--font-display); color: var(--brass); letter-spacing: .04em; }
+.stop-heading { display: flex; flex-wrap: wrap; align-items: center; gap: .2rem 1rem; }
+.stop-title { margin: .15rem 0; padding: 0; border: 0; font-size: clamp(1.2rem, 2.6vw, 1.7rem); }
+.stop-heading .verdict-stamp { margin: .2rem 0; }
+.stop-scale { margin: .15rem 0 .5rem; font: 700 .72rem/1.4 var(--font-type); letter-spacing: .12em; text-transform: uppercase; color: rgba(243, 233, 210, .82); }
+.stop-scale i { font-style: normal; color: var(--coral); padding: 0 .3rem; }
+.stop-quote { margin: 0 0 .35rem; padding: 0; border: 0; background: none; }
+.stop-quote p { margin: 0; font: italic 1rem/1.45 var(--font-body); color: var(--cream-light); }
+.stop-who, .stop-happened, .stop-links { margin: .3rem 0 0; font: 700 .78rem/1.5 var(--font-type); color: rgba(243, 233, 210, .85); }
+.stop-who b, .stop-happened b { color: var(--brass); letter-spacing: .1em; text-transform: uppercase; font-size: .68rem; margin-right: .35rem; }
+.journey-notice { margin: 1rem 0 0; font: 700 .75rem/1.5 var(--font-type); color: var(--cream); }
+
+/* Immersive mode: set by journey.js once WebGL works. */
+.immersive { overflow: hidden; }
+.immersive #journey-scene { display: block; position: fixed; inset: 0; width: 100vw; height: 100vh; }
+.immersive .journey-topbar { position: fixed; z-index: 3; top: 0; left: 0; right: 0; background: linear-gradient(var(--night-panel), rgba(7, 11, 22, 0)); }
+.immersive .journey-intro, .immersive .journey-list { display: none; }
+.immersive .journey-main { padding: 0; }
+.journey-caption { position: fixed; z-index: 2; left: 50%; transform: translateX(-50%); width: min(50rem, calc(100vw - 2rem)); overflow: auto;
+  padding: .8rem 1.1rem 1rem; border-left: 2px solid var(--brass); background: linear-gradient(rgba(7, 11, 22, .3), var(--night-panel) 30%); transition: opacity .3s ease; }
+.journey-caption .journey-stop { display: block; list-style: none; padding: 0; border: 0; background: none; }
+.journey-caption.fading { opacity: 0; }
+.journey-caption .verdict-stamp.thump { animation: journey-thump .45s cubic-bezier(.2, 1.6, .4, 1); }
+@keyframes journey-thump { 0% { transform: rotate(-4deg) scale(1.8); opacity: 0; } 100% { transform: rotate(-4deg) scale(1); opacity: 1; } }
+
+.journey-controls { position: fixed; z-index: 3; left: 0; right: 0; bottom: 0; display: grid; grid-template-columns: auto 1fr auto; gap: .8rem 1rem; align-items: start;
+  padding: .9rem 1.2rem 1rem; background: linear-gradient(rgba(7, 11, 22, 0), rgba(7, 11, 22, .94) 35%); }
+.journey-controls[hidden] { display: none; }
+.journey-btn { font: 700 .7rem/1 var(--font-type); letter-spacing: .16em; text-transform: uppercase; color: var(--cream); background: rgba(20, 33, 61, .75);
+  border: 1px solid var(--brass); border-radius: 999px; padding: .65rem 1rem; cursor: pointer; }
+.journey-btn:hover, .journey-btn[aria-pressed="true"] { background: var(--brass); color: var(--navy); }
+.journey-btn-small { padding: .45rem .7rem; font-size: .62rem; }
+.journey-track-wrap { position: relative; padding-top: .35rem; }
+#journey-track { width: 100%; margin: 0; accent-color: var(--brass); height: 1.4rem; background: transparent; }
+.journey-ticks { list-style: none; margin: .1rem 0 0; padding: 0; position: relative; height: 2.4rem; }
+.journey-ticks li { position: absolute; top: 0; transform: translateX(-50%); }
+.journey-ticks li:first-child { transform: none; } .journey-ticks li:last-child { transform: translateX(-100%); }
+.journey-ticks button { background: none; border: 0; padding: .1rem .15rem; cursor: pointer; color: rgba(243, 233, 210, .7);
+  font: 700 .6rem/1.2 var(--font-type); letter-spacing: .08em; text-transform: uppercase; text-align: center; white-space: nowrap; }
+.journey-ticks button span { display: block; color: var(--brass); }
+.journey-ticks button[aria-current="true"] { color: var(--cream-light); }
+.journey-side { display: grid; gap: .45rem; justify-items: end; }
+.journey-jump { display: flex; align-items: center; gap: .4rem; }
+.journey-jump label { font: 700 .62rem/1 var(--font-type); letter-spacing: .14em; text-transform: uppercase; color: var(--brass); }
+.journey-jump input { width: 6.8rem; font: 700 .85rem/1 var(--font-type); padding: .45rem .5rem; color: var(--cream); background: rgba(20, 33, 61, .85); border: 1px solid var(--brass); border-radius: .3rem; }
+.journey-jump-note { margin: 0; min-height: 1em; max-width: 19rem; text-align: right; font: 700 .62rem/1.35 var(--font-type); color: rgba(243, 233, 210, .8); }
+.journey-list-link { font: 700 .62rem/1 var(--font-type); letter-spacing: .1em; text-transform: uppercase; }
+
+@media (max-width: 760px) {
+  .journey-topbar { padding: .55rem .8rem; } .journey-topbar p, .journey-home { font-size: .58rem; }
+  .immersive .journey-ai { display: none; }
+  .journey-caption { padding: .5rem .7rem; }
+  .stop-quote p { font-size: .92rem; }
+  .stop-who, .stop-happened, .stop-links { font-size: .68rem; }
+  .journey-caption .verdict-stamp { font-size: 1rem; }
+  .journey-controls { grid-template-columns: auto 1fr; padding: .6rem .7rem .8rem; }
+  .journey-side { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; }
+  .journey-jump label { display: none; }
+  .journey-jump-note { order: 3; flex-basis: 100%; text-align: left; max-width: none; }
+  .journey-ticks button { font-size: 0; } .journey-ticks button span { font-size: .58rem; }
+}
+@media (prefers-reduced-motion: reduce) { .journey-caption .verdict-stamp.thump { animation: none; } .journey-caption { transition: none; } }

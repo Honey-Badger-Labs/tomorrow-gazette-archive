@@ -1,0 +1,55 @@
+---
+title: Journey Through Tomorrow
+description: Every prediction Tomorrow Gazette has checked, in the order it was made, with Dot's verdict and the sources. Press Play and watch yesterday's tomorrow unfold.
+permalink: /journey/
+layout: journey
+---
+{%- comment -%}
+  The stops are built from the published episodes (_episodes/) and specials
+  (_data/specials.yml) at build time. Nothing unaired is ever in this repo,
+  and an entry is also held back until its air time has passed when the site
+  is built (site.air_time / air_offset, SAST). So an unaired story can't
+  appear. Each list item carries everything the page shows; journey.js reads
+  them, and without JavaScript or WebGL the list itself is the page.
+{%- endcomment -%}
+{%- assign now = site.time | date: "%s" | plus: 0 -%}
+<ol class="journey-list" id="journey-list" aria-label="Predictions, oldest first">
+{%- for e in site.episodes -%}
+  {%- if e.status != "published" -%}{%- continue -%}{%- endif -%}
+  {%- assign aired_at = e.publish_date | date: "%Y-%m-%d" | append: " " | append: site.air_time | append: " " | append: site.air_offset | date: "%s" | plus: 0 -%}
+  {%- if aired_at > now -%}{%- continue -%}{%- endif -%}
+  {%- assign year = e.prediction.when | append: "" | slice: 0, 4 -%}
+  {%- assign fact_index = e.journey.since | default: 1 | minus: 1 -%}
+  {%- assign fact = e.since[fact_index] -%}
+  {%- assign quote_source = e.sources | where: "id", e.prediction.source | first -%}
+  {%- if fact -%}{%- assign fact_source = e.sources | where: "id", fact.sources[0] | first -%}{%- else -%}{%- assign fact_source = nil -%}{%- endif -%}
+  <li class="journey-stop" id="{{ e.slug }}" style="order: {{ year }}" data-year="{{ year }}" data-aired="{{ aired_at }}" data-motif="{{ e.journey.motif | default: 'sunburst' }}" data-label="{{ e.journey.label | default: e.title }}">
+    <p class="stop-year">{{ year }}</p>
+    <div class="stop-heading"><h2 class="stop-title">{{ e.title }}</h2>{% include verdict-stamp.html verdict=e.verdict %}</div>
+    <p class="stop-scale">Said in {{ year }} <i aria-hidden="true">/</i> checked on air {{ e.publish_date | date: "%-d %b %Y" }}</p>
+    <blockquote class="stop-quote"><p>"{{ e.prediction.quote }}"</p></blockquote>
+    <p class="stop-who"><b>Who</b> {{ e.prediction.who }}, {{ e.prediction.where }}{% if quote_source %} · <a href="{{ quote_source.url }}">Quote source</a>{% endif %}</p>
+    <p class="stop-happened"><b>What happened</b> {% if fact %}{{ fact.fact }}{% if fact_source %} <a href="{{ fact_source.url }}">Source: {{ fact_source.title }}</a>{% endif %}{% else %}{{ e.verdict_reason }}{% endif %}</p>
+    <p class="stop-links"><a href="{{ e.url | relative_url }}">Read episode {{ e.number }}: sources and verdict</a>{% if e.video.youtube %} · <a href="{{ e.video.youtube }}">Watch on YouTube</a>{% endif %}</p>
+  </li>
+{%- endfor -%}
+{%- for s in site.data.specials -%}
+  {%- unless s.prediction -%}{%- continue -%}{%- endunless -%}
+  {%- assign aired_at = s.published | date: "%Y-%m-%d %H:%M" | append: " " | append: site.air_offset | date: "%s" | plus: 0 -%}
+  {%- if aired_at > now -%}{%- continue -%}{%- endif -%}
+  {%- assign year = s.prediction.when | append: "" | slice: 0, 4 -%}
+  {%- assign quote_source = s.sources | first -%}
+  {%- if s.journey.source -%}{%- assign fact_index = s.journey.source | minus: 1 -%}{%- assign fact_source = s.sources[fact_index] -%}{%- else -%}{%- assign fact_source = nil -%}{%- endif -%}
+  <li class="journey-stop" id="{{ s.id }}" style="order: {{ year }}" data-year="{{ year }}" data-aired="{{ aired_at }}" data-motif="{{ s.journey.motif | default: 'sunburst' }}" data-label="{{ s.journey.label | default: s.title }}">
+    <p class="stop-year">{{ year }}</p>
+    <div class="stop-heading"><h2 class="stop-title">{{ s.title }}</h2>{% include verdict-stamp.html verdict=s.verdict %}</div>
+    <p class="stop-scale">Said in {{ year }} <i aria-hidden="true">/</i> {{ s.format }}, {{ s.published | date: "%-d %b %Y" }}</p>
+    <blockquote class="stop-quote"><p>"{{ s.prediction.quote }}"</p></blockquote>
+    <p class="stop-who"><b>Who</b> {{ s.prediction.who }}, {{ s.prediction.where }}, {{ s.prediction.when }}</p>
+    {%- if s.journey.fact %}
+    <p class="stop-happened"><b>What happened</b> {{ s.journey.fact }}{% if fact_source %} <a href="{{ fact_source.url }}">Source: {{ fact_source.title }}</a>{% endif %}</p>
+    {%- endif %}
+    <p class="stop-links"><a href="{{ '/specials/' | relative_url }}#{{ s.id }}">See it in Specials: sources and verdict</a>{% if s.links.youtube contains 'https://' %} · <a href="{{ s.links.youtube }}">Watch on YouTube</a>{% endif %}</p>
+  </li>
+{%- endfor -%}
+</ol>

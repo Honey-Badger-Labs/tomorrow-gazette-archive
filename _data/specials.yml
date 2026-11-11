@@ -12,6 +12,13 @@
     who: Thomas Edison
     when: 1920
     where: The American Magazine
+  # Its stop on the Journey Through Tomorrow page: `fact` is what happened,
+  # `source` is its position in `sources` below (1 = first).
+  journey:
+    motif: phone
+    label: Spirit phone
+    fact: "Edison's archive at Rutgers says no verifiable evidence of such a device has ever been found."
+    source: 1
   verdict: COMPLETELY BONKERS
   links:
     youtube: https://www.youtube.com/shorts/oN_HBDoxWnQ

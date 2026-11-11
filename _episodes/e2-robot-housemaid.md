@@ -22,6 +22,11 @@ since:
     sources: [S3]
   - fact: 1X said on 30 April 2026 that NEO was in full-scale production. No customer delivery had been announced when we re-checked on 21 October 2026.
     sources: [S4]
+# Its stop on the Journey Through Tomorrow page (docs/episode-schema.md).
+journey:
+  motif: robot
+  label: Robot
+  since: 1
 verdict: NAILED IT
 verdict_reason: Asimov predicted robots that exist but are neither common nor very good. Single-job robots like the Roomba exist in large numbers, while the general-purpose robot housemaid is only now reaching production, which matches his cautious call.
 sources:
