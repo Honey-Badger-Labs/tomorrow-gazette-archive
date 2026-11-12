@@ -28,7 +28,9 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "Set in 2889, but spoken, recorded news arrived about 870 years early.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "wells-1901-submarine",
@@ -58,7 +60,9 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "Submarines became some of the most capable ships ever built.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "nyt-1903-flying-machines",
@@ -93,7 +97,140 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "Out by about ten million years, minus 69 days.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "deforest-1916-radio-news",
+  "year": 1916,
+  "when": "December 1916",
+  "topic": "broadcast",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A NEWSPAPER YOU HEAR, NOT READ",
+  "deck": "An inventor's nightly broadcasts to amateur operators around New York are billed as the start of something new.",
+  "quote": "...it foretells, according to the inventor of the audion lamp, the coming of the worlds first regular spoken, or wireless telephone newspaper.",
+  "quote_kind": "reported",
+  "quote_note": "Reported speech: the trade paper Telephony paraphrasing Lee de Forest. \"worlds\" is spelled as in the transcription.",
+  "who": "Lee de Forest, as reported by Telephony",
+  "where": "Telephony (trade journal)",
+  "quote_sources": [
+   {
+    "title": "\"Wireless Telephone Newspaper\", Telephony, 30 Dec 1916 — Early Radio History transcription",
+    "url": "https://earlyradiohistory.us/1916df.htm",
+    "kind": "primary transcription"
+   }
+  ],
+  "happened": "By 1921 the Westinghouse station in Pittsburgh was sending out nightly programmes of music and \"national and international news\". Radio news became an everyday thing.",
+  "happened_sources": [
+   {
+    "title": "\"A New Era in Wireless\" (1921) on KDKA — Early Radio History transcription",
+    "url": "https://earlyradiohistory.us/1921KDKA.htm"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "The spoken newspaper arrived within five years and never left."
+ },
+ {
+  "id": "bell-1917-rooftop-sun",
+  "year": 1917,
+  "when": "February 1917",
+  "topic": "energy",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "PUT THE SUN TO WORK ON YOUR ROOF",
+  "deck": "The telephone's inventor looks at the flat roofs of Washington and sees wasted power.",
+  "quote": "What wide expanses of roof are available in all our large cities for the utilization of the sun's rays!",
+  "quote_kind": "verbatim",
+  "quote_note": "Bell pictured pipes of oil heated by the sun, not solar panels. He also wrote: \"We can take coal out of a mine, but we can never put it back.\"",
+  "who": "Alexander Graham Bell",
+  "where": "\"Prizes for the Inventor\", National Geographic Magazine",
+  "quote_sources": [
+   {
+    "title": "National Geographic Magazine, Feb 1917, \"Prizes for the Inventor\" — Wikisource transcription",
+    "url": "https://en.wikisource.org/wiki/National_Geographic_Magazine/Volume_31/Number_2/Prizes_for_the_Inventor",
+    "kind": "primary transcription"
+   }
+  ],
+  "happened": "Rooftops and fields now carry solar panels by the million. The energy think tank Ember says solar generation grew faster than ever in the first half of 2025, breaking a new record.",
+  "happened_sources": [
+   {
+    "title": "Global Electricity Mid-Year Insights 2025 — Ember, 7 Oct 2025",
+    "url": "https://ember-energy.org/latest-insights/global-electricity-mid-year-insights-2025/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Different kit, same idea: the roof became a power station."
+ },
+ {
+  "id": "goldsmith-1918-traveller",
+  "year": 1918,
+  "when": "1918",
+  "topic": "phone",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "STAY IN TOUCH WHEREVER YOU WANDER",
+  "deck": "A radio engineer's textbook imagines receivers so light that nobody need ever be out of reach.",
+  "quote": "So that it should become ultimately possible to keep in immediate touch with the traveling individual regardless of his motion or temporary location.",
+  "quote_kind": "verbatim",
+  "who": "Alfred N. Goldsmith",
+  "where": "Radio Telephony (book)",
+  "quote_sources": [
+   {
+    "title": "Alfred N. Goldsmith, Radio Telephony (1918), extract — Early Radio History",
+    "url": "https://earlyradiohistory.us/1918gold.htm",
+    "kind": "primary transcription"
+   }
+  ],
+  "happened": "The ITU says four out of five people aged 10 or older now own a mobile phone.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Mobile phone ownership — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-mobile-phone-ownership/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Your pocket proves it every time it buzzes."
+ },
+ {
+  "id": "goddard-1919-moon-rocket",
+  "year": 1919,
+  "when": "1919",
+  "topic": "rocket",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A ROCKET COULD REACH THE MOON, SAYS PROFESSOR",
+  "deck": "A quiet physics paper works out how much flash powder a rocket would need to be seen hitting the Moon.",
+  "quote": "His 1919 treatise, \"A Method of Reaching Extreme Altitudes\", showed that a rocket, if developed and built in stages, was theoretically capable of a flight to the Moon.",
+  "quote_kind": "paraphrase",
+  "quote_note": "In our words, following the Smithsonian's description. The original paper is a scanned PDF we could not read as text, so no direct quotation is used.",
+  "who": "Robert H. Goddard",
+  "where": "\"A Method of Reaching Extreme Altitudes\", Smithsonian Institution",
+  "quote_sources": [
+   {
+    "title": "Box, magnesium powder experiment, R.H. Goddard — Smithsonian National Air and Space Museum",
+    "url": "https://airandspace.si.edu/collection-objects/box-magnesium-powder-experiment-rh-goddard/nasm_A19650313000",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Fifty years later a staged rocket carried Apollo 11 to the Moon, landing on 20 July 1969.",
+  "happened_sources": [
+   {
+    "title": "Apollo 11 mission overview — NASA",
+    "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "The maths was right; it just needed half a century of engineering."
  },
  {
   "id": "edison-1920-spirit-phone",
@@ -130,7 +267,9 @@
   "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/specials/#hw-2026-spirit-phone",
   "episode_label": "Edison's Spirit Phone (Halloween Short, 31 Oct 2026)",
   "reason": "As ruled on air in the Halloween Short.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "nyt-1920-goddard",
@@ -161,43 +300,310 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "The paper corrected itself, 49 years later.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": false
  },
  {
-  "id": "tesla-1926-pocket-phone",
-  "year": 1926,
-  "when": "30 January 1926",
-  "topic": "phone",
-  "headline": "A TELEPHONE YOU CAN CARRY IN YOUR VEST POCKET",
-  "deck": "Tesla says wireless will let us see and hear each other across thousands of miles.",
-  "quote": "...through television and telephony we shall see and hear one another as perfectly as though we were face to face, despite intervening distances of thousands of miles... A man will be able to carry one in his vest pocket.",
+  "id": "howell-1921-news-as-it-happens",
+  "year": 1921,
+  "when": "23 August 1921",
+  "topic": "broadcast",
+  "kind": "plan",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THE DAY'S NEWS, WHILE IT IS STILL HAPPENING",
+  "deck": "An official proposes a free government radio news service for anyone with a $65 receiver.",
+  "quote": "...to put the day's news into the hands of all who wish it while it is still happening.",
   "quote_kind": "verbatim",
-  "quote_note": "Shortened with \"...\"; the full passage is in the sources.",
-  "who": "Nikola Tesla, interviewed by John B. Kennedy",
-  "where": "\"When Woman Is Boss\", Collier's",
+  "quote_note": "Part of a stated aim for a proposed service, quoted in a newspaper report.",
+  "who": "Clark Howell (as quoted)",
+  "where": "Brownwood (Texas) Bulletin",
   "quote_sources": [
    {
-    "title": "Snopes: Nikola Tesla predicted cellphones in 1926? (rated correctly attributed)",
-    "url": "https://www.snopes.com/fact-check/tesla-predicted-cell-phones/",
-    "kind": "secondary"
-   },
-   {
-    "title": "\"When Woman is Boss\" transcript — Twenty-First Century Books (archived copy)",
-    "url": "https://web.archive.org/web/20250107095323/http://www.tfcbooks.com/tesla/1926-01-30.htm",
-    "kind": "transcript"
+    "title": "\"Radio Newspaper\" proposal, Brownwood Bulletin, 23 Aug 1921 — Early Radio History transcription",
+    "url": "https://www.earlyradiohistory.us/1921papr.htm",
+    "kind": "primary transcription"
    }
   ],
-  "happened": "Four out of five people aged 10 and over now own a mobile phone, says the UN telecoms agency (2024).",
+  "happened": "Live news is now in almost every pocket. Pew Research says an overwhelming majority of US adults at least sometimes get news from digital devices.",
   "happened_sources": [
    {
-    "title": "Facts and Figures 2024: Mobile phone ownership — ITU",
-    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-mobile-phone-ownership/"
+    "title": "News Platform Fact Sheet — Pew Research Center",
+    "url": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/"
    }
   ],
   "verdict": "NAILED IT",
   "status": "proposed",
-  "reason": "A pocket device for seeing and hearing anyone, anywhere: that is a video call on a phone.",
-  "opened": "2026-11-11"
+  "reason": "\"While it is still happening\" is now the whole business model."
+ },
+ {
+  "id": "richardson-1922-weather-computers",
+  "year": 1922,
+  "when": "1922",
+  "topic": "science",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "ONE DAY WE'LL CALCULATE THE WEATHER FASTER THAN IT ARRIVES",
+  "deck": "A scientist spends years forecasting six hours of weather by hand, and calls the real thing a dream.",
+  "quote": "Perhaps some day in the dim future it will be possible to advance the computations faster than the weather advances and at a cost less than the saving to mankind due to the information gained. But that is a dream.",
+  "quote_kind": "verbatim",
+  "quote_note": "From the preface, as quoted by meteorologist Peter Lynch.",
+  "who": "Lewis Fry Richardson",
+  "where": "Weather Prediction by Numerical Process (book)",
+  "quote_sources": [
+   {
+    "title": "Peter Lynch, The Emergence of Numerical Weather Prediction, Chapter 1 (PDF) — University College Dublin",
+    "url": "https://maths.ucd.ie/~plynch/Dream/Book/CHAP01.pdf",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Weather forecasts are now run routinely on powerful computers using methods remarkably like Richardson's.",
+  "happened_sources": [
+   {
+    "title": "Peter Lynch, Chapter 1 (PDF) — University College Dublin",
+    "url": "https://maths.ucd.ie/~plynch/Dream/Book/CHAP01.pdf"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "The dream runs every few hours on a supercomputer."
+ },
+ {
+  "id": "haldane-1923-windmills",
+  "year": 1923,
+  "when": "4 February 1923",
+  "topic": "energy",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "ROWS OF METAL WINDMILLS WILL POWER BRITAIN",
+  "deck": "A young biologist tells Cambridge students how the country will be powered in 400 years.",
+  "quote": "The country will be covered with rows of metallic windmills working electric motors which in their turn supply current at a very high voltage to great electric mains.",
+  "quote_kind": "verbatim",
+  "quote_note": "He was forecasting \"four hundred years hence\". He also pictured storing surplus wind power as hydrogen.",
+  "who": "J. B. S. Haldane",
+  "where": "\"Daedalus, or Science and the Future\" (lecture, later a book)",
+  "quote_sources": [
+   {
+    "title": "Daedalus, or Science and the Future — Project Gutenberg eBook #70955",
+    "url": "https://www.gutenberg.org/cache/epub/70955/pg70955.txt",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Wind farms are a common sight now. Ember says solar and wind together outpaced the growth in world electricity demand in the first half of 2025.",
+  "happened_sources": [
+   {
+    "title": "Global Electricity Mid-Year Insights 2025 — Ember, 7 Oct 2025",
+    "url": "https://ember-energy.org/latest-insights/global-electricity-mid-year-insights-2025/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "He gave it 400 years. It took about 100."
+ },
+ {
+  "id": "churchill-1924-orange-bomb",
+  "year": 1924,
+  "when": "September 1924",
+  "topic": "war",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A BOMB THE SIZE OF AN ORANGE COULD LEVEL A TOWN",
+  "deck": "A future prime minister asks whether science has really finished inventing explosives.",
+  "quote": "Might not a bomb no bigger than an orange be found to possess a secret power to destroy a whole block of buildings—nay to concentrate the force of a thousand tons of cordite and blast a township at a stroke?",
+  "quote_kind": "verbatim",
+  "quote_note": "Posed as a question, in an essay warning about future war.",
+  "who": "Winston Churchill",
+  "where": "\"Shall We All Commit Suicide?\", Nash's Pall Mall Magazine",
+  "quote_sources": [
+   {
+    "title": "\"Shall We All Commit Suicide?\" — International Churchill Society, Finest Hour 94",
+    "url": "https://winstonchurchill.org/publications/finest-hour/finest-hour-094/shall-we-all-commit-suicide/",
+    "kind": "primary transcription"
+   },
+   {
+    "title": "Churchill's scientific imagination — Hillsdale College Churchill Project",
+    "url": "https://winstonchurchill.hillsdale.edu/churchills-scientific-imagination-2/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "On 6 August 1945 a single atomic bomb destroyed most of Hiroshima.",
+  "happened_sources": [
+   {
+    "title": "The Atomic Bombing of Hiroshima, August 6, 1945 — US Department of Energy, Manhattan Project history",
+    "url": "https://www.osti.gov/opennet/manhattan-project-history/Events/1945/hiroshima.htm"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "A grim one to get right, 21 years early."
+ },
+ {
+  "id": "kerr-1924-music-button",
+  "year": 1924,
+  "when": "1924",
+  "topic": "music",
+  "kind": "forecast",
+  "primary": false,
+  "opened": "2026-11-12",
+  "headline": "MUSIC AT THE TOUCH OF A BUTTON BY 2024",
+  "deck": "A newspaper looks a hundred years ahead and hears grand homes filling with music on demand.",
+  "quote": "A hundred years from now the salons of the magnificent private houses will be flooded by the touch of a button with divine tones.",
+  "quote_kind": "verbatim",
+  "quote_note": "As quoted by Paleofuture from a 1924 newspaper article attributed to R. M. Kerr.",
+  "who": "R. M. Kerr (newspaper article)",
+  "where": "US newspaper, 1924",
+  "quote_sources": [
+   {
+    "title": "Future musicians may not even have to leave their homes, according to 1924 — Paleofuture",
+    "url": "https://paleofuture.com/blog/2024/4/30/future-musicians-may-not-even-have-to-leave-their-homes-according-to-1924",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "752 million people paid for a music streaming subscription in 2024, says the record industry body IFPI. And you don't need a salon.",
+  "happened_sources": [
+   {
+    "title": "IFPI Global Music Report 2025 press release",
+    "url": "https://www.ifpi.org/ifpi-amidst-highly-competitive-market-global-recorded-music-revenues-grew-4-8-in-2024/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Right on the year, and it reached far more than the magnificent houses."
+ },
+ {
+  "id": "gernsback-1925-teledactyl",
+  "year": 1925,
+  "when": "February 1925",
+  "topic": "health",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "YOUR DOCTOR WILL \"FEEL\" YOU FROM MILES AWAY",
+  "deck": "A magazine editor sketches robot arms that let a doctor examine a patient from far away.",
+  "quote": "The Teledactyl (Tele, far; Dactyl, finger — from the Greek) is a future instrument by which it will be possible for us to \"feel at a distance.\"",
+  "quote_kind": "verbatim",
+  "quote_note": "As quoted by Smithsonian magazine; Gernsback set the device in 1975.",
+  "who": "Hugo Gernsback",
+  "where": "Science and Invention magazine",
+  "quote_sources": [
+   {
+    "title": "Telemedicine Predicted in 1925 — Smithsonian Magazine (Paleofuture)",
+    "url": "https://www.smithsonianmag.com/history/telemedicine-predicted-in-1925-124140942/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Smithsonian magazine said in 2012 that Gernsback \"effectively predicted telemedicine\", but that a home device for touching patients at a distance still did not exist.",
+  "happened_sources": [
+   {
+    "title": "Telemedicine Predicted in 1925 — Smithsonian Magazine (Paleofuture)",
+    "url": "https://www.smithsonianmag.com/history/telemedicine-predicted-in-1925-124140942/"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Remote doctors: yes. Robot fingers on the bedside table: not so much."
+ },
+ {
+  "id": "nyt-1927-television-news",
+  "year": 1927,
+  "when": "8 April 1927",
+  "topic": "broadcast",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "TELEVISION'S FUTURE: NEWS AS IT HAPPENS",
+  "deck": "The phone company is doubtful television will ever pay. A newspaper is not so sure.",
+  "quote": "The commercial future of television, if it has one, is thought to be largely in public entertainment — super-news reels flashed before audiences at the moment of occurrence...",
+  "quote_kind": "verbatim",
+  "quote_note": "Shortened with \"...\"; quoted by the paper's own Times Insider feature in 2015.",
+  "who": "The New York Times",
+  "where": "Report on the first long-distance television demonstration",
+  "quote_sources": [
+   {
+    "title": "1927: \"Commercial Use in Doubt,\" The Times Said About Television — NYT Times Insider, 12 Feb 2015",
+    "url": "https://archive.nytimes.com/www.nytimes.com/times-insider/2015/02/12/1927-commercial-use-in-doubt-the-times-said-about-television/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "In 1969 an estimated 650 million people watched live television pictures of Neil Armstrong on the Moon.",
+  "happened_sources": [
+   {
+    "title": "Apollo 11 mission overview — NASA",
+    "url": "https://www.nasa.gov/missions/apollo/apollo-11/apollo-11-mission-overview/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "\"If it has one\" turned into the biggest live audience in history at the time."
+ },
+ {
+  "id": "hoover-1928-poverty",
+  "year": 1928,
+  "when": "11 August 1928",
+  "topic": "money",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "AMERICA ON THE BRINK OF ENDING POVERTY",
+  "deck": "Accepting his party's nomination, the next president says the poorhouse is vanishing.",
+  "quote": "We in America today are nearer to the final triumph over poverty than ever before in the history of any land.",
+  "quote_kind": "verbatim",
+  "who": "Herbert Hoover",
+  "where": "Speech accepting the Republican nomination, Stanford, California",
+  "quote_sources": [
+   {
+    "title": "Address Accepting the Republican Presidential Nomination — The American Presidency Project, UC Santa Barbara",
+    "url": "https://www.presidency.ucsb.edu/documents/address-accepting-the-republican-presidential-nomination-stanford-california",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The stock market crashed the next year. By the summer of 1932 the Dow was 89 percent below its peak, in the depths of the Great Depression.",
+  "happened_sources": [
+   {
+    "title": "Stock Market Crash of 1929 — Federal Reserve History",
+    "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The timing could hardly have been worse."
+ },
+ {
+  "id": "austin-1928-air-travel",
+  "year": 1928,
+  "when": "1928",
+  "topic": "flight",
+  "kind": "forecast",
+  "primary": false,
+  "opened": "2026-11-12",
+  "headline": "FLYING ABROAD WILL BE AN EVERYDAY AFFAIR",
+  "deck": "A British car maker pictures the world of the future and puts holidaymakers in the sky.",
+  "quote": "Journeys to foreign countries by air will be a matter of everyday occurrence...",
+  "quote_kind": "verbatim",
+  "quote_note": "As quoted by Paleofuture. Sir Herbert Austin added it would need \"a universal language\" to really take off.",
+  "who": "Sir Herbert Austin",
+  "where": "Newspaper article, 1928",
+  "quote_sources": [
+   {
+    "title": "Electric cars are the future, according to this British auto exec from 1928 — Paleofuture",
+    "url": "https://paleofuture.com/blog/2024/5/22/electric-cars-are-the-future-according-to-this-british-auto-exec-from-1928",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Flying abroad is routine for millions. Paleofuture notes Austin was \"spot-on\" about air travel.",
+  "happened_sources": [
+   {
+    "title": "Paleofuture on Sir Herbert Austin, 1928",
+    "url": "https://paleofuture.com/blog/2024/5/22/electric-cars-are-the-future-according-to-this-british-auto-exec-from-1928"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "The universal language never arrived; the flights did."
  },
  {
   "id": "fisher-1929-plateau",
@@ -228,7 +634,41 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "The plateau lasted about nine days.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "hoover-1930-worst-passed",
+  "year": 1930,
+  "when": "1 May 1930",
+  "topic": "money",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THE WORST IS OVER, PRESIDENT ASSURES BUSINESS",
+  "deck": "Six months after the crash, the White House tells business leaders recovery is near.",
+  "quote": "While the crash only took place 6 months ago, I am convinced we have now passed the worst and with continued unity of effort we shall rapidly recover.",
+  "quote_kind": "verbatim",
+  "who": "Herbert Hoover",
+  "where": "Address to the US Chamber of Commerce",
+  "quote_sources": [
+   {
+    "title": "Address to the Chamber of Commerce of the United States, 1 May 1930 — The American Presidency Project, UC Santa Barbara",
+    "url": "https://www.presidency.ucsb.edu/documents/address-the-chamber-commerce-the-united-states",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The slide went on until the summer of 1932, when the Dow hit its lowest close of the century. It didn't get back to its 1929 peak until November 1954.",
+  "happened_sources": [
+   {
+    "title": "Stock Market Crash of 1929 — Federal Reserve History",
+    "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The worst still had two years to run."
  },
  {
   "id": "rutherford-1933-moonshine",
@@ -259,7 +699,211 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "The moonshine was flowing within a decade.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "gross-1934-tv-newspaper",
+  "year": 1934,
+  "when": "29 March 1934",
+  "topic": "news",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "YOUR MORNING PAPER, ON A SCREEN",
+  "deck": "A newspaper cartoon asks whether the front page could one day be sent to your television.",
+  "quote": "Some day you may be able to receive the front page of your morning newspaper this way—fully printed and shown on the screen of a television set. Can it be done?",
+  "quote_kind": "verbatim",
+  "quote_note": "From Ray Gross's syndicated panel \"Can It Be Done?\", as quoted by Paleofuture (Marion Progress, North Carolina, 29 Mar 1934).",
+  "who": "Ray Gross",
+  "where": "\"Can It Be Done?\" (syndicated newspaper cartoon)",
+  "quote_sources": [
+   {
+    "title": "This \"Television Newspaper\" was predicted decades before TV went mainstream — Paleofuture",
+    "url": "https://paleofuture.com/blog/2023/7/13/this-television-newspaper-was-predicted-decades-before-tv-would-become-mainstream",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "An overwhelming majority of US adults now at least sometimes get their news on digital screens, says Pew Research.",
+  "happened_sources": [
+   {
+    "title": "News Platform Fact Sheet — Pew Research Center",
+    "url": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "It can be done. You may be doing it now."
+ },
+ {
+  "id": "west-1935-tv-every-home",
+  "year": 1935,
+  "when": "8 February 1935",
+  "topic": "broadcast",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A TELEVISION IN EVERY HOME WITHIN THREE YEARS",
+  "deck": "A television company engineer tells a Rotary club the sets are nearly here for everyone.",
+  "quote": "in practically every home within three years.",
+  "quote_kind": "verbatim",
+  "quote_note": "The words reported by The News; quoted by TV historian John Wyver.",
+  "who": "Captain A. G. D. West, Baird Television",
+  "where": "The News, report of a Rotary Club talk",
+  "quote_sources": [
+   {
+    "title": "On this day in early British television: 8 February 1935 — Illuminations (John Wyver)",
+    "url": "https://www.illuminationsmedia.co.uk/otd-in-early-british-television-8-february-1935/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "When the BBC switched television off for the war on 1 September 1939, only about 20,000 households had sets.",
+  "happened_sources": [
+   {
+    "title": "Close down of television service for the duration of the war — BBC History",
+    "url": "https://www.bbc.co.uk/historyofthebbc/anniversaries/september/closedown-of-television"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Practically every home turned out to be about 20,000 of them."
+ },
+ {
+  "id": "literarydigest-1936-landon",
+  "year": 1936,
+  "when": "31 October 1936",
+  "topic": "politics",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "LANDON TO WIN THE WHITE HOUSE, BIG POLL SAYS",
+  "deck": "A magazine mails ten million ballots and is confident it knows the next president.",
+  "quote": "Based on its poll of about 2.3 million returned postcards, The Literary Digest predicted Alf Landon would beat Franklin Roosevelt with 57.1% of the popular vote and 370 electoral votes.",
+  "quote_kind": "paraphrase",
+  "quote_note": "In our words, from a university statistics page. We did not find the magazine's own wording online.",
+  "who": "The Literary Digest",
+  "where": "Presidential poll, published 31 Oct 1936",
+  "quote_sources": [
+   {
+    "title": "The Literary Digest Poll — Random (Probability, Mathematical Statistics, Stochastic Processes), University of Alabama in Huntsville",
+    "url": "https://www.randomservices.org/random/data/LiteraryDigest.html",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Roosevelt won with 60.8% of the vote and an electoral landslide of 523 to 8.",
+  "happened_sources": [
+   {
+    "title": "The Literary Digest Poll — randomservices.org",
+    "url": "https://www.randomservices.org/random/data/LiteraryDigest.html"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Ten million postcards, one very wrong answer."
+ },
+ {
+  "id": "wells-1937-world-brain",
+  "year": 1937,
+  "when": "1937",
+  "topic": "internet",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "ALL HUMAN KNOWLEDGE, OPEN TO EVERYONE",
+  "deck": "A famous novelist proposes a \"world brain\" and says it may come soon.",
+  "quote": "The whole human memory can be, and probably in a short time will be, made accessible to every individual.",
+  "quote_kind": "verbatim",
+  "quote_note": "He imagined it on microfilm.",
+  "who": "H. G. Wells",
+  "where": "World Brain (essays and lectures)",
+  "quote_sources": [
+   {
+    "title": "World Brain, by H. G. Wells — Project Gutenberg Australia",
+    "url": "https://gutenberg.net.au/ebooks13/1303731h.html",
+    "kind": "primary"
+   }
+  ],
+  "happened": "In 2024, 5.5 billion people were online, 68 per cent of the world, says the ITU.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Not microfilm, but the world brain is open most hours of the day."
+ },
+ {
+  "id": "chamberlain-1938-peace",
+  "year": 1938,
+  "when": "30 September 1938",
+  "topic": "war",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "\"PEACE FOR OUR TIME\", SAYS PRIME MINISTER",
+  "deck": "Back from Munich, Britain's leader tells the crowd to go home and sleep soundly.",
+  "quote": "I believe it is peace for our time... Go home and get a nice quiet sleep.",
+  "quote_kind": "verbatim",
+  "who": "Neville Chamberlain",
+  "where": "Outside 10 Downing Street, London",
+  "quote_sources": [
+   {
+    "title": "Neville Chamberlain's \"Peace For Our Time\" speech — EuroDocs, Brigham Young University",
+    "url": "https://eudocs.lib.byu.edu/index.php/Neville_Chamberlain%27s_%22Peace_For_Our_Time%22_speech",
+    "kind": "primary transcription"
+   },
+   {
+    "title": "Chamberlain's \"Peace for Our Time\" speech — US Holocaust Memorial Museum",
+    "url": "https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1933-1938/chamberlains-peace-for-our-time-speech",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Germany invaded Poland on 1 September 1939, starting World War II. Britain declared war two days later.",
+  "happened_sources": [
+   {
+    "title": "Invasion of Poland, Fall 1939 — US Holocaust Memorial Museum",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Our time lasted eleven months."
+ },
+ {
+  "id": "einstein-1939-letter",
+  "year": 1939,
+  "when": "2 August 1939",
+  "topic": "war",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "SCIENTIST WARNS PRESIDENT OF A NEW KIND OF BOMB",
+  "deck": "A letter to Roosevelt says uranium could be used to build bombs of terrible power.",
+  "quote": "This new phenomenon would also lead to the construction of bombs, and it is conceivable--though much less certain--that extremely powerful bombs of this type may thus be constructed.",
+  "quote_kind": "verbatim",
+  "quote_note": "The same letter guessed such bombs \"might very well prove too heavy for transportation by air\". That part was wrong.",
+  "who": "Albert Einstein (letter drafted with Leo Szilard)",
+  "where": "Letter to President Franklin D. Roosevelt",
+  "quote_sources": [
+   {
+    "title": "Einstein's Letter to Franklin D. Roosevelt — Atomic Archive",
+    "url": "https://www.atomicarchive.com/resources/documents/beginnings/einstein.html",
+    "kind": "primary transcription"
+   }
+  ],
+  "happened": "Six years later, on 6 August 1945, an atomic bomb dropped from a plane destroyed Hiroshima.",
+  "happened_sources": [
+   {
+    "title": "The Atomic Bombing of Hiroshima, August 6, 1945 — US Department of Energy",
+    "url": "https://www.osti.gov/opennet/manhattan-project-history/Events/1945/hiroshima.htm"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "\"Much less certain\" became certain far too quickly."
  },
  {
   "id": "ford-1940-flying-car",
@@ -291,7 +935,108 @@
   "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e1-flying-car/",
   "episode_label": "Episode 1: The Flying Car",
   "reason": "As ruled on air in Episode 1.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "americanweekly-1941-moon-eclipse",
+  "year": 1941,
+  "when": "5 January 1941",
+  "topic": "space",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "WATCH THE 2033 ECLIPSE FROM THE MOON",
+  "deck": "A Sunday magazine books the best seat for an eclipse 92 years away.",
+  "quote": "If scientists of 2033 do reach the moon properly equipped they will see the sun totally eclipsed by the earth from 1:07 to 3:43 p.m. on April 14th.",
+  "quote_kind": "verbatim",
+  "quote_note": "Written by Schlesinger in The American Weekly; as quoted by Paleofuture.",
+  "who": "Schlesinger, The American Weekly",
+  "where": "The American Weekly (Sunday newspaper magazine)",
+  "quote_sources": [
+   {
+    "title": "Scientists of 1941 predicted we'd be watching the eclipse from the Moon — Paleofuture",
+    "url": "https://paleofuture.com/blog/2024/4/5/scientists-of-1941-predicted-wed-be-watching-the-eclipse-from-the-moon-with-atomic-powered-spaceships",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "In April 2026 NASA's Artemis II crew flew around the Moon and back. Nobody has landed there since 1972, and 2033 is still to come.",
+  "happened_sources": [
+   {
+    "title": "NASA welcomes record-setting Artemis II Moonfarers back to Earth — NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Seven years to go. Pack a folding chair."
+ },
+ {
+  "id": "seagram-1943-helicopter",
+  "year": 1943,
+  "when": "29 November 1943",
+  "topic": "flight",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "COMMUTE BY HELICOPTER FROM YOUR OFFICE TERRACE",
+  "deck": "A whisky advert promises the man who plans ahead his own aircraft after the war.",
+  "quote": "Step from your office building terrace into your Helicopter and commute to your hunting lodge on a mountain lake 200 miles away! That's more than a commuter's dream, for the Helicopters already designed will make it possible for you Tomorrow!",
+  "quote_kind": "verbatim",
+  "quote_note": "Advert copy in Life magazine, as quoted by Paleofuture.",
+  "who": "Seagram's (advert)",
+  "where": "Life magazine",
+  "quote_sources": [
+   {
+    "title": "Seagram promised whiskey drinkers their own commuter helicopter in 1943 — Paleofuture",
+    "url": "https://paleofuture.com/blog/2023/8/10/seagrams-promised-whiskey-drinkers-their-own-commuter-helicopter-in-1943",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Helicopters are real, but as Paleofuture puts it, \"we're still waiting on personal helicopters to go mainstream\".",
+  "happened_sources": [
+   {
+    "title": "Paleofuture on the 1943 Seagram advert",
+    "url": "https://paleofuture.com/blog/2023/8/10/seagrams-promised-whiskey-drinkers-their-own-commuter-helicopter-in-1943"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "The office terrace is still for smokers, not pilots."
+ },
+ {
+  "id": "sciencemechanics-1944-backyard-helicopter",
+  "year": 1944,
+  "when": "October 1944",
+  "topic": "flight",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A HELICOPTER BEHIND THE APPLE TREE",
+  "deck": "A science magazine pictures suburban commuters whizzing to the office roof.",
+  "quote": "A helicopter in your back yard? The picture is bright. You go out behind the apple tree, give the rotors a whirl, and whizz!—you're on the office roof.",
+  "quote_kind": "verbatim",
+  "quote_note": "As quoted by Paleofuture. The magazine added you would have to keep the machine in perfect condition.",
+  "who": "Science and Mechanics magazine",
+  "where": "Science and Mechanics, October 1944",
+  "quote_sources": [
+   {
+    "title": "The 1940s promised helicopters in every American's backyard — Paleofuture",
+    "url": "https://paleofuture.com/blog/2023/6/28/the-1940s-promised-helicopters-in-every-americans-backyard",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Eighty years on, ordinary commuters still don't keep a helicopter out back. Paleofuture: \"we're still waiting on personal helicopters to go mainstream\".",
+  "happened_sources": [
+   {
+    "title": "Paleofuture on the 1943 Seagram advert",
+    "url": "https://paleofuture.com/blog/2023/8/10/seagrams-promised-whiskey-drinkers-their-own-commuter-helicopter-in-1943"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "The delphiniums are fine. The rotors never came."
  },
  {
   "id": "clarke-1945-satellites",
@@ -327,7 +1072,74 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "The orbit he described is still used for satellite TV and weather satellites.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "hiller-1946-helicopters",
+  "year": 1946,
+  "when": "1946",
+  "topic": "flight",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THOUSANDS OF HELICOPTERS ON EVERYDAY ERRANDS",
+  "deck": "A young inventor advertises for investors to build the commuter helicopter.",
+  "quote": "Thousands of helicopters cruising soon over cities and towns and open country on dozens of kinds of errands.",
+  "quote_kind": "verbatim",
+  "quote_note": "From a newspaper advert by Stanley Hiller Jr., as quoted by Paleofuture.",
+  "who": "Stanley Hiller Jr.",
+  "where": "Newspaper advertisement",
+  "quote_sources": [
+   {
+    "title": "The 1940s promised helicopters in every American's backyard — Paleofuture",
+    "url": "https://paleofuture.com/blog/2023/6/28/the-1940s-promised-helicopters-in-every-americans-backyard",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Helicopters do run all kinds of errands now (rescue, news, hospitals, oil rigs), but the mass commuter helicopter never took off.",
+  "happened_sources": [
+   {
+    "title": "Paleofuture on 1940s helicopter predictions",
+    "url": "https://paleofuture.com/blog/2023/6/28/the-1940s-promised-helicopters-in-every-americans-backyard"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Thousands of errands, yes. Your errands, no."
+ },
+ {
+  "id": "belllabs-1948-transistor",
+  "year": 1948,
+  "when": "30 June 1948",
+  "topic": "computers",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "TINY NEW DEVICE MAY CHANGE ELECTRONICS",
+  "deck": "A phone company lab shows off a gadget smaller than a fingertip that can do a vacuum tube's job.",
+  "quote": "Although the device is still in the laboratory stage, Bell scientists and engineers expect it may have far-reaching significance in electronics and electrical communication.",
+  "quote_kind": "verbatim",
+  "who": "Bell Telephone Laboratories",
+  "where": "Press release announcing the transistor",
+  "quote_sources": [
+   {
+    "title": "Bell Labs transistor announcement press release, 1948 (PDF) — Bell System Memorial",
+    "url": "https://memorial.bellsystem.com/pdf/bell-labs%20transistor%20announcement.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Single chips now hold billions of transistors, says the Computer History Museum.",
+  "happened_sources": [
+   {
+    "title": "1965: Moore's Law predicts the future of integrated circuits — Computer History Museum",
+    "url": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Possibly the biggest understatement ever put in a press release."
  },
  {
   "id": "popmech-1949-computers",
@@ -357,7 +1169,9 @@
   "verdict": "PARTLY RIGHT",
   "status": "proposed",
   "reason": "Right that computers would shrink; wrong by roughly a factor of a thousand on how much.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "turing-1950-imitation-game",
@@ -388,7 +1202,42 @@
   "verdict": "PARTLY RIGHT",
   "status": "proposed",
   "reason": "It happened, about 25 years after his \"fifty years\".",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "fashion-1951-mesh-bag",
+  "year": 1951,
+  "when": "26 February 1951",
+  "topic": "phone",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THE WOMAN OF 2000 WILL CARRY HER OWN TELEPHONE",
+  "deck": "Fashion experts sketch an Easter outfit for the year 2000, accessories included.",
+  "quote": "They say women will tote their own food, fuel and telephones in mesh bags.",
+  "quote_kind": "verbatim",
+  "quote_note": "Caption from the Walla Walla Union-Bulletin, crediting \"Chicago fashion experts\"; as quoted by Paleofuture.",
+  "who": "\"Chicago fashion experts\"",
+  "where": "Walla Walla (Washington) Union-Bulletin",
+  "quote_sources": [
+   {
+    "title": "Mama's Easter parade costume of 2000 A.D. (1951) — Paleofuture",
+    "url": "https://paleofuture.com/blog/2009/6/28/mamas-easter-parade-costume-of-2000-ad-1951.html",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Four out of five people aged 10 or older now own a mobile phone, says the ITU. The mesh bag is optional.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Mobile phone ownership — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-mobile-phone-ownership/"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "The phone and the snacks, yes. Carrying your own fuel, thankfully not."
  },
  {
   "id": "vonbraun-1952-space-station",
@@ -424,7 +1273,41 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "The station came; it is more of a laboratory than his wheel.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "watsoncrick-1953-copying",
+  "year": 1953,
+  "when": "25 April 1953",
+  "topic": "science",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THE SECRET OF HOW LIFE COPIES ITSELF?",
+  "deck": "Two young scientists describe the shape of DNA, and drop a very big hint in one sentence.",
+  "quote": "It has not escaped our notice that the specific pairing we have postulated immediately suggests a possible copying mechanism for the genetic material.",
+  "quote_kind": "verbatim",
+  "who": "James Watson and Francis Crick",
+  "where": "Nature",
+  "quote_sources": [
+   {
+    "title": "Watson & Crick, \"Molecular Structure of Nucleic Acids\", Nature, 25 Apr 1953 (PDF) — National Human Genome Research Institute",
+    "url": "https://www.genome.gov/sites/default/files/media/files/2022-08/nature_article_molecular_structure_of_nucleic_acids_1953.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The base-pairing copying idea was confirmed, and in 1962 Watson, Crick and Maurice Wilkins won the Nobel Prize for their discoveries about the molecular structure of nucleic acids.",
+  "happened_sources": [
+   {
+    "title": "The Nobel Prize in Physiology or Medicine 1962 — NobelPrize.org",
+    "url": "https://www.nobelprize.org/prizes/medicine/1962/summary/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "The most modest-sounding sentence in modern science."
  },
  {
   "id": "woolley-1956-bilge",
@@ -455,8 +1338,42 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "Space travel began about a year later.",
-  "note": "Time quote checked in the fetched Time archive page (WebFetch) on 11 Nov 2026.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "hughes-1957-wall-tv",
+  "year": 1957,
+  "when": "1957",
+  "topic": "broadcast",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "TELEVISION THAT HANGS ON THE WALL",
+  "deck": "An aircraft company's magazine advert promises flat screens thanks to its tiny transistors.",
+  "quote": "How soon can you enjoy on-the-wall television? Chances are, it will be here in a relatively short time.",
+  "quote_kind": "verbatim",
+  "quote_note": "Advert copy from Hughes Aircraft in Newsweek, as quoted by Paleofuture.",
+  "who": "Hughes Aircraft Company (advert)",
+  "where": "Newsweek",
+  "quote_sources": [
+   {
+    "title": "CCTV and shipping via missile: 7 ideas for the future from a 1950s tech company — Paleofuture",
+    "url": "https://paleofuture.com/blog/2023/7/19/cctv-and-shipping-via-missile-7-ideas-for-the-future-from-a-1950s-tech-company",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Flat-screen TVs in the home did come true, says Paleofuture. They became common around the 2000s, nearly half a century later.",
+  "happened_sources": [
+   {
+    "title": "Paleofuture on the Hughes adverts",
+    "url": "https://paleofuture.com/blog/2023/7/19/cctv-and-shipping-via-missile-7-ideas-for-the-future-from-a-1950s-tech-company"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Right picture, wrong clock: \"relatively short\" took about 45 years."
  },
  {
   "id": "navy-1958-perceptron",
@@ -492,7 +1409,9 @@
   "verdict": "PARTLY RIGHT",
   "status": "proposed",
   "reason": "Talk, see, write: yes. Reproduce itself and be conscious: not that anyone can show.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "summerfield-1959-missile-mail",
@@ -524,8 +1443,41 @@
   "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e3-mail-by-missile/",
   "episode_label": "Episode 3: Mail by Missile",
   "reason": "As ruled on air in Episode 3.",
-  "note": "Aired episode: quote and source as published in the archive (Smithsonian page blocks automated fetches).",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "licklider-1960-symbiosis",
+  "year": 1960,
+  "when": "March 1960",
+  "topic": "computers",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "HUMANS AND COMPUTERS WILL THINK AS A TEAM",
+  "deck": "A psychologist pictures people and machines working so closely they become partners.",
+  "quote": "The hope is that, in not too many years, human brains and computing machines will be coupled together very tightly, and that the resulting partnership will think as no human brain has ever thought...",
+  "quote_kind": "verbatim",
+  "who": "J. C. R. Licklider",
+  "where": "\"Man-Computer Symbiosis\", IRE Transactions on Human Factors in Electronics",
+  "quote_sources": [
+   {
+    "title": "Licklider, \"Man-Computer Symbiosis\" (1960) — MIT CSAIL",
+    "url": "https://groups.csail.mit.edu/medg/people/psz/Licklider.html",
+    "kind": "primary transcription"
+   }
+  ],
+  "happened": "Billions of people now use a computer every day. In 2024, 5.5 billion people were online, says the ITU, and many now work alongside AI assistants.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Tightly coupled: tick. Thinking as no brain has thought: the jury is still out."
  },
  {
   "id": "kennedy-1961-moon",
@@ -556,8 +1508,42 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "Done with five months of the decade to spare.",
-  "note": "JFK Library quote checked via WebFetch on 11 Nov 2026.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "clarke-1962-translation",
+  "year": 1962,
+  "when": "1962",
+  "topic": "computers",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "TRANSLATING MACHINES BY 1970",
+  "deck": "A science-fiction writer draws up a timetable for the future, decade by decade.",
+  "quote": "In his \"chart of the future\" he predicted translation machines by 1970, and a global library by 2000.",
+  "quote_kind": "paraphrase",
+  "quote_note": "In our words, as reported by The Guardian's 2011 review of Profiles of the Future. The same chart had fusion power by 1990.",
+  "who": "Arthur C. Clarke",
+  "where": "Profiles of the Future (book)",
+  "quote_sources": [
+   {
+    "title": "Profiles of the Future by Arthur C Clarke — review, The Guardian, 4 Mar 2011",
+    "url": "https://www.theguardian.com/science/2011/mar/04/profiles-future-arthur-clarke-review",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Google launched its statistical machine translation in 2006, starting with Arabic. Free machine translation is now everywhere, about 36 years after Clarke's date.",
+  "happened_sources": [
+   {
+    "title": "Statistical machine translation live — Google Research blog, 2006",
+    "url": "https://research.google/blog/statistical-machine-translation-live/"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "The translator came. It just missed the 1970 bus by a few decades."
  },
  {
   "id": "asimov-1964-robots",
@@ -589,7 +1575,9 @@
   "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e2-robot-housemaid/",
   "episode_label": "Episode 2: The Robot Housemaid",
   "reason": "As ruled on air in Episode 2.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "panam-1964-moon-flight",
@@ -622,7 +1610,9 @@
   "episode_url": "https://honey-badger-labs.github.io/tomorrow-gazette-archive/episodes/e4-pan-am-moon/",
   "episode_label": "Episode 4: Pan Am to the Moon",
   "reason": "As ruled on air in Episode 4.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": false
  },
  {
   "id": "moore-1965-home-computers",
@@ -652,7 +1642,9 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "Home computers, car electronics and mobile phones, all in one sentence.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "rand-1966-moon-base-mars",
@@ -683,40 +1675,47 @@
   "verdict": "NOT YET",
   "status": "proposed",
   "reason": "Both are still on the to-do list.",
-  "note": "Time quote checked in the fetched Time archive page (WebFetch) on 11 Nov 2026.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
-  "id": "time-1966-remote-shopping",
-  "year": 1966,
-  "when": "25 February 1966",
-  "topic": "shop",
-  "headline": "SHOPPING FROM HOME WILL FLOP, SAY SKEPTICS",
-  "deck": "The futurists picture shopping by video phone. Others are sure nobody will want it.",
-  "quote": "...remote shopping, while entirely feasible, will flop—because women like to get out of the house, like to handle the merchandise, like to be able to change their minds.",
+  "id": "kahn-1967-shared-computers",
+  "year": 1967,
+  "when": "1967",
+  "topic": "internet",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "RENT COMPUTER POWER BY THE METER, AT HOME",
+  "deck": "Two think-tank futurists list 100 likely inventions before the year 2000.",
+  "quote": "Shared time (public and interconnected?) computers generally available to home and business on a metered basis",
   "quote_kind": "verbatim",
-  "quote_note": "Time's summary of what the skeptics among the futurists said, not a named person's words.",
-  "who": "Skeptics among the futurists, as summed up by Time",
-  "where": "\"The Futurists: Looking Toward A.D. 2000\", Time",
+  "quote_note": "One line from a list of likely innovations by 2000. Transcription; the book scan is at archive.org.",
+  "who": "Herman Kahn and Anthony J. Wiener",
+  "where": "The Year 2000 (book, Hudson Institute)",
   "quote_sources": [
    {
-    "title": "\"The Futurists: Looking Toward A.D. 2000\" — Time, 25 Feb 1966",
-    "url": "https://time.com/archive/6628965/essay-the-futurists-looking-toward-a-d-2000/",
+    "title": "The Year 2000, Table XVIII (transcription) — crummy.com",
+    "url": "https://www.crummy.com/writing/hosted/The%20Year%202000.html",
+    "kind": "secondary"
+   },
+   {
+    "title": "The Year 2000: a framework for speculation — Internet Archive scan",
+    "url": "https://archive.org/details/year2000framewor00kahnrich",
     "kind": "primary"
    }
   ],
-  "happened": "E-commerce was 16.4% of all US retail sales in the second quarter of 2026, according to the US Census Bureau.",
+  "happened": "Interconnected computers on tap are how the internet and cloud computing work. In 2024, 5.5 billion people were online, says the ITU.",
   "happened_sources": [
    {
-    "title": "Quarterly retail e-commerce sales — US Census Bureau",
-    "url": "https://www.census.gov/retail/ecommerce.html"
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
    }
   ],
-  "verdict": "COMPLETELY BONKERS",
+  "verdict": "NAILED IT",
   "status": "proposed",
-  "reason": "Remote shopping did not flop. (The reasoning has not aged well either.)",
-  "note": "Time quote checked in the fetched Time archive page (WebFetch) on 11 Nov 2026.",
-  "opened": "2026-11-11"
+  "reason": "Even the question mark after \"interconnected\" was a good hedge."
  },
  {
   "id": "ehrlich-1968-famine",
@@ -747,7 +1746,9 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "The mass starvation he forecast for the 1970s did not happen on anything like that scale.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "stg-1969-mars",
@@ -782,7 +1783,140 @@
   "verdict": "NOT YET",
   "status": "proposed",
   "reason": "The 15 years ran out in 1984. Mars is still waiting.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "ucla-1969-arpanet",
+  "year": 1969,
+  "when": "July 1969",
+  "topic": "internet",
+  "kind": "forecast",
+  "primary": false,
+  "opened": "2026-11-12",
+  "headline": "NEW COMPUTER LINK MAY LEAD THE WAY",
+  "deck": "A university press release announces a network to join computers of different makes.",
+  "quote": "Creation of the network represents a major forward step in computer technology and may serve as the forerunner of large computer networks of the future.",
+  "quote_kind": "verbatim",
+  "quote_note": "From UCLA's press release, as quoted by Paleofuture.",
+  "who": "UCLA (press release)",
+  "where": "Press release on the ARPA computer network",
+  "quote_sources": [
+   {
+    "title": "The forgotten press release that announced the birth of the internet in 1969 — Paleofuture",
+    "url": "https://paleofuture.com/blog/2023/11/17/the-forgotten-press-release-that-announced-the-impending-birth-of-the-internet-in-1969",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "It was the start of the internet. In 2024, 5.5 billion people were online, says the ITU.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "\"May serve\" is doing a lot of modest work there."
+ },
+ {
+  "id": "intel-1971-new-era",
+  "year": 1971,
+  "when": "15 November 1971",
+  "topic": "computers",
+  "kind": "claim",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A NEW ERA OF INTEGRATED ELECTRONICS",
+  "deck": "A young chip company advertises the first microprocessor for sale.",
+  "quote": "Announcing a new era of integrated electronics",
+  "quote_kind": "verbatim",
+  "quote_note": "Headline of the Intel 4004 advert in Electronic News. A boast as much as a forecast.",
+  "who": "Intel (advert)",
+  "where": "Electronic News",
+  "quote_sources": [
+   {
+    "title": "Announcing a new era of integrated electronics — Intel 4004 advertisement, Computer History Museum catalogue 102635150",
+    "url": "https://www.computerhistory.org/collections/catalog/102635150",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Microprocessors now run almost everything with a plug or a battery, and single chips hold billions of transistors.",
+  "happened_sources": [
+   {
+    "title": "1965: Moore's Law predicts the future of integrated circuits — Computer History Museum",
+    "url": "https://www.computerhistory.org/siliconengine/moores-law-predicts-the-future-of-integrated-circuits/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "For once, the advert undersold it."
+ },
+ {
+  "id": "limits-1972-growth",
+  "year": 1972,
+  "when": "1972",
+  "topic": "planet",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "GROWTH WILL HIT THE LIMIT WITHIN A CENTURY",
+  "deck": "A computer model run for the Club of Rome warns that the world can't keep growing as it is.",
+  "quote": "If the present growth trends in world population, industrialization, pollution, food production, and resource depletion continue unchanged, the limits to growth on this planet will be reached sometime within the next one hundred years.",
+  "quote_kind": "verbatim",
+  "quote_note": "A conditional warning (\"if... unchanged\"), not a firm date.",
+  "who": "Donella Meadows, Dennis Meadows, Jørgen Randers and William Behrens",
+  "where": "The Limits to Growth (report to the Club of Rome)",
+  "quote_sources": [
+   {
+    "title": "The Limits to Growth (1972), digital scan (PDF) — Donella Meadows Project",
+    "url": "https://www.donellameadows.org/wp-content/userfiles/Limits-to-Growth-digital-scan-version.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Their hundred years run to 2072, and the \"if\" matters: trends have not stayed unchanged.",
+  "happened_sources": [
+   {
+    "title": "The Limits to Growth (1972) — Donella Meadows Project",
+    "url": "https://www.donellameadows.org/wp-content/userfiles/Limits-to-Growth-digital-scan-version.pdf"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "The deadline is 2072. Ask us again then."
+ },
+ {
+  "id": "nixon-1973-energy-independence",
+  "year": 1973,
+  "when": "25 November 1973",
+  "topic": "energy",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "NO FOREIGN ENERGY NEEDED BY 1980, PRESIDENT VOWS",
+  "deck": "In the middle of an oil crisis, the White House launches \"Project Independence\".",
+  "quote": "...by the end of this decade, Americans will not have to rely on any source of energy beyond our own.",
+  "quote_kind": "verbatim",
+  "who": "Richard Nixon",
+  "where": "Address to the Nation about National Energy Policy",
+  "quote_sources": [
+   {
+    "title": "Address to the Nation About National Energy Policy, 25 Nov 1973 — The American Presidency Project, UC Santa Barbara",
+    "url": "https://www.presidency.ucsb.edu/documents/address-the-nation-about-national-energy-policy",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The US became a net total energy exporter in 2019, says the US Energy Information Administration. That was about 40 years late, and it still imports energy.",
+  "happened_sources": [
+   {
+    "title": "U.S. energy facts explained: imports and exports — US EIA",
+    "url": "https://www.eia.gov/energyexplained/us-energy-facts/imports-and-exports.php"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Got there in the end: four decades after \"the end of this decade\"."
  },
  {
   "id": "clarke-1974-home-computer",
@@ -818,7 +1952,139 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "Online banking and booking from home, described 20 years before the web went mainstream.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "popelec-1975-altair",
+  "year": 1975,
+  "when": "January 1975",
+  "topic": "computers",
+  "kind": "claim",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THE COMPUTER IN EVERY HOME HAS ARRIVED",
+  "deck": "A hobby magazine's cover story offers a computer kit you can build on the kitchen table.",
+  "quote": "The era of the computer in every home—a favorite topic among science-fiction writers—has arrived!",
+  "quote_kind": "verbatim",
+  "quote_note": "Opening of the Altair 8800 article by H. Edward Roberts and William Yates. The first word is printed in capitals in the original.",
+  "who": "H. Edward Roberts and William Yates",
+  "where": "Popular Electronics",
+  "quote_sources": [
+   {
+    "title": "Popular Electronics, January 1975 (PDF) — World Radio History",
+    "url": "https://www.worldradiohistory.com/Archive-Poptronics/70s/1975/Poptronics-1975-01.pdf",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Not in 1975, but it came: by 2018, 92% of US households had at least one type of computer, says the Census Bureau (smartphones and tablets included).",
+  "happened_sources": [
+   {
+    "title": "Computer and Internet Use in the United States: 2018 — US Census Bureau, 2021",
+    "url": "https://www.census.gov/newsroom/press-releases/2021/computer-internet-use.html"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Announced a little early. The kitchen table took a few more decades."
+ },
+ {
+  "id": "carter-1977-oil",
+  "year": 1977,
+  "when": "18 April 1977",
+  "topic": "energy",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "WORLD OIL OUTPUT WILL TOP OUT IN THE 1980s",
+  "deck": "A new president tells the nation the energy crisis is \"the moral equivalent of war\".",
+  "quote": "World oil production can probably keep going up for another six or eight years. But some time in the 1980s it can't go up much more.",
+  "quote_kind": "verbatim",
+  "who": "Jimmy Carter",
+  "where": "Address to the Nation on energy policy",
+  "quote_sources": [
+   {
+    "title": "President Carter's Address to the Nation on Proposed National Energy Policy — Wikisource",
+    "url": "https://en.wikisource.org/wiki/President_Carter%27s_Address_to_the_Nation_on_Proposed_National_Energy_Policy",
+    "kind": "primary transcription"
+   }
+  ],
+  "happened": "Oil output kept climbing for decades. In 2023 the US alone averaged 12.9 million barrels of crude a day, more than any country has ever produced, says the EIA.",
+  "happened_sources": [
+   {
+    "title": "United States produces more crude oil than any country, ever — US EIA Today in Energy",
+    "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The ceiling kept moving up."
+ },
+ {
+  "id": "kanarick-1978-home-computer",
+  "year": 1978,
+  "when": "30 March 1978",
+  "topic": "computers",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A COMPUTER IN THE HOME BY 2000, ORDERING THE GROCERIES",
+  "deck": "A computer company researcher says home machines are getting smaller and cheaper every year.",
+  "quote": "I don't think it's too blue-sky to say that you'll find a computer in the American home by the year 2000. They're getting smaller and less expensive every year. One day computers will be running our houses, ordering our groceries...",
+  "quote_kind": "verbatim",
+  "quote_note": "Quoted in the Titusville (Pennsylvania) Herald; as quoted by Paleofuture.",
+  "who": "Arnold Kanarick, Honeywell",
+  "where": "Titusville Herald",
+  "quote_sources": [
+   {
+    "title": "Computers in the home by year 2000 (1978) — Paleofuture",
+    "url": "https://paleofuture.com/blog/2008/3/22/computers-in-the-home-by-year-2000-1978.html",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "By 2018, 92% of US households had at least one type of computer, the Census Bureau says. Online grocery orders are routine.",
+  "happened_sources": [
+   {
+    "title": "Computer and Internet Use in the United States: 2018 — US Census Bureau, 2021",
+    "url": "https://www.census.gov/newsroom/press-releases/2021/computer-internet-use.html"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Not blue-sky at all. Slightly modest, if anything."
+ },
+ {
+  "id": "carter-1979-foreign-oil",
+  "year": 1979,
+  "when": "15 July 1979",
+  "topic": "energy",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "\"NEVER\" MORE FOREIGN OIL THAN 1977, VOWS PRESIDENT",
+  "deck": "In a famous television address, the president sets a hard limit on imports.",
+  "quote": "Beginning this moment, this Nation will never use more foreign oil than we did in 1977--never.",
+  "quote_kind": "verbatim",
+  "who": "Jimmy Carter",
+  "where": "Address to the Nation on Energy and National Goals",
+  "quote_sources": [
+   {
+    "title": "Address to the Nation on Energy and National Goals (\"malaise speech\"), 15 Jul 1979 — The American Presidency Project, UC Santa Barbara",
+    "url": "https://www.presidency.ucsb.edu/documents/address-the-nation-energy-and-national-goals-the-malaise-speech",
+    "kind": "primary"
+   }
+  ],
+  "happened": "US energy imports kept rising for decades and only peaked in 2007, says the US Energy Information Administration.",
+  "happened_sources": [
+   {
+    "title": "U.S. energy facts explained: imports and exports — US EIA",
+    "url": "https://www.eia.gov/energyexplained/us-energy-facts/imports-and-exports.php"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "\"Never\" lasted until imports climbed past it."
  },
  {
   "id": "toffler-1980-electronic-cottage",
@@ -848,7 +2114,84 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "Literally millions, though it took a pandemic to make it happen at scale.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "kron-1981-computer-newspaper",
+  "year": 1981,
+  "when": "1981",
+  "topic": "news",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "ONE DAY ALL YOUR NEWSPAPERS WILL COME BY COMPUTER",
+  "deck": "A TV station visits the few households reading a newspaper on a home computer.",
+  "quote": "Engineers now predict a day will come when we get all our newspapers and magazines by home computer — but that's a few years off.",
+  "quote_kind": "verbatim",
+  "quote_note": "TV report wording as transcribed by Business Insider (TechCrunch's transcription differs slightly).",
+  "who": "KRON-TV reporter, San Francisco",
+  "where": "KRON news report on the San Francisco Examiner experiment",
+  "quote_sources": [
+   {
+    "title": "1981 news report on online media — Business Insider, 2014",
+    "url": "https://www.businessinsider.com/1981-news-report-on-online-media-2014-1",
+    "kind": "secondary"
+   },
+   {
+    "title": "You need to see this video — TechCrunch, 29 Jan 2009",
+    "url": "https://techcrunch.com/2009/01/29/you-need-to-see-this-video/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "An overwhelming majority of US adults now at least sometimes get news from digital devices, says Pew Research.",
+  "happened_sources": [
+   {
+    "title": "News Platform Fact Sheet — Pew Research Center",
+    "url": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "\"A few years\" took about fifteen. Fair enough."
+ },
+ {
+  "id": "fifthgen-1982-reasoning-computers",
+  "year": 1982,
+  "when": "1982",
+  "topic": "ai",
+  "kind": "plan",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "JAPAN SETS OUT TO BUILD COMPUTERS THAT REASON",
+  "deck": "A national project aims for machines that diagnose disease and understand language.",
+  "quote": "Japan's Fifth Generation project, started in 1982, aimed to develop computers that could reason, diagnose diseases, analyse lawsuits and understand language.",
+  "quote_kind": "paraphrase",
+  "quote_note": "In our words, from The New York Times' 1992 report on the project's end.",
+  "who": "Japan's Ministry of International Trade and Industry (Fifth Generation Computer Systems project)",
+  "where": "National research project",
+  "quote_sources": [
+   {
+    "title": "\"Fifth Generation\" Became Japan's Lost Generation — The New York Times, 5 Jun 1992 (archived copy)",
+    "url": "https://web.archive.org/web/2020id_/https://www.nytimes.com/1992/06/05/business/fifth-generation-became-japan-s-lost-generation.html",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "The project wound down in 1992 without reaching its goals. Decades later, AI that handles language did arrive: in a 2025 study, GPT-4.5 was judged to be the human 73% of the time in a Turing-style test.",
+  "happened_sources": [
+   {
+    "title": "\"Fifth Generation\" Became Japan's Lost Generation — NYT, 1992 (archived)",
+    "url": "https://web.archive.org/web/2020id_/https://www.nytimes.com/1992/06/05/business/fifth-generation-became-japan-s-lost-generation.html"
+   },
+   {
+    "title": "Jones & Bergen, \"Large Language Models Pass the Turing Test\" — arXiv 2503.23674 (2025)",
+    "url": "https://arxiv.org/abs/2503.23674"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Right goals, wrong decade, wrong country's labs."
  },
  {
   "id": "asimov-1983-robots-home",
@@ -882,7 +2225,45 @@
   "verdict": "PARTLY RIGHT",
   "status": "proposed",
   "reason": "Robots did get into the home, but mostly to vacuum it.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "csmonitor-1984-sofa-shopping",
+  "year": 1984,
+  "when": "3 January 1984",
+  "topic": "shopping",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "SHOPPING FROM YOUR SOFA BY THE MID-1990s",
+  "deck": "A newspaper says electronic shopping has been \"coming\" since the 1960s, and finally gives a date.",
+  "quote": "Eventually, probably by the mid-1990s, as much as 10 percent of the $1 trillion a year in general-merchandise retail shopping in the United States may be done electronically from your sofa.",
+  "quote_kind": "verbatim",
+  "who": "Scott Armstrong, The Christian Science Monitor",
+  "where": "The Christian Science Monitor",
+  "quote_sources": [
+   {
+    "title": "The Christian Science Monitor, 3 Jan 1984",
+    "url": "https://www.csmonitor.com/1984/0103/010315.html",
+    "kind": "primary"
+   }
+  ],
+  "happened": "US Census figures put online shopping at 0.6 percent of retail sales in late 1999. It first reached 10 percent in early 2019, and was 16.4 percent in the second quarter of 2026.",
+  "happened_sources": [
+   {
+    "title": "Quarterly retail e-commerce sales — US Census Bureau",
+    "url": "https://www.census.gov/retail/ecommerce.html"
+   },
+   {
+    "title": "E-commerce retail sales as a percent of total sales (ECOMPCTSA), US Census Bureau data — FRED, St. Louis Fed",
+    "url": "https://fred.stlouisfed.org/series/ECOMPCTSA"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "The sofa won. It just took longer than a decade."
  },
  {
   "id": "jobs-1985-network",
@@ -917,43 +2298,9 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "It went worldwide, not just nationwide.",
-  "opened": "2026-11-11"
- },
- {
-  "id": "apple-1987-knowledge-navigator",
-  "year": 1987,
-  "when": "1987",
-  "topic": "ai",
-  "headline": "A TALKING ASSISTANT IN A FOLDING COMPUTER",
-  "deck": "Apple films a professor of the future chatting with a digital helper. The calendar on screen says September 2011.",
-  "quote": "A concept film showing a professor talking to a digital personal assistant that understands ordinary speech, finds articles and places video calls, on a folding tablet-style computer.",
-  "quote_kind": "paraphrase",
-  "quote_note": "Paraphrase: this is a video, not a quotation. NBC News notes the film is set in September 2011.",
-  "who": "Apple (under CEO John Sculley)",
-  "where": "\"Knowledge Navigator\" concept video",
-  "quote_sources": [
-   {
-    "title": "Knowledge Navigator (1987) — Internet Archive",
-    "url": "https://archive.org/details/knowledge-navigator",
-    "kind": "primary"
-   },
-   {
-    "title": "25 years before Siri, Apple had 'Knowledge Navigator' — NBC News, 5 Oct 2011",
-    "url": "https://www.nbcnews.com/tech/tech-news/25-years-siri-apple-had-knowledge-navigator-flna120157",
-    "kind": "secondary"
-   }
-  ],
-  "happened": "On 4 October 2011, weeks after the film's imagined date, Apple introduced Siri on the iPhone 4S.",
-  "happened_sources": [
-   {
-    "title": "Apple Launches iPhone 4S, iOS 5 & iCloud — Apple Newsroom, 4 Oct 2011",
-    "url": "https://www.apple.com/newsroom/2011/10/04Apple-Launches-iPhone-4S-iOS-5-iCloud/"
-   }
-  ],
-  "verdict": "NAILED IT",
-  "status": "proposed",
-  "reason": "They even got the month about right.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "latimes-1988-robot-housekeeper",
@@ -989,7 +2336,42 @@
   "verdict": "NOT YET",
   "status": "proposed",
   "reason": "Your washing is still waiting.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "bernerslee-1989-linked-information",
+  "year": 1989,
+  "when": "March 1989",
+  "topic": "internet",
+  "kind": "plan",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A UNIVERSAL WEB OF LINKED INFORMATION",
+  "deck": "A physics lab programmer proposes a better way to keep track of who did what.",
+  "quote": "We should work toward a universal linked information system, in which generality and portability are more important than fancy graphics techniques and complex extra facilities.",
+  "quote_kind": "verbatim",
+  "quote_note": "A proposal, not a forecast.",
+  "who": "Tim Berners-Lee, CERN",
+  "where": "\"Information Management: A Proposal\"",
+  "quote_sources": [
+   {
+    "title": "Information Management: A Proposal (1989) — W3C",
+    "url": "https://www.w3.org/History/1989/proposal.html",
+    "kind": "primary"
+   }
+  ],
+  "happened": "That became the World Wide Web. In 2024, 5.5 billion people were online, says the ITU.",
+  "happened_sources": [
+   {
+    "title": "Facts and Figures 2024: Internet use — ITU",
+    "url": "https://www.itu.int/itu-d/reports/statistics/2024/11/10/ff24-internet-use/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "A filing system for one lab became the filing system for the planet."
  },
  {
   "id": "kurzweil-1990-chess",
@@ -1020,7 +2402,9 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "Deep Blue did it in 1997, with time to spare.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "weiser-1991-tabs-pads",
@@ -1051,38 +2435,107 @@
   "verdict": "PARTLY RIGHT",
   "status": "proposed",
   "reason": "The pads arrived. The hundreds per room did not.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
-  "id": "att-1993-you-will",
-  "year": 1993,
-  "when": "1993",
-  "topic": "phone",
-  "headline": "HAVE YOU EVER WATCHED A MOVIE THE MOMENT YOU WANTED? YOU WILL.",
-  "deck": "A phone company's TV adverts promise a future of on-demand films, video calls and maps in the car.",
-  "quote": "Have you ever watched the movie you wanted to, the moment you wanted to? You will.",
+  "id": "hughes-1992-self-tracking",
+  "year": 1992,
+  "when": "1992",
+  "topic": "health",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "YOU'LL SPY ON YOURSELF WITH CHEAP GADGETS",
+  "deck": "A cryptography activist predicts people will point the sensors at themselves.",
+  "quote": "In the world of the future, people will use low-cost Radio Shack equipment to spy on themselves to find out who they are.",
   "quote_kind": "verbatim",
-  "quote_note": "One of 12 predictions in the \"You Will\" adverts, narrated by Tom Selleck.",
-  "who": "AT&T",
-  "where": "\"You Will\" TV advertising campaign",
+  "quote_note": "From Elon University's database of early-1990s internet predictions.",
+  "who": "Eric Hughes",
+  "where": "Early-1990s internet predictions (Elon University \"Imagining the Internet\")",
   "quote_sources": [
    {
-    "title": "How Tom Selleck predicted the future of tech — Fortune, 12 Aug 2011",
-    "url": "https://fortune.com/2011/08/12/how-tom-selleck-predicted-the-future-of-tech/",
+    "title": "Brief but biting quotes — Imagining the Internet, Elon University",
+    "url": "https://www.elon.edu/u/imagining/time-capsule/early-90s/brief-but-biting-quotes/",
     "kind": "secondary"
    }
   ],
-  "happened": "Fortune counted 12 predictions in the campaign in 2011 and said every one had come true, including GPS, video calls and tablets.",
+  "happened": "About one in five US adults (21%) regularly wear a smart watch or fitness tracker, Pew Research found in 2019.",
   "happened_sources": [
    {
-    "title": "Fortune, 12 Aug 2011",
-    "url": "https://fortune.com/2011/08/12/how-tom-selleck-predicted-the-future-of-tech/"
+    "title": "About one-in-five Americans use a smart watch or fitness tracker — Pew Research Center, 9 Jan 2020",
+    "url": "https://www.pewresearch.org/short-reads/2020/01/09/about-one-in-five-americans-use-a-smart-watch-or-fitness-tracker/"
    }
   ],
   "verdict": "NAILED IT",
   "status": "proposed",
-  "reason": "All of it came true, though mostly from other companies.",
-  "opened": "2026-11-11"
+  "reason": "Step counts, sleep scores, heart rates: we volunteered."
+ },
+ {
+  "id": "celente-1994-commuter",
+  "year": 1994,
+  "when": "1994",
+  "topic": "work",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THE COMPUTER WILL REPLACE THE COMMUTER",
+  "deck": "A trend forecaster says more people will work without leaving home.",
+  "quote": "The computer will increasingly replace the commuter.",
+  "quote_kind": "verbatim",
+  "quote_note": "From Elon University's database of early-1990s internet predictions.",
+  "who": "Gerald Celente",
+  "where": "Early-1990s internet predictions (Elon University \"Imagining the Internet\")",
+  "quote_sources": [
+   {
+    "title": "Brief but biting quotes — Imagining the Internet, Elon University",
+    "url": "https://www.elon.edu/u/imagining/time-capsule/early-90s/brief-but-biting-quotes/",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "The number of people mainly working from home in the US tripled between 2019 and 2021, says the Census Bureau.",
+  "happened_sources": [
+   {
+    "title": "The Number of People Primarily Working From Home Tripled Between 2019 and 2021 — US Census Bureau, 15 Sep 2022",
+    "url": "https://www.census.gov/newsroom/press-releases/2022/people-working-from-home.html"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "\"Increasingly\" was the right word."
+ },
+ {
+  "id": "stoll-1995-nirvana",
+  "year": 1995,
+  "when": "26 February 1995",
+  "topic": "internet",
+  "headline": "\"BALONEY\": THE WEB WON'T REPLACE YOUR NEWSPAPER",
+  "deck": "An astronomer and early net user says the online hype is overblown.",
+  "quote": "The truth is no online database will replace your daily newspaper, no CD-ROM can take the place of a competent teacher and no computer network will change the way government works.",
+  "quote_kind": "verbatim",
+  "who": "Clifford Stoll",
+  "where": "\"Why the Web Won't Be Nirvana\", Newsweek",
+  "quote_sources": [
+   {
+    "title": "Why the Web Won't Be Nirvana — Newsweek, 26 Feb 1995",
+    "url": "https://www.newsweek.com/clifford-stoll-why-web-wont-be-nirvana-185306",
+    "kind": "primary"
+   }
+  ],
+  "happened": "88% of US adults now get news at least sometimes from a smartphone, computer or tablet, Pew Research reports, by far the most common way.",
+  "happened_sources": [
+   {
+    "title": "News Platform Fact Sheet — Pew Research Center",
+    "url": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "You may be reading this front page on a screen.",
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "metcalfe-1995-collapse",
@@ -1117,37 +2570,41 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "He literally ate his words.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": false
  },
  {
-  "id": "stoll-1995-nirvana",
-  "year": 1995,
-  "when": "26 February 1995",
+  "id": "gates-1996-content-king",
+  "year": 1996,
+  "when": "3 January 1996",
   "topic": "internet",
-  "headline": "\"BALONEY\": THE WEB WON'T REPLACE YOUR NEWSPAPER",
-  "deck": "An astronomer and early net user says the online hype is overblown.",
-  "quote": "The truth is no online database will replace your daily newspaper, no CD-ROM can take the place of a competent teacher and no computer network will change the way government works.",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "CONTENT IS KING ON THE INTERNET",
+  "deck": "A software boss says the money online will go to whoever makes things worth watching and reading.",
+  "quote": "Content is where I expect much of the real money will be made on the Internet, just as it was in broadcasting.",
   "quote_kind": "verbatim",
-  "who": "Clifford Stoll",
-  "where": "\"Why the Web Won't Be Nirvana\", Newsweek",
+  "who": "Bill Gates",
+  "where": "\"Content is King\" (essay on microsoft.com)",
   "quote_sources": [
    {
-    "title": "Why the Web Won't Be Nirvana — Newsweek, 26 Feb 1995",
-    "url": "https://www.newsweek.com/clifford-stoll-why-web-wont-be-nirvana-185306",
+    "title": "Content is King (3 Jan 1996) — microsoft.com, archived copy",
+    "url": "https://web.archive.org/web/20010126005200/http://www.microsoft.com/billgates/columns/1996essay/essay960103.asp",
     "kind": "primary"
    }
   ],
-  "happened": "88% of US adults now get news at least sometimes from a smartphone, computer or tablet, Pew Research reports, by far the most common way.",
+  "happened": "In May 2025 Nielsen said streaming had passed broadcast and cable combined in share of US TV viewing for the first time.",
   "happened_sources": [
    {
-    "title": "News Platform Fact Sheet — Pew Research Center",
-    "url": "https://www.pewresearch.org/journalism/fact-sheet/news-platform-fact-sheet/"
+    "title": "Streaming reaches historic TV milestone, eclipses combined broadcast and cable viewing for first time — Nielsen, 2025",
+    "url": "https://www.nielsen.com/news-center/2025/streaming-reaches-historic-tv-milestone-eclipses-combined-broadcast-and-cable-viewing-for-first-time/"
    }
   ],
-  "verdict": "COMPLETELY BONKERS",
+  "verdict": "NAILED IT",
   "status": "proposed",
-  "reason": "You may be reading this front page on a screen.",
-  "opened": "2026-11-11"
+  "reason": "The crown fits."
  },
  {
   "id": "dell-1997-apple",
@@ -1178,7 +2635,9 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "The shareholders did rather well by not getting their money back.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "krugman-1998-fax",
@@ -1213,7 +2672,75 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "Fax machines did not get 5.5 billion users.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "qwest-1999-every-movie",
+  "year": 1999,
+  "when": "1999",
+  "topic": "film",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "EVERY FILM EVER MADE, ANY TIME, IN ANY LANGUAGE",
+  "deck": "A telecoms advert set in a shabby motel promises unlimited films over the internet.",
+  "quote": "All rooms have every movie ever made in any language, anytime day or night.",
+  "quote_kind": "verbatim",
+  "quote_note": "Line from a Qwest television advert, as quoted by Paleofuture.",
+  "who": "Qwest (TV advert)",
+  "where": "Television advertisement",
+  "quote_sources": [
+   {
+    "title": "This TV ad from 1999 promised every movie ever made at your fingertips — Paleofuture",
+    "url": "https://paleofuture.com/blog/2024/1/23/this-tv-ad-from-1999-promised-every-movie-ever-made-at-your-fingertips",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "Streaming now gets more US TV viewing time than broadcast and cable combined, Nielsen said in 2025. But \"every movie ever made\" is still nowhere in one place.",
+  "happened_sources": [
+   {
+    "title": "Streaming reaches historic TV milestone — Nielsen, 2025",
+    "url": "https://www.nielsen.com/news-center/2025/streaming-reaches-historic-tv-milestone-eclipses-combined-broadcast-and-cable-viewing-for-first-time/"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "Films on tap: yes. Every film: try finding that one from 1957."
+ },
+ {
+  "id": "joy-2000-million-times",
+  "year": 2000,
+  "when": "April 2000",
+  "topic": "computers",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "MACHINES A MILLION TIMES MORE POWERFUL BY 2030",
+  "deck": "A computer pioneer's famous essay worries about where all that power will lead.",
+  "quote": "By 2030, we are likely to be able to build machines, in quantity, a million times as powerful as the personal computers of today...",
+  "quote_kind": "verbatim",
+  "quote_note": "From \"Why the Future Doesn't Need Us\", an essay that was mainly a warning.",
+  "who": "Bill Joy, Sun Microsystems",
+  "where": "Wired magazine",
+  "quote_sources": [
+   {
+    "title": "Why the Future Doesn't Need Us — Wired, April 2000",
+    "url": "https://www.wired.com/2000/04/joy-2/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The deadline is 2030, so the clock is still running.",
+  "happened_sources": [
+   {
+    "title": "Why the Future Doesn't Need Us — Wired, April 2000",
+    "url": "https://www.wired.com/2000/04/joy-2/"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Four years left on the meter."
  },
  {
   "id": "kamen-2001-segway",
@@ -1248,8 +2775,42 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "Mall security loved it. The car did not notice.",
-  "note": "Time article also read in full via WebFetch on 11 Nov 2026.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "longbets-2002-turing",
+  "year": 2002,
+  "when": "2002",
+  "topic": "ai",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "NO MACHINE WILL PASS THE TURING TEST BY 2029",
+  "deck": "A software pioneer bets $20,000 against a futurist that computers won't fool us in time.",
+  "quote": "By 2029 no computer - or \"machine intelligence\" - will have passed the Turing Test.",
+  "quote_kind": "verbatim",
+  "quote_note": "Mitch Kapor's side of Long Bet #1, against Ray Kurzweil.",
+  "who": "Mitch Kapor (bet against Ray Kurzweil)",
+  "where": "Long Bets, Bet #1",
+  "quote_sources": [
+   {
+    "title": "Long Bet #1: By 2029 no computer will have passed the Turing Test — Long Bets",
+    "url": "https://longbets.org/1/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The bet runs to 2029 under its own strict rules. Meanwhile, in a 2025 study GPT-4.5 was judged to be the human 73% of the time in short Turing-style chats.",
+  "happened_sources": [
+   {
+    "title": "Jones & Bergen, \"Large Language Models Pass the Turing Test\" — arXiv 2503.23674 (2025)",
+    "url": "https://arxiv.org/abs/2503.23674"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Kapor still has three years, but the machines are closing fast."
  },
  {
   "id": "jobs-2003-subscriptions",
@@ -1279,7 +2840,9 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "752 million paying subscribers would like a word.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "gates-2004-spam",
@@ -1310,8 +2873,74 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "Check your junk folder.",
-  "note": "BBC quote checked via WebFetch on 11 Nov 2026.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "kelly-2005-everyone-creates",
+  "year": 2005,
+  "when": "August 2005",
+  "topic": "internet",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "SOON EVERYONE WILL MAKE A VIDEO, A SONG AND A BOOK",
+  "deck": "A magazine founder looks back at ten years of the web and forward to the next ten.",
+  "quote": "A simple extrapolation suggests that in the near future, everyone alive will (on average) write a song, author a book, make a video, craft a weblog, and code a program.",
+  "quote_kind": "verbatim",
+  "who": "Kevin Kelly",
+  "where": "\"We Are the Web\", Wired",
+  "quote_sources": [
+   {
+    "title": "We Are the Web — Wired, August 2005",
+    "url": "https://www.wired.com/2005/08/tech/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "YouTube said in April 2025 that more than 20 billion videos had been uploaded to it. Books and computer code did not follow at the same pace.",
+  "happened_sources": [
+   {
+    "title": "20 ways we're celebrating two decades of YouTube — Google/YouTube blog, Apr 2025",
+    "url": "https://blog.google/intl/en-ca/products/inside-youtube/20-ways-were-celebrating-two-decades-of-youtube/"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "The videos happened. The novel in everyone is still in draft."
+ },
+ {
+  "id": "dahan-2006-baby-chips",
+  "year": 2006,
+  "when": "24 September 2006",
+  "topic": "privacy",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "EVERY NEWBORN WILL BE CHIPPED BY 2020",
+  "deck": "Hundreds of internet experts are asked about life in 2020. One predicts a tracking chip at birth.",
+  "quote": "Before 2020, every newborn child in industrialized countries will be implanted with an RFID or similar chip.",
+  "quote_kind": "verbatim",
+  "quote_note": "One respondent's answer in a survey of experts.",
+  "who": "Michael Dahan, Sapir Academic College, Israel",
+  "where": "Pew Internet & Elon University, \"The Future of the Internet II\"",
+  "quote_sources": [
+   {
+    "title": "The Future of the Internet II — Pew Research Center, 24 Sep 2006",
+    "url": "https://www.pewresearch.org/internet/2006/09/24/the-future-of-the-internet-ii/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "We found no industrialised country that implants chips in newborns. 2020 came and went.",
+  "happened_sources": [
+   {
+    "title": "The Future of the Internet II — Pew Research Center (the forecast's own deadline)",
+    "url": "https://www.pewresearch.org/internet/2006/09/24/the-future-of-the-internet-ii/"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Babies arrive with many things. A chip isn't one of them."
  },
  {
   "id": "ballmer-2007-iphone",
@@ -1341,7 +2970,9 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "A billion is a significant share.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "keyes-2008-netflix",
@@ -1372,7 +3003,9 @@
   "verdict": "COMPLETELY BONKERS",
   "status": "proposed",
   "reason": "The radar needed new batteries.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
  },
  {
   "id": "pew-2008-mobile",
@@ -1403,7 +3036,74 @@
   "verdict": "NAILED IT",
   "status": "proposed",
   "reason": "Right on time.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": false
+ },
+ {
+  "id": "satoshi-2009-catches-on",
+  "year": 2009,
+  "when": "16 January 2009",
+  "topic": "money",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "GET SOME NOW, \"IN CASE IT CATCHES ON\"",
+  "deck": "The mysterious inventor of a new digital money suggests buying a little, just in case.",
+  "quote": "It might make sense just to get some in case it catches on. If enough people think the same way, that becomes a self fulfilling prophecy.",
+  "quote_kind": "verbatim",
+  "who": "Satoshi Nakamoto",
+  "where": "Email to the Cryptography mailing list",
+  "quote_sources": [
+   {
+    "title": "Satoshi Nakamoto, Cryptography mailing list email, 16 Jan 2009 — Satoshi Nakamoto Institute",
+    "url": "https://satoshi.nakamotoinstitute.org/emails/cryptography/17/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "On 10 January 2024 the US Securities and Exchange Commission approved spot bitcoin exchange-traded products for trading, though its chair stressed this was not an endorsement.",
+  "happened_sources": [
+   {
+    "title": "Statement on the Approval of Spot Bitcoin Exchange-Traded Products — SEC Chair Gary Gensler, 10 Jan 2024",
+    "url": "https://www.sec.gov/newsroom/speeches-statements/gensler-statement-spot-bitcoin-011023"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "It caught on. Whether that was wise is another newspaper."
+ },
+ {
+  "id": "lentz-2009-peak-oil",
+  "year": 2009,
+  "when": "17 November 2009",
+  "topic": "energy",
+  "kind": "forecast",
+  "primary": false,
+  "opened": "2026-11-12",
+  "headline": "PEAK OIL AROUND 2020, CAR BOSS PREDICTS",
+  "deck": "The head of a carmaker's US arm says oil will soon get scarcer and dearer.",
+  "quote": "Our model on future energy, is that we will probably see peak oil sometime around the end of the next decade.",
+  "quote_kind": "verbatim",
+  "quote_note": "Commonwealth Club of California, San Francisco; as quoted by Paleofuture.",
+  "who": "Jim Lentz, Toyota Motor Sales USA",
+  "where": "Commonwealth Club of California",
+  "quote_sources": [
+   {
+    "title": "Toyota CEO predicted peak oil by 2020 back in 2009 — Paleofuture",
+    "url": "https://paleofuture.com/blog/2020/1/2/toyota-ceo-predicted-peak-oil-by-2020-back-in-2009",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "In 2023 the US alone averaged a record 12.9 million barrels of crude a day, more than any country ever, says the EIA.",
+  "happened_sources": [
+   {
+    "title": "United States produces more crude oil than any country, ever — US EIA",
+    "url": "https://www.eia.gov/todayinenergy/detail.php?id=61545"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "The peak kept getting taller."
  },
  {
   "id": "gates-2010-lectures",
@@ -1433,6 +3133,471 @@
   "verdict": "PARTLY RIGHT",
   "status": "proposed",
   "reason": "Free world-class lectures: yes. Replacing the university: not yet.",
-  "opened": "2026-11-11"
+  "opened": "2026-11-11",
+  "kind": "forecast",
+  "primary": true
+ },
+ {
+  "id": "obama-2011-million-evs",
+  "year": 2011,
+  "when": "25 January 2011",
+  "topic": "cars",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A MILLION ELECTRIC CARS ON US ROADS BY 2015",
+  "deck": "The State of the Union sets a target for plug-in cars.",
+  "quote": "...become the first country to have a million electric vehicles on the road by 2015.",
+  "quote_kind": "verbatim",
+  "who": "Barack Obama",
+  "where": "State of the Union address",
+  "quote_sources": [
+   {
+    "title": "Remarks by the President in State of Union Address, 25 Jan 2011 — Obama White House archives",
+    "url": "https://obamawhitehouse.archives.gov/the-press-office/2011/01/25/remarks-president-state-union-address",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The US Department of Energy says one million plug-in vehicles had been sold in the US as of October 2018, about three years late.",
+  "happened_sources": [
+   {
+    "title": "FOTW #1057: One Million Plug-in Vehicles Have Been Sold in the United States — US Department of Energy, 26 Nov 2018",
+    "url": "https://www.energy.gov/cmei/vehicles/articles/fotw-1057-november-26-2018-one-million-plug-vehicles-have-been-sold-united"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "The million came, three years behind schedule."
+ },
+ {
+  "id": "marsone-2012-settlement",
+  "year": 2012,
+  "when": "June 2012",
+  "topic": "space",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "HUMANS WILL SETTLE ON MARS BY 2023",
+  "deck": "A Dutch start-up plans a one-way trip to Mars, paid for partly as a reality TV show.",
+  "quote": "The schedule is to establish a human settlement on Mars by 2023.",
+  "quote_kind": "reported",
+  "quote_note": "BBC News describing Mars One's stated plan.",
+  "who": "Mars One (as reported by BBC News)",
+  "where": "BBC News",
+  "quote_sources": [
+   {
+    "title": "Mars One project plans a human settlement on the Red Planet — BBC News, June 2012",
+    "url": "https://www.bbc.com/news/world-europe-18506033",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "In 2019 an appeals court in Basel, Switzerland, upheld the bankruptcy of Mars One's commercial company. Nobody has gone to Mars.",
+  "happened_sources": [
+   {
+    "title": "Mars One fizzles into bankruptcy after promising a new life in space — NPR, 12 Feb 2019",
+    "url": "https://www.npr.org/2019/02/12/693945694/mars-one-fizzles-into-bankruptcy-after-promising-a-new-life-in-space"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "One-way ticket, cancelled at the gate."
+ },
+ {
+  "id": "bezos-2013-drones",
+  "year": 2013,
+  "when": "1 December 2013",
+  "topic": "shopping",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "PARCELS BY DRONE IN \"FOUR, FIVE YEARS\"",
+  "deck": "An online retailer's founder unveils delivery drones on prime-time TV.",
+  "quote": "But could it be, you know, four, five years? I think so. It will work, and it will happen, and it's gonna be a lot of fun.",
+  "quote_kind": "verbatim",
+  "who": "Jeff Bezos",
+  "where": "60 Minutes, CBS",
+  "quote_sources": [
+   {
+    "title": "Amazon's Jeff Bezos looks to the future — CBS News, 60 Minutes",
+    "url": "https://www.cbsnews.com/news/amazons-jeff-bezos-looks-to-the-future/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Amazon announced its first Prime Air drone deliveries in Lockeford, California, in 2022, nine years on, and on a small scale.",
+  "happened_sources": [
+   {
+    "title": "Amazon Prime Air prepares for drone deliveries — About Amazon",
+    "url": "https://www.aboutamazon.com/news/transportation/amazon-prime-air-prepares-for-drone-deliveries"
+   }
+  ],
+  "verdict": "PARTLY RIGHT",
+  "status": "proposed",
+  "reason": "It happened. Four or five years became nine, in one small town."
+ },
+ {
+  "id": "gates-2014-poor-countries",
+  "year": 2014,
+  "when": "January 2014",
+  "topic": "money",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "ALMOST NO POOR COUNTRIES LEFT BY 2035",
+  "deck": "A philanthropist's annual letter takes on the myth that poor countries stay poor.",
+  "quote": "By 2035, there will be almost no poor countries left in the world.",
+  "quote_kind": "verbatim",
+  "who": "Bill Gates",
+  "where": "Gates Foundation annual letter 2014",
+  "quote_sources": [
+   {
+    "title": "2014 Gates Annual Letter — Gates Foundation",
+    "url": "https://www.gatesfoundation.org/ideas/annual-letters/annual-letter-2014",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The World Bank says the share of countries classed as low-income fell from 30% in 1987 to 12% in 2023. The deadline is 2035.",
+  "happened_sources": [
+   {
+    "title": "World Bank country classifications by income level for 2024-2025 — World Bank Data Blog",
+    "url": "https://blogs.worldbank.org/en/opendata/world-bank-country-classifications-by-income-level-for-2024-2025"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Heading the right way, nine years to go."
+ },
+ {
+  "id": "gates-2015-pandemic",
+  "year": 2015,
+  "when": "March 2015",
+  "topic": "health",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "THE NEXT GREAT KILLER WILL BE A VIRUS, NOT A WAR",
+  "deck": "A TED talk warns the world isn't ready for an epidemic.",
+  "quote": "If anything kills over 10 million people in the next few decades, it's most likely to be a highly infectious virus rather than a war. Not missiles, but microbes.",
+  "quote_kind": "verbatim",
+  "quote_note": "Transcript by Rev.com of the TED talk \"The next outbreak? We're not ready\".",
+  "who": "Bill Gates",
+  "where": "TED talk",
+  "quote_sources": [
+   {
+    "title": "Bill Gates TED talk transcript (2015) — Rev",
+    "url": "https://www.rev.com/transcripts/bill-gates-ted-talk-transcript-from-2015-warns-of-pandemics-epidemics",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "The World Health Organization estimated 14.9 million excess deaths were associated with the COVID-19 pandemic in 2020 and 2021.",
+  "happened_sources": [
+   {
+    "title": "14.9 million excess deaths were associated with the COVID-19 pandemic in 2020 and 2021 — WHO, 5 May 2022",
+    "url": "https://www.who.int/news/item/05-05-2022-14.9-million-excess-deaths-were-associated-with-the-covid-19-pandemic-in-2020-and-2021"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "A warning nobody wanted to be right."
+ },
+ {
+  "id": "musk-2017-mars-2022",
+  "year": 2017,
+  "when": "29 September 2017",
+  "topic": "space",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "TWO CARGO SHIPS TO MARS BY 2022",
+  "deck": "A rocket company boss shows a giant new spaceship to a conference in Australia.",
+  "quote": "Musk said he hopes to launch two unpiloted BFRs to Mars as early as 2022, followed two years later by four more flights...",
+  "quote_kind": "reported",
+  "quote_note": "Reported by Spaceflight Now. The Planetary Society noted Musk called the dates \"aspirational\".",
+  "who": "Elon Musk (as reported)",
+  "where": "International Astronautical Congress, Adelaide",
+  "quote_sources": [
+   {
+    "title": "Elon Musk revises Mars plan, hopes for boots on ground in 2024 — Spaceflight Now, 29 Sep 2017",
+    "url": "https://spaceflightnow.com/2017/09/29/elon-musk-revises-mars-plan-hopes-for-boots-on-ground-in-2024/",
+    "kind": "secondary"
+   },
+   {
+    "title": "SpaceX's updated colonization plans — The Planetary Society, 29 Sep 2017",
+    "url": "https://www.planetary.org/articles/20170929-spacex-updated-colonization-plans",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "No ship left for Mars in 2022. The full Starship rocket made its first integrated test flight on 20 April 2023.",
+  "happened_sources": [
+   {
+    "title": "NASA chief hails SpaceX's 1st Starship launch despite explosion — Space.com, April 2023",
+    "url": "https://www.space.com/nasa-hails-1st-spacex-starship-launch-april-2023"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "\"As early as\" did a lot of heavy lifting."
+ },
+ {
+  "id": "ipcc-2018-one-point-five",
+  "year": 2018,
+  "when": "6 October 2018",
+  "topic": "planet",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "WORLD LIKELY TO HIT 1.5°C BETWEEN 2030 AND 2052",
+  "deck": "The UN's climate science panel puts a date range on a key warming limit.",
+  "quote": "Global warming is likely to reach 1.5°C between 2030 and 2052 if it continues to increase at the current rate.",
+  "quote_kind": "verbatim",
+  "who": "Intergovernmental Panel on Climate Change (IPCC)",
+  "where": "Special Report on Global Warming of 1.5°C, Summary for Policymakers",
+  "quote_sources": [
+   {
+    "title": "Global Warming of 1.5°C: Summary for Policymakers — IPCC, 2018",
+    "url": "https://www.ipcc.ch/sr15/chapter/spm/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The WMO says 2024 was the warmest year on record, about 1.55°C above pre-industrial levels. One hot year is not the same as the long-term average the IPCC meant, so the forecast window is still open.",
+  "happened_sources": [
+   {
+    "title": "WMO confirms 2024 as warmest year on record at about 1.55°C above pre-industrial level — WMO, Jan 2025",
+    "url": "https://wmo.int/news/media-centre/wmo-confirms-2024-warmest-year-record-about-155degc-above-pre-industrial-level"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "The window opens in 2030, and the thermometer is already knocking."
+ },
+ {
+  "id": "pence-2019-moon-five-years",
+  "year": 2019,
+  "when": "26 March 2019",
+  "topic": "space",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "AMERICANS BACK ON THE MOON WITHIN FIVE YEARS",
+  "deck": "The US vice president tells NASA to speed up its return to the Moon.",
+  "quote": "...it is the stated policy of this administration and the United States of America to return American astronauts to the Moon within the next five years.",
+  "quote_kind": "verbatim",
+  "who": "Mike Pence",
+  "where": "National Space Council meeting, Huntsville, Alabama",
+  "quote_sources": [
+   {
+    "title": "Remarks by the Vice President at the Fifth Meeting of the National Space Council — The American Presidency Project, UC Santa Barbara",
+    "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-the-fifth-meeting-the-national-space-council-huntsville-alabama",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Five years ran out in 2024. In April 2026 NASA's Artemis II crew flew around the Moon and came home, without landing.",
+  "happened_sources": [
+   {
+    "title": "NASA welcomes record-setting Artemis II Moonfarers back to Earth — NASA",
+    "url": "https://www.nasa.gov/news-release/nasa-welcomes-record-setting-artemis-ii-moonfarers-back-to-earth/"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Close enough to wave. Not close enough to land."
+ },
+ {
+  "id": "musk-2020-cheap-tesla",
+  "year": 2020,
+  "when": "22 September 2020",
+  "topic": "cars",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A $25,000 TESLA IN ABOUT THREE YEARS",
+  "deck": "At \"Battery Day\", the carmaker's boss promises an electric car for the mass market.",
+  "quote": "Musk promised a $25,000 Tesla electric car that would be available in about three years.",
+  "quote_kind": "reported",
+  "quote_note": "CNN's summary of what Musk said.",
+  "who": "Elon Musk (as reported by CNN)",
+  "where": "Tesla Battery Day",
+  "quote_sources": [
+   {
+    "title": "Elon Musk promises $25,000 Tesla — CNN Business, 22 Sep 2020",
+    "url": "https://www.cnn.com/2020/09/22/business/tesla-elon-musk-battery-day",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "The three years ran out in 2023. In October 2025 the cheapest new Tesla, a stripped-down Model Y, went on sale in the US from $39,990, and the $25,000 \"Model 2\" gave way to a robotaxi plan.",
+  "happened_sources": [
+   {
+    "title": "Is the Model Y \"Standard\" finally the affordable Tesla promised so long ago? — Top Gear, 8 Oct 2025",
+    "url": "https://www.topgear.com/car-news/electric/model-y-standard-finally-affordable-tesla-promised-so-long-ago"
+   }
+  ],
+  "verdict": "COMPLETELY BONKERS",
+  "status": "proposed",
+  "reason": "Three years came and went, and the cheapest Tesla still costs about $40,000."
+ },
+ {
+  "id": "zuckerberg-2021-metaverse",
+  "year": 2021,
+  "when": "28 October 2021",
+  "topic": "internet",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "A BILLION PEOPLE IN THE METAVERSE WITHIN A DECADE",
+  "deck": "Facebook renames itself Meta and bets the company on virtual worlds.",
+  "quote": "Our hope is that within the next decade, the metaverse will reach a billion people, host hundreds of billions of dollars of digital commerce, and support jobs for millions of creators and developers.",
+  "quote_kind": "verbatim",
+  "quote_note": "Stated as a \"hope\".",
+  "who": "Mark Zuckerberg",
+  "where": "Founder's Letter, 2021",
+  "quote_sources": [
+   {
+    "title": "Founder's Letter, 2021 — Meta",
+    "url": "https://about.fb.com/news/2021/10/founders-letter/",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The decade runs to 2031.",
+  "happened_sources": [
+   {
+    "title": "Founder's Letter, 2021 — Meta",
+    "url": "https://about.fb.com/news/2021/10/founders-letter/"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Five years left to find the other 999 million."
+ },
+ {
+  "id": "iea-2022-renewables-coal",
+  "year": 2022,
+  "when": "6 December 2022",
+  "topic": "energy",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "RENEWABLES WILL OVERTAKE COAL BY EARLY 2025",
+  "deck": "The world's energy watchdog says the energy crisis has supercharged wind and solar.",
+  "quote": "...overtaking coal to become the largest source of global electricity by early 2025.",
+  "quote_kind": "verbatim",
+  "who": "International Energy Agency",
+  "where": "Renewables 2022 report (press release)",
+  "quote_sources": [
+   {
+    "title": "Renewable power's growth is being turbocharged as countries seek to strengthen energy security — IEA, Dec 2022",
+    "url": "https://www.iea.org/news/renewable-power-s-growth-is-being-turbocharged-as-countries-seek-to-strengthen-energy-security",
+    "kind": "primary"
+   }
+  ],
+  "happened": "Ember reported that renewables overtook coal's share of global electricity in the first half of 2025.",
+  "happened_sources": [
+   {
+    "title": "Global Electricity Mid-Year Insights 2025 — Ember, 7 Oct 2025",
+    "url": "https://ember-energy.org/latest-insights/global-electricity-mid-year-insights-2025/"
+   }
+  ],
+  "verdict": "NAILED IT",
+  "status": "proposed",
+  "reason": "Bang on the date."
+ },
+ {
+  "id": "gates-2023-agents",
+  "year": 2023,
+  "when": "9 November 2023",
+  "topic": "ai",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "WITHIN FIVE YEARS YOU'LL JUST TELL YOUR COMPUTER",
+  "deck": "A software pioneer says AI \"agents\" will soon replace the apps we tap today.",
+  "quote": "In the next five years, this will change completely. You won't have to use different apps for different tasks. You'll simply tell your device, in everyday language, what you want to do.",
+  "quote_kind": "verbatim",
+  "who": "Bill Gates",
+  "where": "\"AI is about to completely change how you use computers\", GatesNotes",
+  "quote_sources": [
+   {
+    "title": "AI is about to completely change how you use computers — GatesNotes, 9 Nov 2023",
+    "url": "https://www.gatesnotes.com/ai-agents",
+    "kind": "primary"
+   }
+  ],
+  "happened": "The five years run to November 2028.",
+  "happened_sources": [
+   {
+    "title": "GatesNotes, 9 Nov 2023 (the forecast's own deadline)",
+    "url": "https://www.gatesnotes.com/ai-agents"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Two years in, three to go. We're watching our app drawer."
+ },
+ {
+  "id": "amodei-2024-powerful-ai",
+  "year": 2024,
+  "when": "October 2024",
+  "topic": "ai",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "\"POWERFUL AI\" COULD ARRIVE AS EARLY AS 2026",
+  "deck": "An AI company boss writes a long essay on what a world with very capable AI might look like.",
+  "quote": "I think it could come as early as 2026, though there are also ways it could take much longer.",
+  "quote_kind": "verbatim",
+  "who": "Dario Amodei, Anthropic",
+  "where": "\"Machines of Loving Grace\" (essay)",
+  "quote_sources": [
+   {
+    "title": "Machines of Loving Grace — Dario Amodei, Oct 2024",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace",
+    "kind": "primary"
+   }
+  ],
+  "happened": "2026 is the earliest date he gave, and the year isn't over. He also said it could take much longer.",
+  "happened_sources": [
+   {
+    "title": "Machines of Loving Grace — Dario Amodei",
+    "url": "https://www.darioamodei.com/essay/machines-of-loving-grace"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "Too soon to call, and he hedged both ways."
+ },
+ {
+  "id": "wmo-2026-five-year-outlook",
+  "year": 2026,
+  "when": "May 2026",
+  "topic": "planet",
+  "kind": "forecast",
+  "primary": true,
+  "opened": "2026-11-12",
+  "headline": "91% CHANCE OF A YEAR ABOVE 1.5°C BEFORE 2031",
+  "deck": "The UN weather agency's five-year outlook says the warming limit will very likely be broken, at least for a year.",
+  "quote": "It is very likely (91% chance) that the global mean near-surface temperature will temporarily exceed 1.5°C above the 1850-1900 average levels for at least one year between 2026 and 2030.",
+  "quote_kind": "verbatim",
+  "who": "World Meteorological Organization (with the UK Met Office)",
+  "where": "Global Annual to Decadal Climate Update 2026-2035",
+  "quote_sources": [
+   {
+    "title": "Global Annual to Decadal Climate Update 2026-2035 — WMO",
+    "url": "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/global-annual-decadal-climate-update-2026-2035",
+    "kind": "primary"
+   },
+   {
+    "title": "UN News, May 2026",
+    "url": "https://news.un.org/en/story/2026/05/1167596",
+    "kind": "secondary"
+   }
+  ],
+  "happened": "The window runs to 2030. The same report notes the 1.5°C level was already passed for a single year in 2024.",
+  "happened_sources": [
+   {
+    "title": "Global Annual to Decadal Climate Update 2026-2035 — WMO",
+    "url": "https://wmo.int/resources/publication-series/wmo-global-annual-decadal-climate-update/global-annual-decadal-climate-update-2026-2035"
+   }
+  ],
+  "verdict": "NOT YET",
+  "status": "proposed",
+  "reason": "This year's forecast. Its verdict belongs to a future edition."
  }
 ]

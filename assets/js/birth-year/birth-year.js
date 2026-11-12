@@ -4,7 +4,11 @@
 (function () {
   'use strict';
   var root = document.getElementById('by');
-  var ALL = (window.TG_PREDICTIONS || []).slice().sort(function (a, b) { return a.year - b.year || (a.id < b.id ? -1 : 1); });
+  // Same year: the primary entry first, then the rest by id.
+    var ALL = (window.TG_PREDICTIONS || []).slice().sort(function (a, b) { return a.year - b.year || (b.primary ? 1 : 0) - (a.primary ? 1 : 0) || (a.id < b.id ? -1 : 1); });
+    // Belt and braces: the build already leaves embargoed stories out, but never show one before its air time.
+    var clock = Date.now();
+    ALL = ALL.filter(function (p) { return !p.embargo_until || Date.parse(p.embargo_until) <= clock; });
   var showProposed = root.getAttribute('data-show-proposed') !== 'false';
   var params = new URLSearchParams(location.search);
   if (params.get('public') === '1') showProposed = false;
@@ -24,9 +28,11 @@
   function cls(v) { return 'verdict-' + v.toLowerCase().replace(/ /g, '-'); }
   function domain(u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return u; } }
 
-  // The prediction for a year: one made that year, else the nearest (earlier wins a tie).
+  // The prediction for a year: that year's main entry, else the nearest (earlier wins a tie).
   function pick(year, id) {
     if (id) { var byId = DATA.filter(function (p) { return p.id === id; })[0]; if (byId) return byId; }
+    var same = DATA.filter(function (p) { return p.year === year; });
+    if (same.length) return same.filter(function (p) { return p.primary; })[0] || same[0];
     var best = null, bd = Infinity;
     DATA.forEach(function (p) { var d = Math.abs(p.year - year); if (d < bd || (d === bd && p.year < best.year)) { best = p; bd = d; } });
     return best;
