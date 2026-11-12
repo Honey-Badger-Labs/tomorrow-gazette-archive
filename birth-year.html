@@ -1,0 +1,67 @@
+---
+# Soft launch: verdicts approved by the editor on 12 Nov 2026. The page is
+# reachable by its URL but not linked from the navigation and hidden from
+# search engines (noindex, no sitemap) until Jakes decides to advertise it.
+title: Your Birth-Year Front Page
+description: Type the year you were born and see the future that was promised that year, with Dot's verdict.
+permalink: /birth-year/
+wide: true
+noindex: true
+sitemap: false
+stylesheet: /assets/css/birth-year.css
+# true = show every public prediction: the aired stories with their on-air
+#        verdicts, plus the historical ones with Dot's approved verdicts.
+# false = show only stories that have aired, with their on-air verdicts.
+show_proposed: true
+---
+<div class="by" id="by"
+  data-show-proposed="{{ page.show_proposed }}"
+  data-masthead="{{ '/assets/img/masthead-840.png' | relative_url }}"
+  data-sunburst="{{ '/assets/img/sunburst-900.png' | relative_url }}"
+  data-font-display="{{ '/assets/fonts/limelight.woff2' | relative_url }}"
+  data-font-stamp="{{ '/assets/fonts/anton.woff2' | relative_url }}"
+  data-font-type="{{ '/assets/fonts/courier-prime-bold.woff2' | relative_url }}">
+  <header class="by-intro">
+    <h1>Your Birth-Year Front Page</h1>
+    <p>Type the year you were born, or any year. We&rsquo;ll print the future that was promised that year, and Dot&rsquo;s verdict on how it turned out.</p>
+    <p class="by-note-count"><span id="by-count">real predictions</span></p>
+  </header>
+
+  <form class="by-press" id="by-form" autocomplete="off">
+    <label for="by-year">Your year <input id="by-year" name="year" type="number" inputmode="numeric" min="1800" step="1" placeholder="1984" required></label>
+    <button class="by-btn" type="submit">Print my front page</button>
+    <button class="by-btn by-btn-quiet" type="button" id="by-random">Surprise me</button>
+  </form>
+  <p class="by-note" id="by-note" aria-live="polite"></p>
+
+  <div class="by-stage"><article class="frontpage" id="by-page" aria-live="polite"></article></div>
+
+  <div class="by-actions">
+    <button class="by-btn" type="button" id="by-share">Share my front page</button>
+    <button class="by-btn by-btn-quiet" type="button" id="by-save-post">Save post card (1080 × 1350)</button>
+    <button class="by-btn by-btn-quiet" type="button" id="by-save-story">Save story card (1080 × 1920)</button>
+  </div>
+  <p class="by-status" id="by-status" aria-live="polite"></p>
+  <figure class="by-preview" id="by-preview" hidden>
+    <img id="by-preview-img" alt="">
+    <figcaption>Your card. On a phone, press and hold the picture to save it.</figcaption>
+  </figure>
+  <div class="by-nav">
+    <button class="by-btn by-btn-quiet" type="button" id="by-prev">&larr; Earlier promise</button>
+    <button class="by-btn by-btn-quiet" type="button" id="by-next">Later promise &rarr;</button>
+  </div>
+
+  <section class="by-nearby" aria-labelledby="by-nearby-title">
+    <h2 id="by-nearby-title">Also promised around then</h2>
+    <ul class="by-chips" id="by-nearby-list"></ul>
+  </section>
+
+  <section class="by-sources" aria-labelledby="by-sources-title">
+    <h2 id="by-sources-title">Sources for this front page</h2>
+    <div id="by-sources-body"></div>
+  </section>
+  <noscript><p>This page needs JavaScript to print your front page. Every prediction is also in the <a href="{{ '/episodes/' | relative_url }}">episode archive</a>.</p></noscript>
+</div>
+<script src="{{ '/assets/js/birth-year/predictions.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/birth-year/card.js' | relative_url }}"></script>
+<script src="{{ '/assets/js/birth-year/birth-year.js' | relative_url }}"></script>
