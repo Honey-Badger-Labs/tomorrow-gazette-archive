@@ -1,5 +1,5 @@
 ---
-# Generated from _data/birth_year_predictions.json (built by the prototype's tools/build_data.py).
+# Publishes _data/birth_year_predictions.json (generated outside this repo; public entries only).
 layout: null
 sitemap: false
 ---

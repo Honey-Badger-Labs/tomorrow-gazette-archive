@@ -1,6 +1,7 @@
 ---
-# DRAFT: not linked from the navigation, and hidden from search engines,
-# until Jakes approves the proposed verdicts and says publish.
+# Soft launch: verdicts approved by the editor on 12 Nov 2026. The page is
+# reachable by its URL but not linked from the navigation and hidden from
+# search engines (noindex, no sitemap) until Jakes decides to advertise it.
 title: Your Birth-Year Front Page
 description: Type the year you were born and see the future that was promised that year, with Dot's verdict.
 permalink: /birth-year/
@@ -8,7 +9,8 @@ wide: true
 noindex: true
 sitemap: false
 stylesheet: /assets/css/birth-year.css
-# true = show all 44 predictions, with proposed verdicts marked as drafts.
+# true = show every public prediction: the aired stories with their on-air
+#        verdicts, plus the historical ones with Dot's approved verdicts.
 # false = show only stories that have aired, with their on-air verdicts.
 show_proposed: true
 ---
@@ -22,7 +24,7 @@ show_proposed: true
   <header class="by-intro">
     <h1>Your Birth-Year Front Page</h1>
     <p>Type the year you were born, or any year. We&rsquo;ll print the future that was promised that year, and Dot&rsquo;s verdict on how it turned out.</p>
-    {% if page.show_proposed %}<p class="by-draft">Draft page · <span id="by-count">real predictions</span> · draft verdicts await the editor</p>{% else %}<p class="by-note-count"><span id="by-count">real predictions</span></p>{% endif %}
+    <p class="by-note-count"><span id="by-count">real predictions</span></p>
   </header>
 
   <form class="by-press" id="by-form" autocomplete="off">

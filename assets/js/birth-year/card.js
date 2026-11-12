@@ -28,7 +28,7 @@
   }
   function ready() {
     if (readyP) return readyP;
-    // Offline prototype: everything embedded (embedded.js). On the website:
+    // Assets embedded in the page (TG_ASSETS) if present; on the website:
     // same-origin files named on the page, which keeps the canvas exportable.
     var A = window.TG_ASSETS || pageAssets();
     var fonts = Object.keys(A.fonts || {}).map(function (fam) {
@@ -113,7 +113,7 @@
   function domain(u) { try { return new URL(u).hostname.replace(/^www\./, '').replace(/^web\.archive\.org$/, 'archive.org'); } catch (e) { return ''; } }
 
   /* p: one prediction. o: { format: 'post'|'story', year: the reader's year,
-     now: the year it is checked in, draft: show the draft-verdict line }. */
+     now: the year it is checked in }. */
   function render(p, o) {
     o = o || {};
     return ready().then(function () {
@@ -239,10 +239,6 @@
       ctx.fillStyle = C.brassInk; var bs = story ? 19 : 15; ctx.font = F.type(bs); spaced(ctx, 3);
       while (bs > 11 && ctx.measureText('THE FUTURE, ACCORDING TO THE PAST \u00B7 MADE WITH AI \u00B7 FACTS REAL AND SOURCED').width > CW) { bs -= 1; ctx.font = F.type(bs); }
       ctx.fillText('THE FUTURE, ACCORDING TO THE PAST \u00B7 MADE WITH AI \u00B7 FACTS REAL AND SOURCED', W / 2, ly + 14);
-      if (o.draft && p.status !== 'aired') {
-        ctx.fillStyle = C.coralInk; ctx.font = F.type(story ? 17 : 14); spaced(ctx, 3);
-        ctx.fillText('DRAFT VERDICT \u00B7 AWAITING THE EDITOR\u2019S OK', W / 2, ly + (story ? 46 : 36));
-      }
       if (story) {
         var cy = H - 178;
         ctx.fillStyle = C.navy; ctx.fillRect(M, cy, CW, 130);

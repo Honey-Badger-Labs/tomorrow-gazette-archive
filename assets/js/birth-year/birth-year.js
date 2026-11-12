@@ -73,8 +73,7 @@
         '<p class="fp-checked">Checked ' + NOW + ': ' + later + ' years later</p></div>' +
         '<div class="fp-verdict"><p class="fp-label">Dot\u2019s verdict</p><p class="verdict-stamp ' + cls(p.verdict) + '"><span class="visually-hidden">Verdict: </span>' + esc(p.verdict) + '</p></div></div>' +
       '<div class="fp-foot"><p>Sources: ' + doms.slice(0, 4).map(esc).join(' \u00B7 ') + '</p>' +
-        '<p class="brass">The future, according to the past \u00B7 Made with AI \u00B7 Facts real and sourced</p>' +
-        (p.status !== 'aired' ? '<p class="draft">Draft verdict \u00B7 awaiting the editor\u2019s OK</p>' : '') + '</div>';
+        '<p class="brass">The future, according to the past \u00B7 Made with AI \u00B7 Facts real and sourced</p></div>';
   }
 
   function sourcesHTML(p) {
@@ -83,7 +82,7 @@
     return '<p class="small"><b>The quote.</b> ' + kind + (p.quote_note ? ' ' + esc(p.quote_note) : '') + '</p><ul>' + p.quote_sources.map(li).join('') + '</ul>' +
       '<p class="small"><b>What happened.</b></p><ul>' + p.happened_sources.map(li).join('') + '</ul>' +
       '<p class="small"><b>Dot\u2019s verdict:</b> ' + esc(p.verdict) + '. ' + esc(p.reason) + ' ' +
-      (p.status === 'aired' ? 'This is the verdict given on air. <a href="' + esc(p.episode_url) + '">' + esc(p.episode_label) + '</a>.' : '<b>Draft:</b> proposed by the newsroom and awaiting the editor\u2019s OK.') + '</p>' +
+      (p.status === 'aired' ? 'This is the verdict given on air. <a href="' + esc(p.episode_url) + '">' + esc(p.episode_label) + '</a>.' : 'Approved by the editor on 12 Nov 2026.') + '</p>' +
       '<p class="small">Sources opened ' + esc(p.opened) + '.</p>';
   }
 
@@ -131,7 +130,7 @@
 
   function cardName(fmt) { return 'tomorrow-gazette-' + state.year + '-edition-' + (fmt === 'story' ? 'story' : 'post') + '.png'; }
   function makeCard(fmt) {
-    return window.TGCard.render(state.p, { format: fmt, year: state.year, now: NOW, draft: true }).then(window.TGCard.toBlob);
+    return window.TGCard.render(state.p, { format: fmt, year: state.year, now: NOW }).then(window.TGCard.toBlob);
   }
   function download(blob, name) {
     var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name;

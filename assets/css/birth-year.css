@@ -1,14 +1,14 @@
 /* Your Birth-Year Front Page. Uses the archive's palette, fonts and stamps
    (custom properties from site.css / tokens.css). Light page, cream newsprint. */
 .by { max-width: 64rem; margin: 0 auto; padding: 1rem 1rem 3rem; }
-.by-kicker, .by-label, .fp-dateline, .fp-band, .fp-kicker, .fp-nearest, .fp-label, .fp-who, .fp-checked, .fp-foot, .by-btn, .by-chip, .by-draft {
+.by-kicker, .by-label, .fp-dateline, .fp-band, .fp-kicker, .fp-nearest, .fp-label, .fp-who, .fp-checked, .fp-foot, .by-btn, .by-chip, .by-note-count {
   font-family: var(--font-type); font-weight: 700; text-transform: uppercase; letter-spacing: .12em;
 }
 .by-intro { text-align: center; max-width: 44rem; margin: 0 auto 1.25rem; }
 .by-intro h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2rem, 6vw, 3.1rem); line-height: 1.1; margin: .35rem 0 .6rem; }
 .by-kicker { margin: 0; font-size: .8rem; letter-spacing: .3em; color: var(--coral-ink); }
 .by-intro p { margin: .4rem 0; }
-.by-draft { display: inline-block; margin: .5rem 0 0; padding: .25rem .6rem; font-size: .72rem; color: var(--coral-ink); border: 2px dashed var(--coral-ink); border-radius: .3rem; }
+.by-intro .by-note-count { margin: .5rem 0 0; font-size: .72rem; color: var(--brass-ink); }
 
 /* The press: year input */
 .by-press { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; align-items: end; margin: 0 auto 1rem; padding: 1rem; max-width: 44rem;
@@ -70,7 +70,6 @@
 .fp-foot { margin-top: 1rem; padding-top: .6rem; border-top: 3px double var(--rule); text-align: center; font-size: clamp(.55rem, 1.4vw, .68rem); letter-spacing: .12em; line-height: 1.7; }
 .fp-foot p { margin: 0; }
 .fp-foot .brass { color: var(--brass-ink); }
-.fp-foot .draft { color: var(--coral-ink); }
 @media (max-width: 36rem) {
   .fp-row { grid-template-columns: 1fr; }
   .fp-verdict { padding: 0; }
