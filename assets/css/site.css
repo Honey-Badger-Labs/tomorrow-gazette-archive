@@ -20,6 +20,11 @@
   --charcoal: #22201E;
   --rule: #14213D;
   --wood: #6B3A1E;
+  /* Night colours: only the Journey Through Tomorrow page uses these (the one
+     dark page; docs/style-guide.md). */
+  --night: #070B16;
+  --night-panel: rgba(7, 11, 22, .82);
+  --teal-night: #5FB8C0;
 
   --font-display: "Limelight", "Futura", "Century Gothic", "Trebuchet MS", sans-serif;
   --font-stamp: "Anton", "Impact", "Arial Narrow", sans-serif;

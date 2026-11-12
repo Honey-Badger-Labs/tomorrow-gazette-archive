@@ -4,6 +4,8 @@ The archive should feel like being in the Tomorrow Gazette studio: a 1930s–40s
 
 **Light only.** Cream newsprint is the look. There is no dark theme, and `color-scheme: light` stops browsers inventing one.
 
+**Exception: Journey Through Tomorrow (`/journey/`).** This one page is dark, by Jakes's decision (11 Nov 2026): its moving picture is thousands of glowing dots, which need a night sky. It uses the same fonts, the same verdict stamps on cream paper, and the palette's own colours on `--night` (`#070B16`). The three night colours (`--night`, `--night-panel`, `--teal-night`) are defined with the rest in `site.css` and are used only by [`assets/css/journey.css`](../assets/css/journey.css). On the night background: cream, brass and coral are all fine for text (brass about 8:1, coral about 5:1); links use `--teal-night` (`#5FB8C0`, about 8:1) because `--teal` is too dark there. Every other page stays light.
+
 ## Palette
 
 | Token | Hex | Use |

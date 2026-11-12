@@ -26,6 +26,11 @@ since:
     sources: [S6, S7]
   - fact: On 20 October 2026 AFRL flew instrumented Rocket Cargo pods in a SpaceX Starfall reentry capsule as a test, and the Air Force recovered the pods after splashdown. It was a test, not an operational delivery or a postal service.
     sources: [S8, S9]
+# Its stop on the Journey Through Tomorrow page (docs/episode-schema.md).
+journey:
+  motif: missile
+  label: Missile mail
+  since: 2
 verdict: NOT YET
 verdict_reason: Rocket cargo is being studied by the US Air Force, but no rocket post service exists. The Moon came first, by decades.
 sources:
