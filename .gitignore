@@ -3,3 +3,10 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+
+# Credentials never belong in a public repo.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
