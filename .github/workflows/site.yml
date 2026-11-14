@@ -74,7 +74,7 @@ jobs:
       - name: Check links
         run: tools/check-links.sh _site
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         if: github.ref == 'refs/heads/main' && github.event_name != 'schedule'
         with:
           path: ./_site
