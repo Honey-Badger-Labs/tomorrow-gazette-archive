@@ -63,7 +63,13 @@ jobs:
           curl -sSfL "${base}/${asset}.sha256" -o "${RUNNER_TEMP}/${asset}.sha256"
           (cd "$RUNNER_TEMP" && sha256sum -c "${asset}.sha256")
           tar xz -C "$RUNNER_TEMP" -f "${RUNNER_TEMP}/${asset}"
-          echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
+          # v0.24.2 packs the binary in a subdirectory, so adding $RUNNER_TEMP
+          # to PATH is not enough. Install into a location already on PATH.
+          bin="$(find "$RUNNER_TEMP" -type f -name lychee -perm -111 | head -n1)"
+          test -n "$bin"
+          sudo install -m 0755 "$bin" /usr/local/bin/lychee
+          command -v lychee
+          lychee --version
 
       - name: Check links
         run: tools/check-links.sh _site
