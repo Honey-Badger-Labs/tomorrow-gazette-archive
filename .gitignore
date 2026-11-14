@@ -4,7 +4,9 @@ _site/
 .bundle/
 vendor/
 
-# Secrets and keys
-.env*
+# Credentials never belong in a public repo.
+.env
+.env.*
+!.env.example
 *.pem
 *.key

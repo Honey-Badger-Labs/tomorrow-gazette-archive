@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{ site.lang }}" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- comment -%} The one dark page: see docs/style-guide.md, "Exception: Journey Through Tomorrow". {%- endcomment %}
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#070B16">
+  {% seo %}
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="{{ '/assets/fonts/limelight.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/journey.css' | relative_url }}">
+  <script>document.documentElement.className = "js";</script>
+</head>
+<body class="journey-page">
+  <a class="skip-link" href="#journey-caption">Skip to the predictions</a>
+  <canvas id="journey-scene" aria-hidden="true"></canvas>
+
+  <header class="journey-topbar">
+    <a class="journey-home" href="{{ '/' | relative_url }}"><span aria-hidden="true">&larr;</span> Tomorrow Gazette Archive</a>
+    <p class="journey-ai"><strong>Made with AI.</strong> The predictions and facts are real and sourced. <a href="{{ '/about/' | relative_url }}">How we work</a></p>
+  </header>
+
+  <main id="content" class="journey-main">
+    <div class="journey-intro">
+      <p class="kicker">Every prediction, oldest first</p>
+      <h1>{{ page.title }}</h1>
+      <p>Every prediction we've checked, in the order it was made, with Dot's verdict and the sources. New stops appear the day their episode airs.</p>
+    </div>
+
+    <section id="journey-caption" class="journey-caption" aria-live="polite" aria-label="Current prediction" hidden></section>
+
+    {{ content }}
+  </main>
+
+  <nav class="journey-controls" aria-label="Position in the journey" hidden>
+    <button type="button" class="journey-btn" id="journey-play" aria-pressed="false">Play</button>
+    <div class="journey-track-wrap">
+      <label for="journey-track" class="visually-hidden">Position in the journey</label>
+      <input type="range" id="journey-track" min="0" max="0" step="1" value="0">
+      <ol class="journey-ticks" id="journey-ticks"></ol>
+    </div>
+    <div class="journey-side">
+      <form class="journey-jump" id="journey-jump">
+        <label for="journey-year">Jump to a year</label>
+        <input id="journey-year" type="number" inputmode="numeric" min="1000" max="2200" placeholder="e.g. 1987">
+        <button type="submit" class="journey-btn">Go</button>
+      </form>
+      <p class="journey-jump-note" id="journey-jump-note" role="status"></p>
+      <button type="button" class="journey-btn journey-btn-small" id="journey-count" title="Fewer dots run better on phones">60k dots</button>
+    </div>
+  </nav>
+
+  <script src="{{ '/assets/js/journey-shapes.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/journey.js' | relative_url }}" defer></script>
+</body>
+</html>

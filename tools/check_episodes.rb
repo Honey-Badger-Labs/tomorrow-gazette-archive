@@ -160,5 +160,17 @@ if $PROGRAM_NAME == __FILE__
   else
     warn "Fix the claims fields above. The field reference is docs/claims-schema.md."
   end
-  exit 1 unless failures.empty? && claim_failures.empty?
+
+  # Journey Through Tomorrow stops (the optional `journey:` fields), same step.
+  require_relative "check_journey"
+  journey_failures = check_journey(dir, "_data/specials.yml")
+  journey_failures.each do |path, problems|
+    problems.each { |problem| warn "FAIL: #{path}: #{problem}" }
+  end
+  if journey_failures.empty?
+    puts "OK: every journey field names a real motif and fact."
+  else
+    warn "Fix the journey fields above. The field reference is docs/episode-schema.md."
+  end
+  exit 1 unless failures.empty? && claim_failures.empty? && journey_failures.empty?
 end

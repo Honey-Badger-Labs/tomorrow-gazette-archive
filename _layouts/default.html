@@ -6,8 +6,15 @@
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#14213D">
   {% seo %}
+  <link rel="icon" href="data:,">
   <link rel="preload" href="{{ '/assets/fonts/limelight.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  {%- if page.noindex %}
+  <meta name="robots" content="noindex">
+  {%- endif %}
+  {%- if page.stylesheet %}
+  <link rel="stylesheet" href="{{ page.stylesheet | relative_url }}">
+  {%- endif %}
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>

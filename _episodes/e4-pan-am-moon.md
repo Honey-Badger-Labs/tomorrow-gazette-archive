@@ -25,6 +25,11 @@ since:
     sources: [S3]
   - fact: NASA's Artemis II crew flew around the Moon on a mission from 1 to 10 April 2026, farther from Earth than any humans have travelled. It was a government mission, not a tourist flight.
     sources: [S4]
+# Its stop on the Journey Through Tomorrow page (docs/episode-schema.md).
+journey:
+  motif: moon
+  label: Moon
+  since: 4
 verdict: NOT YET
 verdict_reason: No tourist has flown to the Moon and Pan Am's departure date of 2000 passed long ago. Humans have flown around it again, but as NASA astronauts.
 sources:
