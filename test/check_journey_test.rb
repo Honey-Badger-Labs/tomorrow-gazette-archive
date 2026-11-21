@@ -18,12 +18,12 @@ class CheckJourneyTest < Minitest::Test
     FIXTURE.sub(/^verdict:/, "#{yaml}\nverdict:")
   end
 
-  def problems_for(episode: FIXTURE, specials: [])
+  def problems_for(episode: FIXTURE, specials: [], image_names: ["journey-flying-car"])
     Dir.mktmpdir do |dir|
       File.write(File.join(dir, "e1.md"), episode)
       specials_file = File.join(dir, "specials.yml")
       File.write(specials_file, specials.to_yaml)
-      check_journey(dir, specials_file).values.flatten
+      check_journey(dir, specials_file, image_names: image_names).values.flatten
     end
   end
 
@@ -67,5 +67,14 @@ class CheckJourneyTest < Minitest::Test
   def test_special_source_out_of_range_is_refused
     special = SPECIAL.merge("journey" => SPECIAL["journey"].merge("source" => 3))
     assert(problems_for(specials: [special]).any? { |p| p.include?("journey.source") })
+  end
+
+  def test_valid_still_passes
+    assert_empty problems_for(episode: with_journey("journey:\n  motif: flyingcar\n  still: journey-flying-car\n  since: 1"))
+  end
+
+  def test_unknown_still_is_refused
+    problems = problems_for(episode: with_journey("journey:\n  still: not-a-real-image"))
+    assert(problems.any? { |p| p.include?("journey.still") && p.include?("not-a-real-image") })
   end
 end

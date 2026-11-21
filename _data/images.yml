@@ -72,3 +72,36 @@ e5-snapshots-by-telegraph:
   width: 752
   height: 423
   alt: "Illustration: a black-and-white photograph of mountains emerging from a brass receiving machine and flooding with colour."
+
+# Journey Through Tomorrow stop stills (16:9 night-sky editorial series,
+# generated 21 Nov 2026). Used only on /journey/, not as episode-card heroes.
+journey-snapshots-by-telegraph:
+  widths: [480, 752]
+  width: 752
+  height: 421
+  alt: "Illustration: an Edwardian box camera on a desk sends a glowing photograph along telegraph wires to a receiving station on a distant hill, under a starry night sky."
+journey-spirit-phone:
+  widths: [480, 752]
+  width: 752
+  height: 421
+  alt: "Illustration: a brass candlestick telephone on a workshop bench, with pale blue ghostly figures rising from the mouthpiece into the night."
+journey-flying-car:
+  widths: [480, 752]
+  width: 752
+  height: 421
+  alt: "Illustration: a red-and-cream 1940s motor car with wings and a propeller lifts off a suburban driveway at night, a family smiling in the glass canopy."
+journey-mail-by-missile:
+  widths: [480, 752]
+  width: 752
+  height: 421
+  alt: "Illustration: a white missile with red-tipped fins launches from a submarine at night, a trail of envelopes in its wake under a full moon."
+journey-robot-housemaid:
+  widths: [480, 752]
+  width: 752
+  height: 421
+  alt: "Illustration: a smiling chrome housemaid robot in a pink apron dusts a 1960s kitchen, a small floor robot at its feet, a couple looking out at a night city."
+journey-moon-airliner:
+  widths: [480, 752]
+  width: 752
+  height: 421
+  alt: "Illustration: a white and blue airliner with rocket engines flies toward a crescent Moon, watched by people on the terrace of a futuristic terminal."

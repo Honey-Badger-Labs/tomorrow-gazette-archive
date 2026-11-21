@@ -18,12 +18,18 @@ layout: journey
   {%- if e.status != "published" -%}{%- continue -%}{%- endif -%}
   {%- assign aired_at = e.publish_date | date: "%Y-%m-%d" | append: " " | append: site.air_time | append: " " | append: site.air_offset | date: "%s" | plus: 0 -%}
   {%- if aired_at > now -%}{%- continue -%}{%- endif -%}
-  {%- assign year = e.prediction.when | append: "" | slice: 0, 4 -%}
+  {%- include journey-year.html when=e.prediction.when -%}
   {%- assign fact_index = e.journey.since | default: 1 | minus: 1 -%}
   {%- assign fact = e.since[fact_index] -%}
   {%- assign quote_source = e.sources | where: "id", e.prediction.source | first -%}
   {%- if fact -%}{%- assign fact_source = e.sources | where: "id", fact.sources[0] | first -%}{%- else -%}{%- assign fact_source = nil -%}{%- endif -%}
-  <li class="journey-stop" id="{{ e.slug }}" style="order: {{ year }}" data-year="{{ year }}" data-aired="{{ aired_at }}" data-motif="{{ e.journey.motif | default: 'sunburst' }}" data-label="{{ e.journey.label | default: e.title }}">
+  {%- assign still_name = e.journey.still -%}
+  {%- assign still_img = site.data.images[still_name] -%}
+  {%- assign still_w = still_img.widths | last -%}
+  <li class="journey-stop" id="{{ e.slug }}" style="order: {{ year }}" data-year="{{ year }}" data-aired="{{ aired_at }}" data-motif="{{ e.journey.motif | default: 'sunburst' }}" data-label="{{ e.journey.label | default: e.title }}"{% if still_img %} data-still="{{ '/assets/img/' | append: still_name | append: '-' | append: still_w | append: '.webp' | relative_url }}" data-still-fallback="{{ '/assets/img/' | append: still_name | append: '-' | append: still_w | append: '.jpg' | relative_url }}" data-still-alt="{{ still_img.alt | escape }}"{% endif %}>
+    {%- if still_img -%}
+    <div class="stop-still">{% include picture.html name=still_name sizes="(min-width: 40rem) 36rem, 100vw" %}</div>
+    {%- endif -%}
     <p class="stop-year">{{ year }}</p>
     <div class="stop-heading"><h2 class="stop-title">{{ e.title }}</h2>{% include verdict-stamp.html verdict=e.verdict %}</div>
     <p class="stop-scale">Said in {{ year }} <i aria-hidden="true">/</i> checked on air {{ e.publish_date | date: "%-d %b %Y" }}</p>
@@ -37,10 +43,16 @@ layout: journey
   {%- unless s.prediction -%}{%- continue -%}{%- endunless -%}
   {%- assign aired_at = s.published | date: "%Y-%m-%d %H:%M" | append: " " | append: site.air_offset | date: "%s" | plus: 0 -%}
   {%- if aired_at > now -%}{%- continue -%}{%- endif -%}
-  {%- assign year = s.prediction.when | append: "" | slice: 0, 4 -%}
+  {%- include journey-year.html when=s.prediction.when -%}
   {%- assign quote_source = s.sources | first -%}
   {%- if s.journey.source -%}{%- assign fact_index = s.journey.source | minus: 1 -%}{%- assign fact_source = s.sources[fact_index] -%}{%- else -%}{%- assign fact_source = nil -%}{%- endif -%}
-  <li class="journey-stop" id="{{ s.id }}" style="order: {{ year }}" data-year="{{ year }}" data-aired="{{ aired_at }}" data-motif="{{ s.journey.motif | default: 'sunburst' }}" data-label="{{ s.journey.label | default: s.title }}">
+  {%- assign still_name = s.journey.still -%}
+  {%- assign still_img = site.data.images[still_name] -%}
+  {%- assign still_w = still_img.widths | last -%}
+  <li class="journey-stop" id="{{ s.id }}" style="order: {{ year }}" data-year="{{ year }}" data-aired="{{ aired_at }}" data-motif="{{ s.journey.motif | default: 'sunburst' }}" data-label="{{ s.journey.label | default: s.title }}"{% if still_img %} data-still="{{ '/assets/img/' | append: still_name | append: '-' | append: still_w | append: '.webp' | relative_url }}" data-still-fallback="{{ '/assets/img/' | append: still_name | append: '-' | append: still_w | append: '.jpg' | relative_url }}" data-still-alt="{{ still_img.alt | escape }}"{% endif %}>
+    {%- if still_img -%}
+    <div class="stop-still">{% include picture.html name=still_name sizes="(min-width: 40rem) 36rem, 100vw" %}</div>
+    {%- endif -%}
     <p class="stop-year">{{ year }}</p>
     <div class="stop-heading"><h2 class="stop-title">{{ s.title }}</h2>{% include verdict-stamp.html verdict=s.verdict %}</div>
     <p class="stop-scale">Said in {{ year }} <i aria-hidden="true">/</i> {{ s.format }}, {{ s.published | date: "%-d %b %Y" }}</p>

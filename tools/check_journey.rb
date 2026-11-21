@@ -18,7 +18,7 @@ def journey_motifs(shapes_file = SHAPES_FILE)
   File.read(shapes_file).scan(/^ {4}(\w+)\(B\) \{/).flatten
 end
 
-def journey_common_problems(journey, motifs)
+def journey_common_problems(journey, motifs, image_names = nil)
   return ["journey: must be a mapping (motif, label, ...)"] unless journey.is_a?(Hash)
 
   problems = []
@@ -29,14 +29,22 @@ def journey_common_problems(journey, motifs)
   if journey.key?("label") && !(label.is_a?(String) && !label.strip.empty? && label.length <= LABEL_MAX)
     problems << "journey.label must be short text (#{LABEL_MAX} characters at most)"
   end
+  if journey.key?("still")
+    still = journey["still"]
+    if !(still.is_a?(String) && still.match?(/\A[a-z0-9-]+\z/))
+      problems << "journey.still must be an image name from _data/images.yml"
+    elsif image_names && !image_names.include?(still)
+      problems << "journey.still #{still.inspect} is not in _data/images.yml"
+    end
+  end
   problems
 end
 
-def episode_journey_problems(data, motifs)
+def episode_journey_problems(data, motifs, image_names = nil)
   journey = data["journey"]
   return [] if journey.nil?
 
-  problems = journey_common_problems(journey, motifs)
+  problems = journey_common_problems(journey, motifs, image_names)
   return problems unless journey.is_a?(Hash) && journey.key?("since")
 
   count = Array(data["since"]).size
@@ -46,11 +54,11 @@ def episode_journey_problems(data, motifs)
   problems
 end
 
-def special_journey_problems(special, motifs)
+def special_journey_problems(special, motifs, image_names = nil)
   journey = special["journey"]
   return [] if journey.nil?
 
-  problems = journey_common_problems(journey, motifs)
+  problems = journey_common_problems(journey, motifs, image_names)
   return problems unless journey.is_a?(Hash)
 
   problems << "journey: needs a prediction on the special to appear on the page" unless special["prediction"].is_a?(Hash)
@@ -63,22 +71,30 @@ def special_journey_problems(special, motifs)
 end
 
 # Returns { label => [problems] } for everything that fails.
-def check_journey(episodes_dir, specials_file, shapes_file: SHAPES_FILE)
+def load_image_names(images_file)
+  return nil unless images_file && File.exist?(images_file)
+
+  data = YAML.safe_load(File.read(images_file), permitted_classes: [Date, Time]) || {}
+  data.is_a?(Hash) ? data.keys.map(&:to_s) : []
+end
+
+def check_journey(episodes_dir, specials_file, shapes_file: SHAPES_FILE, images_file: nil, image_names: nil)
   motifs = journey_motifs(shapes_file)
+  names = image_names.nil? ? load_image_names(images_file) : image_names
   failures = {}
   Dir.glob(File.join(episodes_dir, "*.md")).sort.each do |path|
     match = File.read(path).match(/\A---\s*\n(.*?)\n---\s*(\n|\z)/m)
     next unless match
 
     data = YAML.safe_load(match[1], permitted_classes: [Date]) || {}
-    problems = episode_journey_problems(data, motifs)
+    problems = episode_journey_problems(data, motifs, names)
     failures[path] = problems unless problems.empty?
   rescue Psych::Exception
     next # check_episodes.rb reports bad YAML
   end
   if File.exist?(specials_file)
     Array(YAML.safe_load(File.read(specials_file), permitted_classes: [Date, Time])).each do |special|
-      problems = special_journey_problems(special, motifs)
+      problems = special_journey_problems(special, motifs, names)
       failures["#{specials_file} #{special['id']}"] = problems unless problems.empty?
     end
   end

@@ -6,9 +6,12 @@ cropped and saved as WebP (served first) with a JPEG fallback, at a few
 widths; flat transparent artwork (masthead, sunburst) is an indexed PNG, so phones download small files. Run it again after changing a crop:
 
     python3 tools/make_images.py /path/to/production-repo
+    python3 tools/make_images.py --journey /path/to/journey/stills
 
 The sources live in the private production repo, so they aren't committed
 here. Needs Pillow with WebP support. Each output must stay under 200 KB.
+Journey stop stills (the 16:9 night-sky series) are rebuilt with --journey
+from the local workshop stills folder, not from the production repo.
 """
 import sys
 from pathlib import Path
@@ -69,7 +72,39 @@ def main(root):
                 print(f"{path.relative_to(OUT.parent.parent)}  {width}x{height}  {size // 1024} KB")
 
 
+# Journey Through Tomorrow stop stills. Filenames are the 21 Nov 2026
+# Higgsfield outputs (16:9 1344x752). Only aired stops are built; intro,
+# outro, the 9:16 poster, and predictions without a published archive
+# page are left out on purpose.
+JOURNEY_STILLS = {
+    "journey-snapshots-by-telegraph": "J01_1900_snapshots_by_telegraph_f1ca8f4e.png",
+    "journey-spirit-phone": "J02_1920_spirit_phone_afbeb4d9.png",
+    "journey-flying-car": "J04_1940_flying_car_740ffb7f.png",
+    "journey-mail-by-missile": "J06_1959_mail_by_missile_eb966d32.png",
+    "journey-robot-housemaid": "J08_1964_robot_housemaid_3e1041ae.png",
+    "journey-moon-airliner": "J09_1964_moon_airliner_edfdf980.png",
+}
+
+
+def make_journey(src_dir):
+    root = Path(src_dir)
+    OUT.mkdir(parents=True, exist_ok=True)
+    widths = [480, 752]
+    for name, fname in JOURNEY_STILLS.items():
+        im = Image.open(root / fname).convert("RGB")
+        for width in widths:
+            height = round(im.height * width / im.width)
+            sized = im.resize((width, height), Image.LANCZOS)
+            for fmt in ("webp", "jpg"):
+                path = OUT / f"{name}-{width}.{fmt}"
+                size = save(sized, path, fmt)
+                print(f"{path.relative_to(OUT.parent.parent)}  {width}x{height}  {size // 1024} KB")
+
+
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) == 3 and sys.argv[1] == "--journey":
+        make_journey(sys.argv[2])
+    elif len(sys.argv) == 2 and sys.argv[1] != "--journey":
+        main(sys.argv[1])
+    else:
         raise SystemExit(__doc__)
-    main(sys.argv[1])

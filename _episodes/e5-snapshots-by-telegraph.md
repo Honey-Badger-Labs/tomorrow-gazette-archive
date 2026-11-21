@@ -24,6 +24,12 @@ since:
     sources: [S3, S4]
   - fact: The ITU estimated that about 6 billion people — about three-quarters of the world's population — were using the internet in 2025. That is a measure of connectivity, not by itself a count of people who can send a photograph.
     sources: [S2]
+# Its stop on the Journey Through Tomorrow page (docs/episode-schema.md).
+journey:
+  motif: camera
+  label: Snapshots
+  still: journey-snapshots-by-telegraph
+  since: 1
 verdict: NAILED IT
 verdict_reason: Photographs from any distance, and in colour, arrived far earlier than Watkins's hundred-year horizon. The same article's claim that C, X and Q would leave the everyday alphabet did not come true, and is not what this verdict is about.
 sources:

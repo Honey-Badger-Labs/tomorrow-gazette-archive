@@ -29,6 +29,7 @@ since:
 journey:
   motif: moon
   label: Moon
+  still: journey-moon-airliner
   since: 4
 verdict: NOT YET
 verdict_reason: No tourist has flown to the Moon and Pan Am's departure date of 2000 passed long ago. Humans have flown around it again, but as NASA astronauts.

@@ -163,7 +163,7 @@ if $PROGRAM_NAME == __FILE__
 
   # Journey Through Tomorrow stops (the optional `journey:` fields), same step.
   require_relative "check_journey"
-  journey_failures = check_journey(dir, "_data/specials.yml")
+  journey_failures = check_journey(dir, "_data/specials.yml", images_file: "_data/images.yml")
   journey_failures.each do |path, problems|
     problems.each { |problem| warn "FAIL: #{path}: #{problem}" }
   end

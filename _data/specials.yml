@@ -17,6 +17,7 @@
   journey:
     motif: phone
     label: Spirit phone
+    still: journey-spirit-phone
     fact: "Edison's archive at Rutgers says no verifiable evidence of such a device has ever been found."
     source: 1
   verdict: COMPLETELY BONKERS
