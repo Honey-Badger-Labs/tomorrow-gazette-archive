@@ -21,7 +21,7 @@ One file per **published** episode in `_episodes/`, named `e<number>-<slug>.md`,
 | `sources` | yes | A list of `id` (e.g. `S1`), `title`, `url` (https) and `accessed` (`YYYY-MM-DD`). Ids are unique on the page |
 | `open_questions` | no | A list of points we couldn't confirm, written as questions |
 | `still` | no | The episode's key still: `image:`, a name from `_data/images.yml`. Shown on the episode card and at the top of the page. Without it, the site uses the episode's entry in `_data/episode_stills.yml`, if any. Only our own AI-made stills; never photos of real people or brands |
-| `journey` | no | Its stop on the [Journey Through Tomorrow](../journey.html) page: `motif` (a dot picture named in `assets/js/journey-shapes.js`; default `sunburst`), `label` (the short name under the slider, 16 characters at most; default the title) and `since` (which `since` fact to show as "what happened", 1 = first; default 1). Checked by `tools/check_journey.rb` |
+| `journey` | no | Its stop on the [Journey Through Tomorrow](../journey.html) page: `motif` (a dot picture named in `assets/js/journey-shapes.js`; default `sunburst`), `label` (the short name under the slider, 16 characters at most; default the title), `still` (optional image name from `_data/images.yml`, shown as the stop's picture) and `since` (which `since` fact to show as "what happened", 1 = first; default 1). Checked by `tools/check_journey.rb` |
 | `fiction_note` | no | Extra fiction labelling for this episode. The standard AI and fiction note is always shown |
 
 Source ids are per page, so `S1` on one episode has nothing to do with `S1` on another. Use the ids from the episode's claims table in the production repo so the two can be compared.
@@ -30,6 +30,6 @@ Each aired episode can also have a claims file with its verdict history: see [cl
 
 ## Journey Through Tomorrow
 
-Every published episode, and every special in `_data/specials.yml` that has a `prediction`, is a stop on `/journey/`, in the order the predictions were made. Nothing needs adding by hand: the page is built from the same files. A stop only appears once it has aired when the site is built: an episode's `publish_date` at `air_time` (`_config.yml`, 18:00 SAST), a special's `published` time. Specials name their "what happened" line in `journey.fact`, with `journey.source` giving its position in `sources` (1 = first), plus the same optional `motif` and `label`.
+Every published episode, and every special in `_data/specials.yml` that has a `prediction`, is a stop on `/journey/`, in the order the predictions were made. Nothing needs adding by hand: the page is built from the same files. A stop only appears once it has aired when the site is built: an episode's `publish_date` at `air_time` (`_config.yml`, 18:00 SAST), a special's `published` time. Specials name their "what happened" line in `journey.fact`, with `journey.source` giving its position in `sources` (1 = first), plus the same optional `motif`, `label` and `still`. The year on the slider comes from the first four digits of `prediction.when`, or the last four if the field starts with a word (so `December 1900` is 1900, not "Dece").
 
 Add a new motif to `assets/js/journey-shapes.js` in the same change as the episode that uses it, so no picture hints at a story before it airs.

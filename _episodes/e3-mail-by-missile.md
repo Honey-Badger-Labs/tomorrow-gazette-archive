@@ -30,6 +30,7 @@ since:
 journey:
   motif: missile
   label: Missile mail
+  still: journey-mail-by-missile
   since: 2
 verdict: NOT YET
 verdict_reason: Rocket cargo is being studied by the US Air Force, but no rocket post service exists. The Moon came first, by decades.

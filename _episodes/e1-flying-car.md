@@ -29,6 +29,7 @@ since:
 journey:
   motif: flyingcar
   label: Flying car
+  still: journey-flying-car
   since: 1
 verdict: PARTLY RIGHT
 verdict_reason: A certified roadable aircraft, the closest match to Ford's combination airplane and motor car, now exists, making Ford's prediction partly right. But eVTOLs are aircraft rather than road cars, and an everyday public service is not yet established by the cited evidence.

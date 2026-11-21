@@ -1,0 +1,13 @@
+{%- comment -%}
+  Sets `year` from include.when. Most `prediction.when` values start with a
+  year (`1940`, `1940-03-01`). A few are written as a month and year
+  (`December 1900`); those would otherwise become "Dece" and sort as NaN.
+{%- endcomment -%}
+{%- assign when_s = include.when | append: "" -%}
+{%- assign year_head = when_s | slice: 0, 4 -%}
+{%- assign year_head_n = year_head | plus: 0 -%}
+{%- if year_head_n >= 1000 -%}
+  {%- assign year = year_head -%}
+{%- else -%}
+  {%- assign year = when_s | slice: -4, 4 -%}
+{%- endif -%}

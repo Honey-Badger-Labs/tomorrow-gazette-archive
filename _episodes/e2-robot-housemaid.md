@@ -26,6 +26,7 @@ since:
 journey:
   motif: robot
   label: Robot
+  still: journey-robot-housemaid
   since: 1
 verdict: NAILED IT
 verdict_reason: Asimov predicted robots that exist but are neither common nor very good. Single-job robots like the Roomba exist in large numbers, while the general-purpose robot housemaid is only now reaching production, which matches his cautious call.

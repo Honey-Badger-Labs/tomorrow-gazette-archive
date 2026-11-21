@@ -16,7 +16,7 @@
   if (!stops.length) return;
 
   const canvas = $("journey-scene");
-  const gl = canvas.getContext("webgl", { antialias: false, alpha: false, powerPreference: "high-performance" });
+  const gl = canvas.getContext("webgl", { antialias: false, alpha: true, premultipliedAlpha: true, powerPreference: "high-performance" });
   if (!gl) {
     const note = document.createElement("p"); note.className = "journey-notice";
     note.textContent = "Your browser can't show the moving picture, so here is the journey as a list.";
@@ -28,8 +28,10 @@
   const phone = Math.min(screen.width, screen.height) < 700 || (navigator.deviceMemory && navigator.deviceMemory <= 4);
   const DOT_COUNTS = [20000, 60000, 120000];
   let N = DOT_COUNTS.includes(Number(params.get("dots"))) ? Number(params.get("dots")) : (phone ? 20000 : 60000);
+  const FIRST_DWELL_MS = Math.max(1500, Number(params.get("firstDwell")) || 10000);
   const DWELL_MS = Math.max(1500, Number(params.get("dwell")) || 6200);
   const MORPH_MS = reduce ? 250 : 1700;
+  const dwellFor = (index) => (index === 0 ? FIRST_DWELL_MS : DWELL_MS);
   const SCATTER = reduce ? 0 : 0.22;
 
   // ---------- WebGL ----------
@@ -92,9 +94,41 @@
     cpuFrom = start; cpuTo = target;
     upload("aFrom", start.pos); upload("aCF", start.col); upload("aTo", target.pos); upload("aCT", target.col);
     t = instant ? 1 : 0; morphStart = performance.now();
-    if (index !== current) { current = index; showCaption(stops[index]); }
+    if (index !== current) { current = index; showCaption(stops[index]); showStill(stops[index]); }
     $("journey-track").value = index;
     history.replaceState(null, "", "#" + stops[index].id);
+  }
+
+  // ---------- stills: the stop's editorial picture, behind a light dot veil ----------
+  const stills = $("journey-stills");
+  function showStill(stop) {
+    if (!stills) return;
+    const src = stop.li.dataset.still;
+    const fallback = stop.li.dataset.stillFallback;
+    const alt = stop.li.dataset.stillAlt || "";
+    canvas.style.opacity = src ? (reduce ? 0 : 0.16) : "1";
+    if (!src) {
+      stills.querySelectorAll("img").forEach((im) => im.classList.remove("is-current"));
+      return;
+    }
+    const currentImg = stills.querySelector("img.is-current");
+    if (currentImg && currentImg.dataset.src === src) return;
+    let next = Array.from(stills.querySelectorAll("img")).find((im) => im !== currentImg);
+    if (!next) {
+      next = document.createElement("img");
+      next.setAttribute("aria-hidden", "true");
+      stills.append(next);
+    }
+    next.alt = alt;
+    next.dataset.src = src;
+    next.onerror = () => { if (fallback && next.getAttribute("src") !== fallback) next.src = fallback; };
+    const reveal = () => {
+      next.classList.add("is-current");
+      if (currentImg) currentImg.classList.remove("is-current");
+    };
+    next.onload = reveal;
+    next.src = src;
+    if (next.complete && next.naturalWidth) reveal();
   }
 
   // ---------- caption: a copy of the stop's own list item ----------
@@ -124,7 +158,7 @@
   // ---------- controls ----------
   let playing = false, nextAt = 0;
   const playBtn = $("journey-play");
-  function startPlay() { playing = true; playBtn.textContent = "Pause"; playBtn.setAttribute("aria-pressed", "true"); nextAt = performance.now() + 900; }
+  function startPlay() { playing = true; playBtn.textContent = "Pause"; playBtn.setAttribute("aria-pressed", "true"); nextAt = performance.now() + dwellFor(current); }
   function stopPlay() { playing = false; playBtn.textContent = "Play"; playBtn.setAttribute("aria-pressed", "false"); }
   playBtn.addEventListener("click", () => (playing ? stopPlay() : startPlay()));
   $("journey-track").addEventListener("input", (e) => { stopPlay(); goTo(Number(e.target.value)); });
@@ -164,14 +198,14 @@
     const W = innerWidth, H = innerHeight, top = 44, bottom = Math.max(top + H * 0.3, caption.getBoundingClientRect().top - 8);
     layoutY += ((top + bottom) / 2 - layoutY) * 0.08; layoutH += ((bottom - top) - layoutH) * 0.08;
     const unit = Math.min(layoutH / 1.6, W * 0.92 / 2.4), dpr = Math.min(window.devicePixelRatio || 1, 2);
-    gl.clearColor(0.027, 0.043, 0.086, 1); gl.clear(gl.COLOR_BUFFER_BIT);
+    gl.clearColor(0, 0, 0, 0); gl.clear(gl.COLOR_BUFFER_BIT);
     gl.uniform1f(loc.uT, ease(t)); gl.uniform1f(loc.uTime, now / 1000);
     gl.uniform1f(loc.uRot, reduce ? 0 : Math.sin(now / 5200) * 0.32);
     gl.uniform2f(loc.uScale, unit * 2 / W, unit * 2 / H); gl.uniform1f(loc.uOffY, 1 - 2 * layoutY / H);
     gl.uniform1f(loc.uSize, Math.max(1.2, 2.4 * Math.sqrt(60000 / N)) * dpr * Math.min(1.4, Math.max(0.6, unit / 220)));
     gl.uniform1f(loc.uScatter, SCATTER); gl.uniform1f(loc.uShimmer, reduce ? 0 : 1);
     gl.drawArrays(gl.POINTS, 0, N);
-    if (playing && t >= 1 && now > nextAt) { goTo((current + 1) % stops.length); nextAt = now + DWELL_MS; }
+    if (playing && t >= 1 && now > nextAt) { goTo((current + 1) % stops.length); nextAt = now + dwellFor(current); }
     requestAnimationFrame(frame);
   }
 
@@ -185,5 +219,5 @@
   goTo(Math.max(0, first), true);
   if (params.get("play") === "1" || (!reduce && first < 0 && params.get("play") !== "0")) startPlay();
   requestAnimationFrame(frame);
-  window.JourneyTimeline = { goTo, count: () => stops.length, ids: () => stops.map((s) => s.id), current: () => current };
+  window.JourneyTimeline = { goTo, count: () => stops.length, ids: () => stops.map((s) => s.id), current: () => current, dwellFor, FIRST_DWELL_MS, DWELL_MS };
 })();
