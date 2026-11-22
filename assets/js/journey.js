@@ -99,14 +99,14 @@
     history.replaceState(null, "", "#" + stops[index].id);
   }
 
-  // ---------- stills: the stop's editorial picture, behind a light dot veil ----------
+  // ---------- stills: the stop's editorial picture (no dot veil) ----------
   const stills = $("journey-stills");
   function showStill(stop) {
     if (!stills) return;
     const src = stop.li.dataset.still;
     const fallback = stop.li.dataset.stillFallback;
     const alt = stop.li.dataset.stillAlt || "";
-    canvas.style.opacity = src ? (reduce ? 0 : 0.16) : "1";
+    canvas.style.opacity = src ? "0" : "1";
     if (!src) {
       stills.querySelectorAll("img").forEach((im) => im.classList.remove("is-current"));
       return;
