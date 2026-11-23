@@ -72,6 +72,16 @@ e5-snapshots-by-telegraph:
   width: 752
   height: 423
   alt: "Illustration: a black-and-white photograph of mountains emerging from a brass receiving machine and flooding with colour."
+e6-too-cheap-to-meter:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: a brass household electricity meter on a brick wall with a long paper bill trailing from it, a pigeon on the wire above, and a sunburst sky behind."
+special-voyager-light-day:
+  widths: [480, 752]
+  width: 752
+  height: 421
+  alt: "Illustration: the Voyager 1 spacecraft with its big dish and gold-coloured record, drifting through deep space with a small Earth in the distance."
 
 # Journey Through Tomorrow stop stills (16:9 night-sky editorial series,
 # generated 21 Nov 2026). Used only on /journey/, not as episode-card heroes.

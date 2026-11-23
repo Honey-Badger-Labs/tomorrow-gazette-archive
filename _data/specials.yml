@@ -71,3 +71,29 @@
       url: https://www.ferrari.com/en-EN/magazine/articles/ferraris-first-formula-1-driver-s-title
     - title: "Ferrari's first world champion, Alberto Ascari: Motor Sport Magazine"
       url: https://www.motorsportmagazine.com/articles/single-seaters/f1/ferraris-first-world-champion-alberto-ascari/
+- id: bonus-2026-voyager-light-day
+  title: "Voyager 1 Is One Light-Day Away"
+  format: Bonus Short
+  image: special-voyager-light-day
+  published: 2026-11-19 16:00
+  prediction:
+    quote: "This is a present from a small distant world, a token of our sounds, our science, our images, our music, our thoughts, and our feelings."
+    who: President Jimmy Carter, for the Voyager golden record
+    when: 1977
+    where: Voyager Spacecraft Statement, 29 July 1977
+  question: "Voyager 1 became the first human-made object one light-day from Earth. Did the 1977 message on its golden record arrive?"
+  verdict: NOT YET
+  links:
+    youtube: https://www.youtube.com/watch?v=7pffMpMqK5A
+    tiktok: https://www.tiktok.com/@tomorrow.gazette.ai/video/7709882177479118098
+  sources:
+    - title: "Voyager 1: What Is a Light-Day — NASA Science"
+      url: https://science.nasa.gov/mission/voyager/voyager-1/voyager-1-what-is-a-light-day/
+    - title: "Voyager 1 Engineers Analyze Data Issue, Ready to Confirm Light-day — NASA Science, 18 Nov 2026"
+      url: https://science.nasa.gov/blogs/voyager/2026/11/18/voyager-1-engineers-analyze-data-issue-ready-to-confirm-light-day/
+    - title: "NASA Invites Media, Public to Join Voyager 1 One-Light Day Activities — NASA/JPL"
+      url: https://www.jpl.nasa.gov/news/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/
+    - title: "Voyager 50 — Caltech"
+      url: https://www.voyager50.caltech.edu/
+    - title: "Voyager Spacecraft Statement by the President, 29 July 1977 — The American Presidency Project"
+      url: https://www.presidency.ucsb.edu/documents/voyager-spacecraft-statement-the-president

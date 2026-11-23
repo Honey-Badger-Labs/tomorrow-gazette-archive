@@ -32,6 +32,9 @@ IMAGES = {
     "e2-robot-housemaid": ("e2/stills/E2S2.png", (0, 4, 2688, 1516), [480, 752], "jpg"),
     "e3-mail-by-missile": ("e3/stills/E3S1.png", (0, 4, 2688, 1516), [480, 752], "jpg"),
     "e4-pan-am-moon": ("e4/short/thumbnail_published_tickets_moon.jpg", None, [480, 752], "jpg"),
+    "e6-too-cheap-to-meter": ("e6/stills/S3_meter_2026_3d10e951.png", (0, 700, 1520, 1555), [480, 752], "jpg"),
+    # Voyager still is the J10 night-sky still (Higgsfield, 1344x752), copied to this path.
+    "special-voyager-light-day": ("specials/voyager-light-day/stills/J10_1977_voyager_golden_record_6a1400ce.png", None, [480, 752], "jpg"),
     "special-italys-champions": ("specials/italy-f1/stills/S8.png", (0, 880, 1152, 1528), [480, 752], "jpg"),
     "hw-2026-spirit-phone": ("specials/halloween-2026/stills/H3.png", (0, 240, 752, 663), [480, 752], "jpg"),
     # The portrait Jakes supplied, with the top-right screen label changed to "Tomorrow".
