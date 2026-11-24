@@ -27,9 +27,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1 (v1.338.0)
+      - uses: ruby/setup-ruby@b3aaceaef7e0ee231b499e7b5f49c03fc1d32199 # v1.338.0
         with:
           ruby-version: "3.3"
 
@@ -47,7 +47,7 @@ jobs:
 
       # The same build GitHub Pages runs, with the github-pages gem's pinned
       # versions, so a local `bundle exec jekyll build` matches it (AD1).
-      - uses: actions/jekyll-build-pages@v1
+      - uses: actions/jekyll-build-pages@44a6e6beabd48582f863aeeb6cb2151cc1716697 # v1.0.13
         with:
           source: ./
           destination: ./_site
@@ -74,7 +74,7 @@ jobs:
       - name: Check links
         run: tools/check-links.sh _site
 
-      - uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         if: github.ref == 'refs/heads/main' && github.event_name != 'schedule'
         with:
           path: ./_site
@@ -91,4 +91,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v5
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
