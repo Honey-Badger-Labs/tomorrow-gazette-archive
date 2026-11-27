@@ -10,6 +10,7 @@ video:
   youtube: https://www.youtube.com/shorts/mmU_3E9Qj5c
   teaser_youtube: https://www.youtube.com/shorts/yvf75rz7mFw
   podcast_youtube: https://www.youtube.com/watch?v=kk8Ec3ZPWPs
+podcast_spotify: https://open.spotify.com/episode/3hv51q8Zfvxz43yv6WtWY7
 prediction:
   quote: "the first flight was expected to depart in 2000"
   who: Pan Am, in its reported reply to a 1964 request for a Moon flight
@@ -56,5 +57,4 @@ sources:
     accessed: 2026-10-29
 open_questions:
   - What are the TikTok links for the E4 Short (posted 5 Nov 2026) and the E4 teaser (posted 3 Nov 2026)?
-  - Is there a Spotify episode link yet for the podcast P04 edition (6 Nov 2026)?
 ---

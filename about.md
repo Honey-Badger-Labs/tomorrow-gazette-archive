@@ -42,6 +42,11 @@ Tomorrow Gazette is made with AI tools, and we say so. **Vera Tomorrow**, the pr
 
 Anything imagined, such as Vera, DOT and the newsroom they work in, is fiction, and is marked as fiction wherever it appears here.
 
+
+## The publisher
+
+Tomorrow Gazette is a [Honey Badger Labs](https://honey-badger-labs.github.io/) production. The lab's public shelf collects this archive and the other workshop projects that are out in the open.
+
 ## Spotted a mistake?
 
 [Open an issue](https://github.com/Honey-Badger-Labs/tomorrow-gazette-archive/issues) with a link to your source. We correct the page and note what changed.
