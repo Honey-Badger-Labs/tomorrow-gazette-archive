@@ -14,7 +14,7 @@ wide: true
     <p class="kicker">Tonight's edition</p>
     <h1 id="hero-heading">The future, according to the past.</h1>
     <p class="lede">People have always predicted the future. We check how they did. Tomorrow Gazette finds the real predictions, checks what actually happened, and stamps a verdict on each one. This archive keeps every episode with its sources, so you can check our working.</p>
-    <p class="hero-actions"><a class="button" href="{{ '/journey/' | relative_url }}">Take the Journey</a> <a class="button" href="{{ '/episodes/' | relative_url }}">Browse the episodes</a> <a class="button button-quiet" href="#studio">Meet the studio</a> <a class="button button-quiet" href="{{ site.join.url }}">Join the {{ site.join.name }}</a></p>
+    <p class="hero-actions"><a class="button" href="{{ '/journey/' | relative_url }}">Take the Journey</a> <a class="button" href="{{ '/episodes/' | relative_url }}">Browse the episodes</a> <a class="button" href="{{ '/photos-by-telegraph/' | relative_url }}">Photos by Telegraph</a> <a class="button button-quiet" href="#studio">Meet the studio</a> <a class="button button-quiet" href="{{ site.join.url }}">Join the {{ site.join.name }}</a></p>
   </div>
 </section>
 
@@ -40,6 +40,18 @@ wide: true
   {% else %}
   {% include empty-archive.html %}
   {% endif %}
+</section>
+
+<section aria-labelledby="telegraph-teaser-heading" class="telegraph-teaser">
+  <h2 id="telegraph-teaser-heading">Photos by Telegraph</h2>
+  <p class="section-intro">Studio portraits, episode throwbacks and a few special dispatches from the picture desk.</p>
+  <ul class="telegraph-teaser-grid">
+    {% assign teaser_photos = "telegraph-vera-dot-twoshot,telegraph-flying-roadster,telegraph-beach-sandcastle,telegraph-sub-rocket" | split: "," %}
+    {% for name in teaser_photos %}
+    <li><a href="{{ '/photos-by-telegraph/' | relative_url }}">{% include picture.html name=name alt="" sizes="(min-width: 66rem) 16rem, 45vw" %}</a></li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/photos-by-telegraph/' | relative_url }}">Open the collage</a></p>
 </section>
 
 <section aria-labelledby="podcast-heading">

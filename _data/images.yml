@@ -105,3 +105,101 @@ journey-moon-airliner:
   width: 752
   height: 421
   alt: "Illustration: a white and blue airliner with rocket engines flies toward a crescent Moon, watched by people on the terrace of a futuristic terminal."
+
+# Photos by Telegraph collage (27 Nov 2026). Built with:
+#   python3 tools/make_images.py --telegraph /path/to/photos-by-telegraph
+telegraph-vera-profile:
+  widths: [480, 800]
+  width: 800
+  height: 800
+  alt: "Vera Tomorrow, smiling, with red 1940s curls, a teal jacket and a chrome microphone, in a close square portrait."
+telegraph-dot-profile:
+  widths: [480, 800]
+  width: 800
+  height: 800
+  alt: "DOT, a chrome sphere with one teal eye, a gold antenna and a glowing coral thruster, in a close square portrait."
+telegraph-vera-bw:
+  widths: [480, 800]
+  width: 800
+  height: 1430
+  alt: "Black-and-white studio portrait of Vera Tomorrow in a fitted jacket and skirt, one hand on her hip, leaning against the news desk."
+telegraph-vera-fullbody:
+  widths: [480, 800]
+  width: 800
+  height: 1430
+  alt: "Colour studio portrait of Vera Tomorrow in a teal jacket and skirt, one hand on her hip, leaning against the brass-trimmed news desk."
+telegraph-vera-desk:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 724
+  alt: "Vera Tomorrow at the Tomorrow Gazette news desk behind a chrome microphone, with a porthole window onto a city of spires behind her."
+telegraph-dot-desk:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 724
+  alt: "DOT hovering over the empty news desk: a chrome sphere with an antenna, one teal eye and a coral thruster glow, and a porthole city behind."
+telegraph-vera-desk-vertical:
+  widths: [480, 800]
+  width: 800
+  height: 1422
+  alt: "Vertical portrait of Vera Tomorrow at the news desk, looking into the camera, with a chrome microphone in the foreground."
+telegraph-dot-desk-vertical:
+  widths: [480, 800]
+  width: 800
+  height: 1422
+  alt: "Vertical portrait of DOT hovering above the news desk, one teal eye facing the camera, with the studio porthole behind."
+telegraph-e1-flying-car:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 716
+  alt: "Illustration: a red-and-cream 1940s motor car with wings and a propeller lifts off a suburban driveway at night, a family smiling in the glass canopy."
+telegraph-e2-robot-housemaid:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 716
+  alt: "Illustration: a smiling chrome housemaid robot in a pink apron dusts a 1960s kitchen, a small floor robot at its feet."
+telegraph-e3-mail-by-rocket:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 716
+  alt: "Illustration: a white missile with red-tipped fins launches from a submarine at night, a trail of envelopes in its wake under a full moon."
+telegraph-e4-pan-am-moon:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 716
+  alt: "Illustration: a white and blue airliner with rocket engines flies toward a crescent Moon, watched from a futuristic terminal terrace."
+telegraph-e5-snapshots:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 716
+  alt: "Illustration: an Edwardian box camera on a desk sends a glowing photograph along telegraph wires to a receiving station on a distant hill."
+telegraph-e6-too-cheap-to-meter:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 716
+  alt: "Illustration: a mid-century nuclear plant under a sunburst sky, with the promise of electricity too cheap to meter."
+telegraph-e7-herbert-simon:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 716
+  alt: "Illustration: a 1960s computer room and chessboard, evoking Herbert Simon's prediction that machines would do any work a person can do."
+telegraph-vera-dot-twoshot:
+  widths: [480, 800]
+  width: 800
+  height: 1430
+  alt: "Vera Tomorrow and DOT together at the news desk: Vera in a teal jacket behind a chrome microphone, DOT hovering at her shoulder."
+telegraph-beach-sandcastle:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 720
+  alt: "Vera Tomorrow in a coral 1950s two-piece swimsuit sits on a striped beach towel, while DOT hovers beside an elaborate sandcastle under a candy-striped umbrella."
+telegraph-flying-roadster:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 720
+  alt: "Vera Tomorrow drives a cherry-red Tesla Roadster flying high above a sunset highway, with DOT hovering in the passenger seat and the caption Roads? Where we're going, we don't need roads..."
+telegraph-sub-rocket:
+  widths: [480, 752, 1280]
+  width: 1280
+  height: 720
+  alt: "A silver postal rocket with red-tipped fins launches from a surfaced mid-century submarine in choppy seas, a trail of envelopes in its wake, marked Photo by Telegraph, Mail by Rocket, 1959."

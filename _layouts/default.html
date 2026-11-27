@@ -28,6 +28,7 @@
     <nav class="site-nav" aria-label="Main">
       <a href="{{ '/episodes/' | relative_url }}"{% if page.url == '/episodes/' %} aria-current="page"{% endif %}>Episodes</a>
       <a href="{{ '/specials/' | relative_url }}"{% if page.url == '/specials/' %} aria-current="page"{% endif %}>Specials</a>
+      <a href="{{ '/photos-by-telegraph/' | relative_url }}"{% if page.url == '/photos-by-telegraph/' %} aria-current="page"{% endif %}>Photos</a>
       <a href="{{ '/about/#studio' | relative_url }}">The studio</a>
       <a href="{{ '/newsroom/' | relative_url }}"{% if page.url == '/newsroom/' %} aria-current="page"{% endif %}>Newsroom</a>
       <a href="{{ '/man-behind-tomorrow-gazette/' | relative_url }}"{% if page.url == '/man-behind-tomorrow-gazette/' %} aria-current="page"{% endif %}>The man behind it</a>
@@ -49,5 +50,8 @@
       · <a href="https://github.com/Honey-Badger-Labs/tomorrow-gazette-archive/issues">Report a mistake</a>
     </p>
   </footer>
+  {%- if page.script %}
+  <script src="{{ page.script | relative_url }}" defer></script>
+  {%- endif %}
 </body>
 </html>
