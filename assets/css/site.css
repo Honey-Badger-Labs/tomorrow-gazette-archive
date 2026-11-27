@@ -322,3 +322,9 @@ main.wide, .site-footer { max-width: var(--wide); }
 .episode-card-blank img { width: 70%; height: auto; aspect-ratio: auto; object-fit: contain; }
 .special-card-art { margin: -.25rem 0 .75rem; border-radius: .6rem; overflow: hidden; }
 .special-card-art img, .special-card-art .episode-card-blank { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+
+/* Home teaser for the Photos by Telegraph collage. */
+.telegraph-teaser-grid { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: .75rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr)); }
+.telegraph-teaser-grid li { margin: 0; border: 4px solid var(--brass); outline: 2px solid var(--navy); border-radius: .5rem; overflow: hidden; background: var(--navy); box-shadow: var(--shadow); }
+.telegraph-teaser-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.telegraph-teaser-grid a:focus-visible { outline: 3px solid var(--coral-ink); outline-offset: 3px; }

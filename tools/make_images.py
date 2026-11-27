@@ -7,6 +7,7 @@ widths; flat transparent artwork (masthead, sunburst) is an indexed PNG, so phon
 
     python3 tools/make_images.py /path/to/production-repo
     python3 tools/make_images.py --journey /path/to/journey/stills
+    python3 tools/make_images.py --telegraph /path/to/photos-by-telegraph
 
 The sources live in the private production repo, so they aren't committed
 here. Needs Pillow with WebP support. Each output must stay under 200 KB.
@@ -101,10 +102,61 @@ def make_journey(src_dir):
                 print(f"{path.relative_to(OUT.parent.parent)}  {width}x{height}  {size // 1024} KB")
 
 
+# Photos by Telegraph collage stills. Sources live in the local workshop
+# folder (portraits, episode throwbacks and the three 27 Nov 2026 specials).
+# Layouts: square portraits at 480/800; vertical portraits at 480/800;
+# 16:9 stills at 480/752/1280 so the lightbox can open a crisp full view.
+TELEGRAPH_STILLS = {
+    "telegraph-vera-profile": "01_vera_profile.jpg",
+    "telegraph-dot-profile": "02_dot_profile.jpg",
+    "telegraph-vera-bw": "03_vera_bw.png",
+    "telegraph-vera-fullbody": "04_vera_fullbody_color.png",
+    "telegraph-vera-desk": "05_vera_desk_hero.png",
+    "telegraph-dot-desk": "06_dot_desk_hero.png",
+    "telegraph-vera-desk-vertical": "07_vera_profile_desk_vertical.png",
+    "telegraph-dot-desk-vertical": "08_dot_profile_desk_vertical.png",
+    "telegraph-e1-flying-car": "09_e1_flying_car.png",
+    "telegraph-e2-robot-housemaid": "10_e2_robot_housemaid.png",
+    "telegraph-e3-mail-by-rocket": "11_e3_mail_by_rocket.png",
+    "telegraph-e4-pan-am-moon": "12_e4_pan_am_moon.png",
+    "telegraph-e5-snapshots": "13_e5_snapshots_by_telegraph.png",
+    "telegraph-e6-too-cheap-to-meter": "14_e6_too_cheap_to_meter.png",
+    "telegraph-e7-herbert-simon": "15_e7_herbert_simon.png",
+    "telegraph-vera-dot-twoshot": "16_vera_dot_studio_twoshot.png",
+    "telegraph-beach-sandcastle": "new_01_beach_vera_dot.png",
+    "telegraph-flying-roadster": "new_02_tesla_roadster_vera_dot.png",
+    "telegraph-sub-rocket": "new_03_sub_rocket_launch.png",
+}
+
+
+def telegraph_widths(im):
+    ratio = im.width / im.height
+    if ratio >= 1.3:
+        return [480, 752, 1280]
+    return [480, 800]
+
+
+def make_telegraph(src_dir):
+    root = Path(src_dir)
+    OUT.mkdir(parents=True, exist_ok=True)
+    for name, fname in TELEGRAPH_STILLS.items():
+        im = Image.open(root / fname).convert("RGB")
+        widths = telegraph_widths(im)
+        for width in widths:
+            height = round(im.height * width / im.width)
+            sized = im.resize((width, height), Image.LANCZOS)
+            for fmt in ("webp", "jpg"):
+                path = OUT / f"{name}-{width}.{fmt}"
+                size = save(sized, path, fmt)
+                print(f"{path.relative_to(OUT.parent.parent)}  {width}x{height}  {size // 1024} KB")
+
+
 if __name__ == "__main__":
     if len(sys.argv) == 3 and sys.argv[1] == "--journey":
         make_journey(sys.argv[2])
-    elif len(sys.argv) == 2 and sys.argv[1] != "--journey":
+    elif len(sys.argv) == 3 and sys.argv[1] == "--telegraph":
+        make_telegraph(sys.argv[2])
+    elif len(sys.argv) == 2 and sys.argv[1] not in ("--journey", "--telegraph"):
         main(sys.argv[1])
     else:
         raise SystemExit(__doc__)

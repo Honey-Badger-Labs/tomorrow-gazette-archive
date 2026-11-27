@@ -1,0 +1,122 @@
+# Photos by Telegraph collage. Image keys match _data/images.yml.
+# Groups keep the studio portraits, episode throwbacks and specials together.
+intro: >
+  Dispatches from the Tomorrow Gazette studio and the predictions we have
+  checked. Every picture of Vera Tomorrow and DOT is AI-generated. The
+  predictions behind the throwbacks are real and sourced on each episode page.
+
+groups:
+  - id: studio
+    title: From the studio
+    intro: Official portraits of Vera and DOT, from the news desk to the archive files.
+    photos:
+      - id: vera-profile
+        image: telegraph-vera-profile
+        shape: square
+        slug: Studio portrait
+        caption: Vera Tomorrow, anchor of the Tomorrow Gazette. An official studio portrait.
+      - id: dot-profile
+        image: telegraph-dot-profile
+        shape: square
+        slug: Studio portrait
+        caption: DOT, the show's chrome-eyed sidekick, in an official studio portrait.
+      - id: vera-dot-twoshot
+        image: telegraph-vera-dot-twoshot
+        shape: portrait
+        slug: Two-shot
+        caption: Vera and DOT at the news desk, ready for another edition.
+      - id: vera-bw
+        image: telegraph-vera-bw
+        shape: portrait
+        slug: File photo
+        caption: Vera Tomorrow in a black-and-white studio file photo, leaning on the desk.
+      - id: vera-fullbody
+        image: telegraph-vera-fullbody
+        shape: portrait
+        slug: File photo
+        caption: The same pose in colour — teal jacket, lightning-bolt brooch, news-desk chrome.
+      - id: vera-desk
+        image: telegraph-vera-desk
+        shape: landscape
+        slug: On air
+        caption: Vera at the desk, with the porthole city behind her.
+      - id: dot-desk
+        image: telegraph-dot-desk
+        shape: landscape
+        slug: On air
+        caption: DOT hovering over the empty desk, one teal eye on the camera.
+      - id: vera-desk-vertical
+        image: telegraph-vera-desk-vertical
+        shape: portrait
+        slug: Vertical
+        caption: A vertical desk portrait of Vera, for the short-form editions.
+      - id: dot-desk-vertical
+        image: telegraph-dot-desk-vertical
+        shape: portrait
+        slug: Vertical
+        caption: A vertical desk portrait of DOT, thruster aglow.
+
+  - id: throwbacks
+    title: Episode throwbacks
+    intro: "Stills from the Journey Through Tomorrow and the first seven editions, in running order."
+    photos:
+      - id: e1-flying-car
+        image: telegraph-e1-flying-car
+        shape: landscape
+        slug: E1 · Flying Car
+        href: /episodes/e1-flying-car/
+        caption: "Episode 1 — The family car takes off from a suburban driveway. We checked the prediction."
+      - id: e2-robot-housemaid
+        image: telegraph-e2-robot-housemaid
+        shape: landscape
+        slug: E2 · Robot Housemaid
+        href: /episodes/e2-robot-housemaid/
+        caption: "Episode 2 — A smiling chrome housemaid for the World's Fair kitchen."
+      - id: e3-mail-by-rocket
+        image: telegraph-e3-mail-by-rocket
+        shape: landscape
+        slug: E3 · Mail by Rocket
+        href: /episodes/e3-mail-by-missile/
+        caption: "Episode 3 — A postal rocket leaves a submarine, a trail of envelopes in its wake."
+      - id: e4-pan-am-moon
+        image: telegraph-e4-pan-am-moon
+        shape: landscape
+        slug: E4 · Pan Am to the Moon
+        href: /episodes/e4-pan-am-moon/
+        caption: "Episode 4 — An airliner climbs toward a crescent Moon."
+      - id: e5-snapshots
+        image: telegraph-e5-snapshots
+        shape: landscape
+        slug: E5 · Snapshots by Telegraph
+        href: /episodes/e5-snapshots-by-telegraph/
+        caption: "Episode 5 — A photograph travels the wires. This gallery takes its name from that edition."
+      - id: e6-too-cheap-to-meter
+        image: telegraph-e6-too-cheap-to-meter
+        shape: landscape
+        slug: E6 · Too Cheap to Meter
+        caption: "Episode 6 — Electricity too cheap to meter, checked against the bill. The episode page will join the archive when that edition is filed."
+      - id: e7-herbert-simon
+        image: telegraph-e7-herbert-simon
+        shape: landscape
+        slug: E7 · The Machine That Does Any Job
+        caption: "Episode 7 — Herbert Simon's 1960 claim that machines would do any work a person can do. The episode page will join the archive when that edition is filed."
+
+  - id: specials
+    title: Special dispatches
+    intro: Later studio stills — a day at the beach, a Roadster that no longer needs the road, and another look at mail by rocket.
+    photos:
+      - id: beach-sandcastle
+        image: telegraph-beach-sandcastle
+        shape: landscape
+        slug: Special
+        caption: Vera takes a day off. DOT builds an elaborate sandcastle under a candy-striped umbrella.
+      - id: flying-roadster
+        image: telegraph-flying-roadster
+        shape: landscape
+        slug: Special
+        caption: "Vera and DOT in a cherry-red Tesla Roadster, airborne at sunset. “Roads? Where we're going, we don't need roads…”"
+      - id: sub-rocket
+        image: telegraph-sub-rocket
+        shape: landscape
+        slug: Photo by Telegraph · 1959
+        caption: A silver postal rocket blasts off from a surfaced mid-century submarine. A callback to Episode 3, Mail by Rocket.
