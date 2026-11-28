@@ -94,12 +94,14 @@ groups:
         image: telegraph-e6-too-cheap-to-meter
         shape: landscape
         slug: E6 · Too Cheap to Meter
-        caption: "Episode 6 — Electricity too cheap to meter, checked against the bill. The episode page will join the archive when that edition is filed."
+        href: /episodes/e6-too-cheap-to-meter/
+        caption: "Episode 6 — Electricity too cheap to meter, checked against the bill."
       - id: e7-herbert-simon
         image: telegraph-e7-herbert-simon
         shape: landscape
         slug: E7 · The Machine That Does Any Job
-        caption: "Episode 7 — Herbert Simon's 1960 claim that machines would do any work a person can do. The episode page will join the archive when that edition is filed."
+        href: /episodes/e7-machine-any-job/
+        caption: "Episode 7 — Herbert Simon's 1960 claim that machines would do any work a person can do."
 
   - id: specials
     title: Special dispatches

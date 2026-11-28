@@ -244,6 +244,8 @@ main.wide, .site-footer { max-width: var(--wide); }
 .site-footer { border-top: 3px double var(--rule); font-size: .9rem; margin-top: 3rem; text-align: center; }
 .tagline { margin: .5rem 0; font-size: .85rem; letter-spacing: .2em; color: var(--brass-ink); }
 
+.publisher { margin: .75rem 0 0; font-size: .85rem; letter-spacing: .06em; color: var(--brass-ink); }
+
 /* Living archive: the verdict history timeline (A-T10). */
 .status-badge {
   display: inline-block; margin-right: .35rem; padding: .05rem .5rem; border-radius: 999px;

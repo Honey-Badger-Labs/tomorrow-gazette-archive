@@ -19,6 +19,12 @@ join:
   name: Citizens of Tomorrow
   url: https://paybru.co.za/communities/citizens-of-tomorrow
 
+# The real studio behind the show. The public shelf is the lab's workshop
+# catalogue (this archive and the other projects that are out in the open).
+publisher:
+  name: Honey Badger Labs
+  url: https://honey-badger-labs.github.io/
+
 # When a numbered episode goes out (SAST, UTC+2). The Journey Through
 # Tomorrow page only lists an episode once its publish_date at this time has
 # passed at build time, and a special once its `published` time has passed.

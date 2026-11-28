@@ -10,7 +10,7 @@ video:
   youtube: https://www.youtube.com/shorts/pSUn8c9BlJE
   teaser_youtube: https://www.youtube.com/shorts/i63r1ClW2Tc
   podcast_youtube: https://www.youtube.com/watch?v=jZ-hnTuX24I
-podcast_spotify: https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW
+podcast_spotify: https://open.spotify.com/episode/76B3yQzLLdO0ttplSKJL5t
 prediction:
   quote: "Photographs will be Telegraphed from any distance."
   who: John Elfreth Watkins Jr.
@@ -51,5 +51,4 @@ sources:
     accessed: 2026-11-06
 open_questions:
   - What is the TikTok link for the E5 Short (posted 12 Nov 2026) and the E5 teaser (posted 10 Nov 2026)?
-  - Is there a Spotify episode link yet for the podcast P05 edition (13 Nov 2026)?
 ---

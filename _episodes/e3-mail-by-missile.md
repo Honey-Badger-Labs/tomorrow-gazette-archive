@@ -8,7 +8,7 @@ video:
   youtube: https://www.youtube.com/shorts/U2XnSYewbxM
   tv_youtube: https://www.youtube.com/watch?v=At3UdkD3PaY
   podcast_youtube: https://www.youtube.com/watch?v=3WVomiOmg-g
-podcast_spotify: https://open.spotify.com/show/72zRmWLYLObaiEHp2V1CfW
+podcast_spotify: https://open.spotify.com/episode/2gm5oNRQdqZWGcyWdU6UvM
 prediction:
   quote: "Before man reaches the moon, mail will be delivered within hours from New York to California, to Britain, to India or Australia by guided missiles."
   who: Arthur E. Summerfield, US Postmaster General
@@ -73,5 +73,4 @@ sources:
     accessed: 2026-10-29
 open_questions:
   - What is the TikTok link for the E3 Short (posted 29 October 2026)?
-  - Is there a Spotify episode link yet for the podcast P03 edition (30 October 2026)?
 ---
