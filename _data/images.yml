@@ -88,6 +88,11 @@ special-voyager-light-day:
   width: 752
   height: 421
   alt: "Illustration: the Voyager 1 spacecraft with its big dish and gold-coloured record, drifting through deep space with a small Earth in the distance."
+special-november-file:
+  widths: [480, 752]
+  width: 752
+  height: 423
+  alt: "Illustration: The November File title card for the Tomorrow Gazette monthly omnibus of four predictions and one reality check."
 
 # Journey Through Tomorrow stop stills (16:9 night-sky editorial series,
 # generated 21 Nov 2026). Used only on /journey/, not as episode-card heroes.

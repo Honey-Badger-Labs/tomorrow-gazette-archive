@@ -39,6 +39,8 @@ IMAGES = {
     # E7 episode card is the same 16:9 still as telegraph-e7-herbert-simon
     # (workshop file 15_e7_herbert_simon.png); rebuild those 480/752 sizes together.
     "special-italys-champions": ("specials/italy-f1/stills/S8.png", (0, 880, 1152, 1528), [480, 752], "jpg"),
+    # The November File omnibus thumbnail (1280x720), copied to this path.
+    "special-november-file": ("specials/november-file/THE_NOVEMBER_FILE_16x9_thumbnail_1280x720.jpg", None, [480, 752], "jpg"),
     "hw-2026-spirit-phone": ("specials/halloween-2026/stills/H3.png", (0, 240, 752, 663), [480, 752], "jpg"),
     # The portrait Jakes supplied, with the top-right screen label changed to "Tomorrow".
     "jakes-portrait": ("package/people/jakes_portrait_clean_v1.png", None, [480, 752], "jpg"),

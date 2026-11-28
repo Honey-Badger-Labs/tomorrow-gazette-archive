@@ -16,7 +16,7 @@ wide: true
     <div class="special-card-head">
       <span class="case-meta">{{ s.format }} · <time datetime="{{ s.published | date: '%Y-%m-%d' }}">{{ s.published | date: '%-d %b %Y' }}</time></span>
       <h2 class="special-title">{{ s.title }}</h2>
-      {% include verdict-stamp.html verdict=s.verdict %}
+      {% if s.verdict %}{% include verdict-stamp.html verdict=s.verdict %}{% endif %}
     </div>
     {% if s.prediction %}<blockquote class="special-quote"><p>"{{ s.prediction.quote }}"</p><footer>{{ s.prediction.who }}, {{ s.prediction.where }}, {{ s.prediction.when }}</footer></blockquote>{% endif %}
     {% if s.question %}<p>{{ s.question }}</p>{% endif %}
